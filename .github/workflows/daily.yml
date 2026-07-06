@@ -1,0 +1,41 @@
+name: Daily KOPIS collect
+
+on:
+  schedule:
+    - cron: "0 1 * * *"   # 01:00 UTC = 10:00 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Collect festivals
+        env:
+          KOPIS_API_KEY: ${{ secrets.KOPIS_API_KEY }}
+        run: python collector/collect.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/festivals.json
+          if git diff --cached --quiet; then
+            echo "No changes in festivals.json — skip commit."
+          else
+            git commit -m "chore: update festivals.json ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          fi

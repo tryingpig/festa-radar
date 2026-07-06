@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FESTA RADAR — 국내 뮤직 페스티벌 트래커</title>
+  <meta name="description" content="국내 뮤직/락 페스티벌 일정을 한 페이지에서. KOPIS 공식 데이터로 매일 자동 갱신." />
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- 시그니처 1: 마퀴 티커 (임박순 페스티벌) -->
+  <div id="ticker" class="ticker" aria-label="임박한 페스티벌">
+    <div class="ticker__track" id="ticker-track"><!-- JS --></div>
+  </div>
+
+  <header class="site-header">
+    <div class="site-header__inner">
+      <div class="brand">
+        <h1 class="brand__title">FESTA&nbsp;RADAR</h1>
+        <p class="brand__sub">국내 뮤직 페스티벌, 한 페이지에서 훑고 바로 예매</p>
+      </div>
+      <div class="updated" id="updated" aria-live="polite"></div>
+    </div>
+    <nav class="tabs" role="tablist" aria-label="보기 전환">
+      <button class="tab is-active" id="tab-list" role="tab" aria-selected="true">리스트</button>
+      <button class="tab" id="tab-calendar" role="tab" aria-selected="false">캘린더</button>
+    </nav>
+  </header>
+
+  <!-- 필터/정렬 바 (상단 고정) -->
+  <div class="controls" role="region" aria-label="필터 및 정렬">
+    <label class="ctl ctl--check">
+      <input type="checkbox" id="hide-done" checked />
+      <span>지난 공연 숨기기</span>
+    </label>
+    <label class="ctl">
+      <span class="ctl__label">지역</span>
+      <select id="region-select">
+        <option value="">전체</option>
+        <option value="수도권">수도권</option>
+        <option value="영남">영남</option>
+        <option value="호남">호남</option>
+        <option value="충청">충청</option>
+        <option value="강원">강원</option>
+        <option value="제주">제주</option>
+      </select>
+    </label>
+    <label class="ctl">
+      <span class="ctl__label">정렬</span>
+      <select id="sort-select">
+        <option value="date">공연일 가까운순</option>
+        <option value="recent">최근 등록순</option>
+      </select>
+    </label>
+    <span class="controls__count" id="result-count" aria-live="polite"></span>
+  </div>
+
+  <main class="main">
+    <!-- 리스트 뷰 (월별 섹션) -->
+    <section id="list-view" class="list-view" role="tabpanel" aria-labelledby="tab-list">
+      <div id="months"><!-- JS --></div>
+      <p id="list-empty" class="empty" hidden>조건에 맞는 페스티벌이 없습니다.</p>
+    </section>
+
+    <!-- 캘린더 뷰 -->
+    <section id="calendar-view" class="calendar-view" role="tabpanel"
+             aria-labelledby="tab-calendar" hidden>
+      <div class="cal-nav">
+        <button class="cal-nav__btn" id="cal-prev" aria-label="이전 달">‹</button>
+        <h2 class="cal-nav__title" id="cal-title"></h2>
+        <button class="cal-nav__btn" id="cal-next" aria-label="다음 달">›</button>
+      </div>
+      <div class="cal-grid">
+        <div class="cal-weekhead">
+          <span>일</span><span>월</span><span>화</span><span>수</span>
+          <span>목</span><span>금</span><span>토</span>
+        </div>
+        <div id="cal-weeks"><!-- JS --></div>
+      </div>
+      <div id="cal-detail" class="cal-detail" aria-live="polite"><!-- 선택 카드 --></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>데이터: KOPIS 공연예술통합전산망 · 예매는 각 예매처에서. 티켓오픈일 알림은 준비 중입니다.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
