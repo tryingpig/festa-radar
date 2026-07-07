@@ -7,7 +7,7 @@
     { "name": "DMZ 피스트레인 뮤직 페스티벌", "aliases": ["피스트레인", "PEACE TRAIN"], "category": "록" },
     { "name": "전주얼티밋뮤직페스티벌", "aliases": ["얼티밋뮤직", "JUMF"], "category": "록" },
     { "name": "그린플러그드", "aliases": ["GREENPLUGGED"], "category": "록" },
-    { "name": "그랜드 민트 페스티벌", "aliases": ["그랜드민트", "GMF"], "category": "인디/종합" },
+    { "name": "그랜드 민트 페스티벌", "aliases": ["그랜드민트"], "category": "인디/종합" },
     { "name": "뷰티풀 민트 라이프", "aliases": ["뷰민라", "BEAUTIFUL MINT LIFE"], "category": "인디/종합" },
     { "name": "사운드베리", "aliases": ["SOUNDBERRY"], "category": "인디/종합" },
     { "name": "해브 어 나이스 트립", "aliases": ["HAVE A NICE TRIP"], "category": "인디/종합" },
@@ -32,7 +32,7 @@
   "fallback_rule": {
     "_desc": "화이트리스트에 없어도 아래 조건을 모두 만족하면 '기타' 등급으로 수집 (신생 페스티벌 발견용)",
     "require_genre": "대중음악",
-    "require_name_keywords": ["뮤직 페스티벌", "뮤직페스티벌", "MUSIC FESTIVAL", "록 페스티벌", "락 페스티벌", "재즈 페스티벌", "뮤직 페스타"],
+    "require_name_keywords": ["뮤직 페스티벌", "뮤직페스티벌", "MUSIC FESTIVAL", "록 페스티벌", "락 페스티벌", "재즈 페스티벌", "뮤직 페스타", "AGMF"],
     "exclude_keywords": ["영화", "필름", "불꽃", "먹거리", "푸드", "맥주", "벚꽃", "빛축제", "드론"]
   }
 }
