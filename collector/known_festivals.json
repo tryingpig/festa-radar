@@ -1,0 +1,38 @@
+{
+  "_readme": "국내 대표 뮤직페스티벌 화이트리스트. 매칭 규칙: 공연명과 aliases를 모두 정규화(공백·특수문자·연도 제거, 소문자화)한 뒤 부분일치. 새 페스티벌이 뜨면 여기에 한 줄 추가하면 끝. 개최 중단된 행사가 남아있어도 KOPIS에 없으면 안 뜨므로 무해함.",
+  "known_festivals": [
+    { "name": "인천 펜타포트 락 페스티벌", "aliases": ["펜타포트", "PENTAPORT"], "category": "록" },
+    { "name": "부산국제록페스티벌", "aliases": ["부산록페", "BUSAN ROCK"], "category": "록" },
+    { "name": "렛츠락 페스티벌", "aliases": ["렛츠락", "LETS ROCK"], "category": "록" },
+    { "name": "DMZ 피스트레인 뮤직 페스티벌", "aliases": ["피스트레인", "PEACE TRAIN"], "category": "록" },
+    { "name": "전주얼티밋뮤직페스티벌", "aliases": ["얼티밋뮤직", "JUMF"], "category": "록" },
+    { "name": "그린플러그드", "aliases": ["GREENPLUGGED"], "category": "록" },
+    { "name": "그랜드 민트 페스티벌", "aliases": ["그랜드민트", "GMF"], "category": "인디/종합" },
+    { "name": "뷰티풀 민트 라이프", "aliases": ["뷰민라", "BEAUTIFUL MINT LIFE"], "category": "인디/종합" },
+    { "name": "사운드베리", "aliases": ["SOUNDBERRY"], "category": "인디/종합" },
+    { "name": "해브 어 나이스 트립", "aliases": ["HAVE A NICE TRIP"], "category": "인디/종합" },
+    { "name": "슬로우 라이프 슬로우 라이브", "aliases": ["슬로우라이프", "SLOW LIFE SLOW LIVE"], "category": "인디/종합" },
+    { "name": "썸데이 페스티벌", "aliases": ["썸데이", "SOMEDAY FESTIVAL"], "category": "인디/종합" },
+    { "name": "서울파크뮤직페스티벌", "aliases": ["서울파크뮤직", "SEOUL PARK MUSIC"], "category": "인디/종합" },
+    { "name": "피크 페스티벌", "aliases": ["PEAK FESTIVAL"], "category": "인디/종합" },
+    { "name": "세종 보헤미안 뮤직 페스티벌", "aliases": ["세종보헤미안", "보헤미안뮤직", "BOHEMIAN"], "category": "인디/종합" },
+    { "name": "카스쿨 페스티벌", "aliases": ["카스쿨", "CASSCOOL"], "category": "인디/종합" },
+    { "name": "서울재즈페스티벌", "aliases": ["서재페", "SEOUL JAZZ"], "category": "재즈" },
+    { "name": "자라섬재즈페스티벌", "aliases": ["자라섬", "JARASUM"], "category": "재즈" },
+    { "name": "서울숲재즈페스티벌", "aliases": ["서울숲재즈", "SEOUL FOREST JAZZ"], "category": "재즈" },
+    { "name": "워터밤", "aliases": ["WATERBOMB"], "category": "EDM/워터" },
+    { "name": "싸이 흠뻑쇼", "aliases": ["흠뻑쇼", "SUMMER SWAG"], "category": "EDM/워터" },
+    { "name": "월드 디제이 페스티벌", "aliases": ["월디페", "WORLD DJ FESTIVAL"], "category": "EDM/워터" },
+    { "name": "S2O 코리아", "aliases": ["S2O", "송크란"], "category": "EDM/워터" },
+    { "name": "울트라 코리아", "aliases": ["ULTRA KOREA", "UMF"], "category": "EDM/워터" },
+    { "name": "랩비트", "aliases": ["RAPBEAT"], "category": "힙합" },
+    { "name": "KCON", "aliases": ["케이콘"], "category": "K-POP" },
+    { "name": "드림콘서트", "aliases": ["DREAM CONCERT"], "category": "K-POP" }
+  ],
+  "fallback_rule": {
+    "_desc": "화이트리스트에 없어도 아래 조건을 모두 만족하면 '기타' 등급으로 수집 (신생 페스티벌 발견용)",
+    "require_genre": "대중음악",
+    "require_name_keywords": ["뮤직 페스티벌", "뮤직페스티벌", "MUSIC FESTIVAL", "록 페스티벌", "락 페스티벌", "재즈 페스티벌", "뮤직 페스타"],
+    "exclude_keywords": ["영화", "필름", "불꽃", "먹거리", "푸드", "맥주", "벚꽃", "빛축제", "드론"]
+  }
+}

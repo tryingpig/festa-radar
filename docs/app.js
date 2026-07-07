@@ -23,6 +23,8 @@ const state = {
   all: [],
   view: "list",           // list | calendar
   hideDone: true,
+  showEtc: true,          // 기타(etc) 페스티벌 표시 여부 (기본 ON)
+  category: "",           // "" | 록 | 인디/종합 | 재즈 | EDM/워터 | 힙합 | K-POP | 기타
   region: "",
   sort: "date",           // date | recent
   calYear: 0,
@@ -88,9 +90,20 @@ function isNew(f) {
 }
 
 // ---- 필터/정렬 ------------------------------------------------------------
+// etc(기타) 페스티벌인지
+function isEtc(f) { return f.tier === "etc"; }
+
 function applyFilters(list, opts) {
   opts = opts || {};
   let out = list.slice();
+  // 기타 토글 OFF → etc 전체 숨김 (major만)
+  if (!state.showEtc) out = out.filter((f) => !isEtc(f));
+  // 카테고리 칩: '기타'는 etc, 그 외는 해당 category의 major
+  if (state.category === "기타") {
+    out = out.filter(isEtc);
+  } else if (state.category) {
+    out = out.filter((f) => !isEtc(f) && f.category === state.category);
+  }
   if (state.region) out = out.filter((f) => regionGroup(f.region) === state.region);
   if (!opts.ignoreHideDone && state.hideDone) {
     out = out.filter((f) => dayInfo(f).type !== "done");
@@ -169,7 +182,7 @@ function cardHtml(f) {
     <article class="${cls}" id="card-${esc(f.id)}" data-id="${esc(f.id)}">
       ${poster}
       <div class="card__body">
-        <h3 class="card__name">${esc(f.name)}</h3>
+        <h3 class="card__name">${esc(f.name)}${isEtc(f) ? `<span class="badge-etc">기타</span>` : ""}</h3>
         ${stateLine(f)}
         <div class="card__meta">
           <span class="row"><span class="k">기간</span><span>${periodText(f)}</span></span>
@@ -225,7 +238,10 @@ function renderList() {
 
 // ---- 마퀴 티커 ------------------------------------------------------------
 function renderTicker() {
-  const upcoming = applyFilters(state.all, { ignoreHideDone: true })
+  // 마퀴는 major(대표 페스티벌)만 대상. 지역 필터만 반영, 기타/카테고리 칩과 무관.
+  let base = state.all.filter((f) => f.tier === "major");
+  if (state.region) base = base.filter((f) => regionGroup(f.region) === state.region);
+  const upcoming = base
     .map((f) => ({ f, di: dayInfo(f) }))
     .filter((x) => x.di.type === "soon" || x.di.type === "live")
     .sort((a, b) => (a.di.dday ?? -1) - (b.di.dday ?? -1))
@@ -366,6 +382,22 @@ function bindEvents() {
 
   document.getElementById("hide-done").addEventListener("change", (e) => {
     state.hideDone = e.target.checked; renderList(); renderTicker();
+  });
+  document.getElementById("show-etc").addEventListener("change", (e) => {
+    state.showEtc = e.target.checked; renderList();
+    if (state.view === "calendar") renderCalendar();
+  });
+  document.getElementById("cat-chips").addEventListener("click", (e) => {
+    const chip = e.target.closest(".chip");
+    if (!chip) return;
+    state.category = chip.dataset.cat;
+    for (const c of document.querySelectorAll("#cat-chips .chip")) {
+      const on = c === chip;
+      c.classList.toggle("is-active", on);
+      c.setAttribute("aria-pressed", on);
+    }
+    renderList();
+    if (state.view === "calendar") renderCalendar();
   });
   document.getElementById("region-select").addEventListener("change", (e) => {
     state.region = e.target.value; renderList(); renderTicker();

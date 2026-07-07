@@ -59,6 +59,15 @@ def strip_brackets(name):
     return re.sub(r"\[[^\]]*\]", "", name).strip()
 
 
+def normalize(s):
+    """매칭용 정규화: 연도(20xx)·공백·특수문자 제거 후 casefold(대소문자 무시)."""
+    if not s:
+        return ""
+    s = re.sub(r"20\d\d", "", s)               # 연도 제거 (예: '2026')
+    s = re.sub(r"[^0-9A-Za-z가-힣]", "", s)     # 공백·특수문자 제거
+    return s.casefold()
+
+
 # --- API 호출 ----------------------------------------------------------------
 
 def api_get(path, params):
@@ -118,6 +127,9 @@ def base_record(db, source):
         "poster": poster,
         "state": text(db, "prfstate"),
         "source": source,
+        # 분류에서 채움
+        "tier": "",
+        "category": "",
         # 상세에서 채움
         "region": "",
         "price": "",
@@ -196,11 +208,53 @@ def merge_detail(rec, db):
 
 # --- 메인 --------------------------------------------------------------------
 
-def keyword_match(name):
-    up = name.upper()
-    if any(k.upper() in up for k in config.EXCLUDE_KEYWORDS):
-        return False
-    return any(k.upper() in up for k in config.INCLUDE_KEYWORDS)
+def load_known():
+    """known_festivals.json 로드 → (화이트리스트[정규화 needle 포함], 폴백규칙).
+
+    판별 기준은 이 JSON 한 곳에서만 관리한다(config.py 에 키워드 상수 없음).
+    """
+    path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                        config.KNOWN_FILE)
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    known = []
+    for fest in data.get("known_festivals", []):
+        needles = [fest.get("name", "")] + list(fest.get("aliases", []))
+        known.append({
+            "category": fest.get("category", "기타"),
+            "needles": [normalize(x) for x in needles if normalize(x)],
+        })
+    fb = data.get("fallback_rule", {})
+    fallback = {
+        "genre": fb.get("require_genre", ""),
+        "inc": [normalize(x) for x in fb.get("require_name_keywords", []) if normalize(x)],
+        "exc": [normalize(x) for x in fb.get("exclude_keywords", []) if normalize(x)],
+    }
+    return known, fallback
+
+
+def classify(name, genre, known, fallback):
+    """공연명 → (tier, category). 수집 제외면 (None, None).
+
+    1) 화이트리스트: name/aliases 정규화 부분일치 → ("major", category)
+    2) 폴백: 장르=대중음악 & 이름키워드 포함 & 제외키워드 미포함 → ("etc", "기타")
+    3) 그 외 → 제외
+    """
+    n = normalize(name)
+    if not n:
+        return None, None
+    for fest in known:
+        for needle in fest["needles"]:
+            if needle in n:
+                return "major", fest["category"]
+    # 폴백 — 장르는 KOPIS API가 이미 대중음악(CCCD)로 필터하므로 genre 비어도 통과
+    genre_ok = (not fallback["genre"]) or (fallback["genre"] in (genre or ""))
+    if genre_ok:
+        inc = any(k in n for k in fallback["inc"])
+        exc = any(k in n for k in fallback["exc"])
+        if inc and not exc:
+            return "etc", "기타"
+    return None, None
 
 
 def load_existing(path):
@@ -219,7 +273,11 @@ def main():
     eddate = (today + dt.timedelta(days=config.LOOKAHEAD_DAYS)).strftime("%Y%m%d")
     log("조회 기간: %s ~ %s" % (stdate, eddate))
 
-    # 1) 축제목록 (전량 채택)
+    # 0) 화이트리스트 로드
+    known, fallback = load_known()
+    log("화이트리스트: %d개 페스티벌 로드" % len(known))
+
+    # 1) 축제목록 + 공연목록 수집 (둘 다 화이트리스트/폴백으로 분류)
     try:
         fest_dbs = fetch_list("/prffest", stdate, eddate)
     except Exception as e:
@@ -227,29 +285,38 @@ def main():
         return 1
     log("축제목록: %d건" % len(fest_dbs))
 
-    # 2) 공연목록 (키워드 필터)
     try:
         perf_dbs = fetch_list("/pblprfr", stdate, eddate)
     except Exception as e:
         warn("공연목록 API 실패(치명적): %s" % e)
         return 1
-    log("공연목록: %d건 (키워드 필터 전)" % len(perf_dbs))
+    log("공연목록: %d건" % len(perf_dbs))
 
-    # 3) mt20id 병합·중복제거 (축제목록 우선)
+    # 2) 분류: 화이트리스트(major) / 폴백(etc) / 제외
+    #    축제목록 우선 — 같은 mt20id 는 먼저 채택된 쪽(축제목록)을 유지.
     records = {}
-    for db in fest_dbs:
-        rec = base_record(db, "festival_api")
-        if rec["id"]:
-            records[rec["id"]] = rec
-    kw_added = 0
-    for db in perf_dbs:
+    seen = set()
+    majors, etcs = [], []
+    candidates = ([(d, "festival_api") for d in fest_dbs]
+                  + [(d, "performance_api") for d in perf_dbs])
+    for db, source in candidates:
         mt = text(db, "mt20id")
-        if not mt or mt in records:
+        if not mt or mt in seen:
             continue
-        if keyword_match(text(db, "prfnm")):
-            records[mt] = base_record(db, "keyword_match")
-            kw_added += 1
-    log("키워드 매칭 추가: %d건 / 병합 총 %d건" % (kw_added, len(records)))
+        seen.add(mt)
+        name = text(db, "prfnm")
+        genre = text(db, "genrenm")
+        tier, category = classify(name, genre, known, fallback)
+        if tier is None:
+            continue
+        rec = base_record(db, source)
+        rec["tier"] = tier
+        rec["category"] = category
+        records[mt] = rec
+        (majors if tier == "major" else etcs).append(name)
+    excluded = len(seen) - len(records)
+    log("분류: major %d · etc %d · 제외 %d (후보 %d건)"
+        % (len(majors), len(etcs), excluded, len(seen)))
 
     # 4) 상세 조회 (공연완료로 이미 저장된 항목은 재조회 생략)
     existing = load_existing(config.OUTPUT_PATH)
@@ -292,6 +359,15 @@ def main():
     with open(config.OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
     log("작성 완료: %s (%d건)" % (config.OUTPUT_PATH, len(festivals)))
+
+    # 6) 리포트 — major/etc 목록과 제외 건수
+    log("── major 매칭 (%d) ──" % len(set(majors)))
+    for nm in sorted(set(majors)):
+        log("  · " + nm)
+    log("── etc (%d) ──" % len(set(etcs)))
+    for nm in sorted(set(etcs)):
+        log("  · " + nm)
+    log("── 제외: %d건 ──" % excluded)
     return 0
 
 

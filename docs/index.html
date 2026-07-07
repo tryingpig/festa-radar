@@ -36,6 +36,10 @@
       <input type="checkbox" id="hide-done" checked />
       <span>지난 공연 숨기기</span>
     </label>
+    <label class="ctl ctl--check">
+      <input type="checkbox" id="show-etc" checked />
+      <span>기타 페스티벌</span>
+    </label>
     <label class="ctl">
       <span class="ctl__label">지역</span>
       <select id="region-select">
@@ -56,6 +60,18 @@
       </select>
     </label>
     <span class="controls__count" id="result-count" aria-live="polite"></span>
+  </div>
+
+  <!-- 카테고리 칩 필터 (major는 category, etc는 '기타'로 묶임) -->
+  <div class="chips" id="cat-chips" role="group" aria-label="카테고리 필터">
+    <button class="chip is-active" data-cat="" aria-pressed="true">전체</button>
+    <button class="chip" data-cat="록" aria-pressed="false">록</button>
+    <button class="chip" data-cat="인디/종합" aria-pressed="false">인디·종합</button>
+    <button class="chip" data-cat="재즈" aria-pressed="false">재즈</button>
+    <button class="chip" data-cat="EDM/워터" aria-pressed="false">EDM·워터</button>
+    <button class="chip" data-cat="힙합" aria-pressed="false">힙합</button>
+    <button class="chip" data-cat="K-POP" aria-pressed="false">K-POP</button>
+    <button class="chip chip--etc" data-cat="기타" aria-pressed="false">기타</button>
   </div>
 
   <main class="main">

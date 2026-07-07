@@ -201,6 +201,48 @@ button, select, input { font-family: inherit; }
   font-variant-numeric: tabular-nums;
 }
 
+/* ============================ 카테고리 칩 ========================== */
+.chips {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 12px 20px 2px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.chip {
+  appearance: none;
+  border: 1px solid var(--line-strong);
+  background: #fff;
+  color: #444;
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.chip:hover { border-color: var(--navy); color: var(--navy); }
+.chip.is-active { background: var(--navy); color: #fff; border-color: var(--navy); }
+.chip--etc { color: #888; }
+.chip--etc.is-active { background: var(--gray); border-color: var(--gray); color: #fff; }
+
+/* etc 카드 구분 배지 */
+.badge-etc {
+  display: inline-block;
+  margin-left: 6px;
+  vertical-align: 2px;
+  font-size: 10.5px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  padding: 1px 6px;
+  border-radius: 5px;
+  background: #f0f0f3;
+  color: #7a7a82;
+  border: 1px solid var(--line-strong);
+}
+
 /* ============================ 메인/리스트 ========================== */
 .main {
   max-width: var(--maxw);

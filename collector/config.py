@@ -14,16 +14,12 @@ LOOKAHEAD_DAYS = 365        # 오늘 +365일
 REQUEST_TIMEOUT = 15        # 모든 호출 timeout(초)
 DETAIL_SLEEP = 0.5          # 상세 조회 사이 대기(초) — KOPIS 서버 예의
 
-# --- 페스티벌 판별 키워드 (PRD 5절) -----------------------------------------
-# 공연목록(pblprfr)에서 공연명이 아래 포함 키워드에 걸리면 채택,
-# 제외 키워드에 걸리면 탈락. 대소문자 무시로 매칭한다.
-INCLUDE_KEYWORDS = [
-    "페스티벌", "FESTIVAL", "FEST", "페스타", "FESTA",
-    "뮤직캠프", "록페", "ROCK FES",
-]
-EXCLUDE_KEYWORDS = [
-    "영화제", "필름", "불꽃", "맥주", "먹거리", "뮤지컬",
-]
+# --- 페스티벌 판별 (화이트리스트 방식) --------------------------------------
+# 판별 기준은 collector/known_festivals.json 한 곳에서만 관리한다.
+#   - known_festivals: 화이트리스트(name/aliases 부분일치) → tier="major" + category
+#   - fallback_rule  : 화이트리스트 밖이라도 장르·이름·제외 조건 통과 시 tier="etc"
+# 코드에는 더 이상 포함/제외 키워드 상수를 두지 않는다. (JSON 단일 관리)
+KNOWN_FILE = "known_festivals.json"   # collect.py 와 같은 폴더 기준으로 로드
 
 # --- 예매처 정규화 (technical_spec 3절) --------------------------------------
 # (매칭 문자열들, 표준 vendor 명, 브랜드 색). relatenm 원문에 부분 문자열로 매칭.
