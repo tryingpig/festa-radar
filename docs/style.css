@@ -401,6 +401,13 @@ button, select, input { font-family: inherit; }
 .card__meta .row { display: flex; gap: 6px; }
 .card__meta .k { color: var(--gray); min-width: 34px; }
 .card__price { font-weight: 700; color: var(--ink); }
+.card__cast {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  color: #444;
+}
 
 /* 상태 라벨(색+텍스트 병행, 색맹 대응) */
 .state-line {

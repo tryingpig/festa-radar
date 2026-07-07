@@ -145,6 +145,7 @@ def base_record(db, source):
         "price": "",
         "timeInfo": "",
         "organizer": "",
+        "cast": "",
         "registeredAt": "",
         "ticketLinks": [],
     }
@@ -207,6 +208,7 @@ def merge_detail(rec, db):
     rec["price"] = text(db, "pcseguidance")
     rec["timeInfo"] = text(db, "dtguidance")
     rec["organizer"] = text(db, "entrpsnm")
+    rec["cast"] = text(db, "prfcast")          # 출연진(라인업)
     rec["registeredAt"] = find_reg_date(db)
     # 상세에도 상태가 있으면 최신으로 갱신
     st = text(db, "prfstate")
@@ -367,9 +369,11 @@ def main():
     fetched, skipped, failed = 0, 0, 0
     for mt, rec in records.items():
         prev = existing.get(mt)
-        if prev and prev.get("ticketLinks") and list_sig(prev) == list_sig(rec):
+        # "cast" in prev 조건: 출연진 필드가 없던 구버전 레코드는 1회 재조회로 채운다.
+        if (prev and prev.get("ticketLinks") and "cast" in prev
+                and list_sig(prev) == list_sig(rec)):
             # 변경점 없음 → 기존 상세 재사용
-            for k in ("region", "price", "timeInfo", "organizer",
+            for k in ("region", "price", "timeInfo", "organizer", "cast",
                       "registeredAt", "ticketLinks"):
                 if k in prev:
                     rec[k] = prev[k]

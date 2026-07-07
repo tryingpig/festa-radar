@@ -115,10 +115,12 @@ function applyFilters(list, opts) {
     } else if (state.category) {
       out = out.filter((f) => !isEtc(f) && f.category === state.category);
     }
-  } else {
-    // 콘서트 모드: 아티스트·공연명 검색
-    const q = state.search.trim().toLowerCase();
-    if (q) out = out.filter((f) => (f.name || "").toLowerCase().includes(q));
+  }
+  // 검색 — 공연명 + 출연진(라인업) 대상, 두 모드 공통
+  const q = state.search.trim().toLowerCase();
+  if (q) {
+    out = out.filter((f) =>
+      ((f.name || "") + " " + (f.cast || "")).toLowerCase().includes(q));
   }
   if (state.region) out = out.filter((f) => regionGroup(f.region) === state.region);
   if (!opts.ignoreHideDone && state.hideDone) {
@@ -203,6 +205,7 @@ function cardHtml(f) {
         <div class="card__meta">
           <span class="row"><span class="k">기간</span><span>${periodText(f)}</span></span>
           <span class="row"><span class="k">장소</span><span>${esc(f.venue || "-")}${f.region ? " · " + esc(f.region) : ""}</span></span>
+          ${f.cast ? `<span class="row"><span class="k">출연</span><span class="card__cast">${esc(f.cast)}</span></span>` : ""}
           ${f.price ? `<span class="row"><span class="k">가격</span><span class="card__price">${esc(f.price)}</span></span>` : ""}
         </div>
         <div class="tickets">${ticketButtons(f)}</div>
@@ -371,12 +374,12 @@ const TABS = [
   { id: "tab-con-cal",   mode: "concert",  view: "calendar" },
 ];
 
-// 모드에 맞춰 컨트롤(칩/토글/검색) 표시 전환
+// 모드에 맞춰 컨트롤 표시 전환 (칩·기타토글은 페스티벌만, 검색은 두 모드 공통)
 function syncControls() {
   const isFest = state.mode === "festival";
   document.getElementById("ctl-etc").hidden = !isFest;
   document.getElementById("cat-chips").hidden = !isFest;
-  document.getElementById("ctl-search").hidden = isFest;
+  document.getElementById("ctl-search").hidden = false;
 }
 
 function setTab(mode, view) {
@@ -391,6 +394,12 @@ function setTab(mode, view) {
     const el = document.getElementById(t.id);
     el.classList.toggle("is-active", on);
     el.setAttribute("aria-selected", on);
+  }
+  if (modeChanged) {
+    // 모드 전환 시 검색어 초기화 (데이터셋이 달라짐)
+    state.search = "";
+    const si = document.getElementById("concert-search");
+    if (si) si.value = "";
   }
   syncControls();
   if (modeChanged) renderTicker();     // 모드가 바뀌면 티커 대상도 바뀜
