@@ -25,8 +25,10 @@
       <div class="updated" id="updated" aria-live="polite"></div>
     </div>
     <nav class="tabs" role="tablist" aria-label="보기 전환">
-      <button class="tab is-active" id="tab-list" role="tab" aria-selected="true">리스트</button>
-      <button class="tab" id="tab-calendar" role="tab" aria-selected="false">캘린더</button>
+      <button class="tab is-active" id="tab-fest-list" role="tab" aria-selected="true">페스티벌 (리스트)</button>
+      <button class="tab" id="tab-fest-cal" role="tab" aria-selected="false">페스티벌 (캘린더)</button>
+      <button class="tab" id="tab-con-list" role="tab" aria-selected="false">콘서트 (리스트)</button>
+      <button class="tab" id="tab-con-cal" role="tab" aria-selected="false">콘서트 (캘린더)</button>
     </nav>
   </header>
 
@@ -36,9 +38,13 @@
       <input type="checkbox" id="hide-done" checked />
       <span>지난 공연 숨기기</span>
     </label>
-    <label class="ctl ctl--check">
+    <label class="ctl ctl--check" id="ctl-etc">
       <input type="checkbox" id="show-etc" checked />
       <span>기타 페스티벌</span>
+    </label>
+    <label class="ctl ctl--search" id="ctl-search" hidden>
+      <span class="ctl__label">검색</span>
+      <input type="search" id="concert-search" placeholder="아티스트·공연명" autocomplete="off" />
     </label>
     <label class="ctl">
       <span class="ctl__label">지역</span>

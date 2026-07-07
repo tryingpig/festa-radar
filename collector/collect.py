@@ -292,11 +292,16 @@ def main():
         return 1
     log("공연목록: %d건" % len(perf_dbs))
 
-    # 2) 분류: 화이트리스트(major) / 폴백(etc) / 제외
+    # 2) 분류: 페스티벌(major/etc) / 콘서트(concert) / 제외
+    #    - 화이트리스트 매칭 → major, 폴백 매칭 → etc (=페스티벌)
+    #    - 미매칭이라도 '공연목록'의 대중음악 공연이면 → concert(콘서트)
+    #    - '축제목록'에 등록된 미매칭 행사는 콘서트가 아니라 제외(비-트래킹 축제)
     #    축제목록 우선 — 같은 mt20id 는 먼저 채택된 쪽(축제목록)을 유지.
+    fest_ids = {text(db, "mt20id") for db in fest_dbs if text(db, "mt20id")}
     records = {}
     seen = set()
-    majors, etcs = [], []
+    majors, etcs, concerts = [], [], []
+    excluded = 0
     candidates = ([(d, "festival_api") for d in fest_dbs]
                   + [(d, "performance_api") for d in perf_dbs])
     for db, source in candidates:
@@ -308,15 +313,23 @@ def main():
         genre = text(db, "genrenm")
         tier, category = classify(name, genre, known, fallback)
         if tier is None:
-            continue
+            if mt in fest_ids:
+                excluded += 1          # 축제로 등록된 비-트래킹 행사 → 제외
+                continue
+            tier, category = "concert", "콘서트"   # 비-페스티벌 대중음악 공연
         rec = base_record(db, source)
         rec["tier"] = tier
         rec["category"] = category
         records[mt] = rec
-        (majors if tier == "major" else etcs).append(name)
-    excluded = len(seen) - len(records)
-    log("분류: major %d · etc %d · 제외 %d (후보 %d건)"
-        % (len(majors), len(etcs), excluded, len(seen)))
+        if tier == "major":
+            majors.append(name)
+        elif tier == "etc":
+            etcs.append(name)
+        else:
+            concerts.append(name)
+    log("분류: 페스티벌 %d (major %d·etc %d) · 콘서트 %d · 제외 %d (후보 %d건)"
+        % (len(majors) + len(etcs), len(majors), len(etcs),
+           len(concerts), excluded, len(seen)))
 
     # 4) 상세 조회 (공연완료로 이미 저장된 항목은 재조회 생략)
     existing = load_existing(config.OUTPUT_PATH)
@@ -360,13 +373,14 @@ def main():
         json.dump(out, f, ensure_ascii=False, indent=2)
     log("작성 완료: %s (%d건)" % (config.OUTPUT_PATH, len(festivals)))
 
-    # 6) 리포트 — major/etc 목록과 제외 건수
+    # 6) 리포트 — 페스티벌(major/etc)·콘서트·제외
     log("── major 매칭 (%d) ──" % len(set(majors)))
     for nm in sorted(set(majors)):
         log("  · " + nm)
     log("── etc (%d) ──" % len(set(etcs)))
     for nm in sorted(set(etcs)):
         log("  · " + nm)
+    log("── 콘서트: %d건 ──" % len(concerts))
     log("── 제외: %d건 ──" % excluded)
     return 0
 

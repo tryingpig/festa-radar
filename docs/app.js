@@ -21,10 +21,12 @@ const REGION_GROUPS = {
 // ---- 상태 -----------------------------------------------------------------
 const state = {
   all: [],
+  mode: "festival",       // festival | concert
   view: "list",           // list | calendar
   hideDone: true,
-  showEtc: true,          // 기타(etc) 페스티벌 표시 여부 (기본 ON)
+  showEtc: true,          // 기타(etc) 페스티벌 표시 여부 (기본 ON, 페스티벌 모드)
   category: "",           // "" | 록 | 인디/종합 | 재즈 | EDM/워터 | 힙합 | K-POP | 기타
+  search: "",             // 콘서트 모드: 아티스트·공연명 검색어
   region: "",
   sort: "date",           // date | recent
   calYear: 0,
@@ -90,19 +92,33 @@ function isNew(f) {
 }
 
 // ---- 필터/정렬 ------------------------------------------------------------
-// etc(기타) 페스티벌인지
+// tier 구분
 function isEtc(f) { return f.tier === "etc"; }
+function isConcert(f) { return f.tier === "concert"; }
+
+// 현재 모드(페스티벌/콘서트)에 해당하는 데이터셋
+function baseList() {
+  return state.mode === "concert"
+    ? state.all.filter(isConcert)
+    : state.all.filter((f) => !isConcert(f));   // 페스티벌 = major + etc
+}
 
 function applyFilters(list, opts) {
   opts = opts || {};
   let out = list.slice();
-  // 기타 토글 OFF → etc 전체 숨김 (major만)
-  if (!state.showEtc) out = out.filter((f) => !isEtc(f));
-  // 카테고리 칩: '기타'는 etc, 그 외는 해당 category의 major
-  if (state.category === "기타") {
-    out = out.filter(isEtc);
-  } else if (state.category) {
-    out = out.filter((f) => !isEtc(f) && f.category === state.category);
+  if (state.mode === "festival") {
+    // 기타 토글 OFF → etc 전체 숨김 (major만)
+    if (!state.showEtc) out = out.filter((f) => !isEtc(f));
+    // 카테고리 칩: '기타'는 etc, 그 외는 해당 category의 major
+    if (state.category === "기타") {
+      out = out.filter(isEtc);
+    } else if (state.category) {
+      out = out.filter((f) => !isEtc(f) && f.category === state.category);
+    }
+  } else {
+    // 콘서트 모드: 아티스트·공연명 검색
+    const q = state.search.trim().toLowerCase();
+    if (q) out = out.filter((f) => (f.name || "").toLowerCase().includes(q));
   }
   if (state.region) out = out.filter((f) => regionGroup(f.region) === state.region);
   if (!opts.ignoreHideDone && state.hideDone) {
@@ -196,7 +212,7 @@ function cardHtml(f) {
 
 // ---- 리스트 뷰 (월별 섹션) -----------------------------------------------
 function renderList() {
-  const filtered = applyFilters(state.all);
+  const filtered = applyFilters(baseList());
   document.getElementById("result-count").textContent = `${filtered.length}개`;
   const mount = document.getElementById("months");
   const empty = document.getElementById("list-empty");
@@ -238,8 +254,10 @@ function renderList() {
 
 // ---- 마퀴 티커 ------------------------------------------------------------
 function renderTicker() {
-  // 마퀴는 major(대표 페스티벌)만 대상. 지역 필터만 반영, 기타/카테고리 칩과 무관.
-  let base = state.all.filter((f) => f.tier === "major");
+  // 마퀴: 페스티벌 모드=major(대표)만, 콘서트 모드=콘서트 전체. 지역 필터만 반영.
+  let base = state.mode === "concert"
+    ? state.all.filter(isConcert)
+    : state.all.filter((f) => f.tier === "major");
   if (state.region) base = base.filter((f) => regionGroup(f.region) === state.region);
   const upcoming = base
     .map((f) => ({ f, di: dayInfo(f) }))
@@ -270,7 +288,7 @@ function renderCalendar() {
   const first = new Date(y, m - 1, 1);
   const last = new Date(y, m, 0);
   const gridStart = new Date(y, m - 1, 1 - first.getDay()); // 그 주 일요일
-  const items = applyFilters(state.all, { ignoreHideDone: true }); // 캘린더는 지역필터만
+  const items = applyFilters(baseList(), { ignoreHideDone: true }); // 캘린더는 완료도 표시
 
   const weeksEl = document.getElementById("cal-weeks");
   let html = "";
@@ -344,23 +362,46 @@ function showCalDetail(id) {
   if (card) { card.classList.add("is-highlight"); card.scrollIntoView({ behavior: "smooth", block: "nearest" }); }
 }
 
-// ---- 뷰 전환 --------------------------------------------------------------
-function setView(v) {
-  state.view = v;
-  const isList = v === "list";
+// ---- 탭(모드×뷰) 전환 -----------------------------------------------------
+const TABS = [
+  { id: "tab-fest-list", mode: "festival", view: "list" },
+  { id: "tab-fest-cal",  mode: "festival", view: "calendar" },
+  { id: "tab-con-list",  mode: "concert",  view: "list" },
+  { id: "tab-con-cal",   mode: "concert",  view: "calendar" },
+];
+
+// 모드에 맞춰 컨트롤(칩/토글/검색) 표시 전환
+function syncControls() {
+  const isFest = state.mode === "festival";
+  document.getElementById("ctl-etc").hidden = !isFest;
+  document.getElementById("cat-chips").hidden = !isFest;
+  document.getElementById("ctl-search").hidden = isFest;
+}
+
+function setTab(mode, view) {
+  const modeChanged = state.mode !== mode;
+  state.mode = mode;
+  state.view = view;
+  const isList = view === "list";
   document.getElementById("list-view").hidden = !isList;
   document.getElementById("calendar-view").hidden = isList;
-  document.getElementById("tab-list").classList.toggle("is-active", isList);
-  document.getElementById("tab-calendar").classList.toggle("is-active", !isList);
-  document.getElementById("tab-list").setAttribute("aria-selected", isList);
-  document.getElementById("tab-calendar").setAttribute("aria-selected", !isList);
-  if (!isList) renderCalendar();
+  for (const t of TABS) {
+    const on = t.mode === mode && t.view === view;
+    const el = document.getElementById(t.id);
+    el.classList.toggle("is-active", on);
+    el.setAttribute("aria-selected", on);
+  }
+  syncControls();
+  if (modeChanged) renderTicker();     // 모드가 바뀌면 티커 대상도 바뀜
+  if (isList) renderList();
+  else renderCalendar();
 }
 
 function scrollToCard(id) {
-  setView("list");
-  // hideDone로 숨겨졌으면 임시 해제
   const f = state.all.find((x) => x.id === id);
+  // 클릭한 항목이 속한 모드의 리스트로 전환
+  setTab(f && isConcert(f) ? "concert" : "festival", "list");
+  // hideDone로 숨겨졌으면 임시 해제
   if (f && state.hideDone && dayInfo(f).type === "done") {
     state.hideDone = false;
     document.getElementById("hide-done").checked = false;
@@ -377,11 +418,17 @@ function scrollToCard(id) {
 
 // ---- 이벤트 바인딩 --------------------------------------------------------
 function bindEvents() {
-  document.getElementById("tab-list").addEventListener("click", () => setView("list"));
-  document.getElementById("tab-calendar").addEventListener("click", () => setView("calendar"));
+  for (const t of TABS) {
+    document.getElementById(t.id).addEventListener("click", () => setTab(t.mode, t.view));
+  }
 
   document.getElementById("hide-done").addEventListener("change", (e) => {
     state.hideDone = e.target.checked; renderList(); renderTicker();
+  });
+  document.getElementById("concert-search").addEventListener("input", (e) => {
+    state.search = e.target.value;
+    renderList();
+    if (state.view === "calendar") renderCalendar();
   });
   document.getElementById("show-etc").addEventListener("change", (e) => {
     state.showEtc = e.target.checked; renderList();
@@ -448,6 +495,7 @@ async function init() {
     state.calYear = TODAY.getFullYear();
     state.calMonth = TODAY.getMonth() + 1;
 
+    syncControls();
     renderTicker();
     renderList();
   } catch (err) {
