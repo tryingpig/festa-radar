@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T13:51:04+09:00",
+  "updatedAt": "2026-07-07T14:25:48+09:00",
   "count": 459,
   "festivals": [
     {
@@ -17,6 +17,7 @@
       "price": "전석 79,000원",
       "timeInfo": "금요일(19:30), 토요일(19:30)",
       "organizer": "",
+      "cast": "스콧 해밀턴, 롭 반 바벨, 빈센트 코닝, 프란스 판 헤이스트, 피에릭 페드롱, 유타카 시이나, 마뉴엘 웨이얀드 등",
       "registeredAt": "2026-03-16",
       "ticketLinks": [
         {
@@ -42,6 +43,7 @@
       "price": "전석 10,000원",
       "timeInfo": "금요일(19:00)",
       "organizer": "(주)코르부스 CORVUS",
+      "cast": "",
       "registeredAt": "2026-06-22",
       "ticketLinks": [
         {
@@ -67,6 +69,7 @@
       "price": "전석 110,000원",
       "timeInfo": "금요일(20:00), 토요일(18:00), 일요일(16:00)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "",
       "registeredAt": "2026-05-22",
       "ticketLinks": [
         {
@@ -92,6 +95,7 @@
       "price": "전석 90,000원",
       "timeInfo": "화요일 ~ 금요일(18:00), 토요일(14:00,18:00), 일요일(15:00)",
       "organizer": "더 혜은이company,열정",
+      "cast": "김승주, 김승미, 신동윤, 박효진, 조신일, 김예찬, 진우섭 등",
       "registeredAt": "2026-05-18",
       "ticketLinks": [
         {
@@ -129,6 +133,7 @@
       "price": "전석 25,000원",
       "timeInfo": "화요일(18:50)",
       "organizer": "",
+      "cast": "",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -154,6 +159,7 @@
       "price": "사전예약 22,000원, 현장판매 25,000원",
       "timeInfo": "화요일(19:00)",
       "organizer": "",
+      "cast": "",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -179,6 +185,7 @@
       "price": "전석 6,000원",
       "timeInfo": "화요일(19:00)",
       "organizer": "",
+      "cast": "구창모, 김승진",
       "registeredAt": "2026-06-25",
       "ticketLinks": [
         {
@@ -204,6 +211,7 @@
       "price": "전석 33,000원",
       "timeInfo": "화요일(20:00)",
       "organizer": "(주)엔터크라우드",
+      "cast": "이영준, 조석원, 최한나, 옥은새",
       "registeredAt": "2026-06-18",
       "ticketLinks": [
         {
@@ -229,6 +237,7 @@
       "price": "전석 10,000원",
       "timeInfo": "화요일(19:30)",
       "organizer": "",
+      "cast": "",
       "registeredAt": "2026-06-22",
       "ticketLinks": [
         {
@@ -254,6 +263,7 @@
       "price": "Early Bird (스탠딩) 55,000원, PRE－SALE (스탠딩) 77,000원, General Admission (스탠딩) 88,000원, VIP (스탠딩) 132,000원",
       "timeInfo": "수요일(20:00)",
       "organizer": "(주) 팀스팟(TEAM SPOT)",
+      "cast": "",
       "registeredAt": "2026-06-18",
       "ticketLinks": [
         {
@@ -279,6 +289,7 @@
       "price": "1층석 30,000원, 2층석 20,000원",
       "timeInfo": "수요일(19:30)",
       "organizer": "(주)이유엔터테인먼트 [사천]",
+      "cast": "김현철, 황가람",
       "registeredAt": "2026-06-23",
       "ticketLinks": [
         {
@@ -304,6 +315,7 @@
       "price": "전석 10,000원",
       "timeInfo": "수요일(19:30)",
       "organizer": "KT&G 상상마당 [부산]",
+      "cast": "",
       "registeredAt": "2026-05-28",
       "ticketLinks": [
         {
@@ -329,6 +341,7 @@
       "price": "전석 65,000원",
       "timeInfo": "목요일(21:00)",
       "organizer": "",
+      "cast": "",
       "registeredAt": "2026-03-25",
       "ticketLinks": [
         {
@@ -354,6 +367,7 @@
       "price": "1층석 55,000원, 2층석 35,000원",
       "timeInfo": "목요일(14:00,19:30), 금요일(14:00)",
       "organizer": "HD아트센터(구.현대예술관)",
+      "cast": "",
       "registeredAt": "2026-05-15",
       "ticketLinks": [
         {
@@ -397,6 +411,7 @@
       "price": "전석 65,000원",
       "timeInfo": "금요일(20:00)",
       "organizer": "노머시컴퍼니(Nomercy Company)",
+      "cast": "",
       "registeredAt": "2026-06-12",
       "ticketLinks": [
         {
@@ -422,6 +437,7 @@
       "price": "전석 44,000원",
       "timeInfo": "금요일(20:00)",
       "organizer": "",
+      "cast": "",
       "registeredAt": "2026-06-25",
       "ticketLinks": [
         {
@@ -447,6 +463,7 @@
       "price": "전석 49,000원",
       "timeInfo": "금요일(20:00)",
       "organizer": "주식회사 원더로크",
+      "cast": "우원재, 신동열, 이재학, 이재훈, 정태경, 이태석, 정승환 등",
       "registeredAt": "2026-07-01",
       "ticketLinks": [
         {
@@ -478,6 +495,7 @@
       "price": "스탠딩 88,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "더 텔 테일 하트 (The Tell-Tale Heart)",
+      "cast": "",
       "registeredAt": "2026-04-14",
       "ticketLinks": [
         {
@@ -503,6 +521,7 @@
       "price": "전석 154,000원",
       "timeInfo": "금요일(19:00), 토요일(18:00), 일요일(17:00)",
       "organizer": "(주)제이와이피엔터테인먼트(JYP Entertainment)",
+      "cast": "",
       "registeredAt": "2026-06-11",
       "ticketLinks": [
         {
@@ -528,6 +547,7 @@
       "price": "사전예약 22,000원, 현장판매 25,000원",
       "timeInfo": "금요일(19:00)",
       "organizer": "",
+      "cast": "",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -553,6 +573,7 @@
       "price": "전석 30,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "(사) 코드(우무지)",
+      "cast": "채소현 등",
       "registeredAt": "2026-06-22",
       "ticketLinks": [
         {
@@ -578,6 +599,7 @@
       "price": "R석 50,000원, S석 30,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "(재) 대구광역시 동구문화재단(아양아트센터)",
+      "cast": "김현정, 이지훈, 유도온",
       "registeredAt": "2026-05-14",
       "ticketLinks": [
         {
@@ -609,6 +631,7 @@
       "price": "전석 44,000원",
       "timeInfo": "금요일(20:00), 토요일(18:00)",
       "organizer": "당신의 여름(유어썸머)",
+      "cast": "허경철, 최석준, 탁영수, 손휘준",
       "registeredAt": "2026-07-01",
       "ticketLinks": [
         {
@@ -634,6 +657,7 @@
       "price": "R석 30,000원, S석 30,000원, A석 20,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "보령시청",
+      "cast": "심민경, 이은미, 김장훈, 박형민",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -659,6 +683,7 @@
       "price": "전석 77,000원",
       "timeInfo": "목요일 ~ 금요일(19:30), 토요일(19:00), 일요일(17:00)",
       "organizer": "(주)스튜디오브로콜리",
+      "cast": "윤덕원, 김잔디, 류지현, 문동혁",
       "registeredAt": "2026-06-05",
       "ticketLinks": [
         {
@@ -684,6 +709,7 @@
       "price": "R석 50,000원, S석 30,000원",
       "timeInfo": "금요일(19:00)",
       "organizer": "",
+      "cast": "김남진",
       "registeredAt": "2026-05-20",
       "ticketLinks": [
         {
@@ -709,6 +735,7 @@
       "price": "R석 99,000원, S석 88,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "(주)피크피크",
+      "cast": "김정환, 김소연",
       "registeredAt": "2026-06-22",
       "ticketLinks": [
         {
@@ -758,6 +785,7 @@
       "price": "스탠딩 66,000원",
       "timeInfo": "금요일(20:00)",
       "organizer": "불가마싸운드, 영호의 인디가요",
+      "cast": "김지민, 김혜미 등",
       "registeredAt": "2026-06-16",
       "ticketLinks": [
         {
@@ -783,6 +811,7 @@
       "price": "전석 22,000원",
       "timeInfo": "금요일(18:50)",
       "organizer": "",
+      "cast": "",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -808,6 +837,7 @@
       "price": "전석 25,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "인천광역시 경제자유구역청(아트센터 인천)",
+      "cast": "성낙원, 송하철, 박준규, 임채선, 이예동, 김유성, 전우영 등",
       "registeredAt": "2026-01-30",
       "ticketLinks": [
         {
@@ -833,6 +863,7 @@
       "price": "전석무료",
       "timeInfo": "금요일(20:00)",
       "organizer": "동해시청",
+      "cast": "장혜진, 한대규, 이창민, 이보람",
       "registeredAt": "2026-06-23",
       "ticketLinks": [
         {
@@ -858,6 +889,7 @@
       "price": "R석 110,000원, S석 99,000원",
       "timeInfo": "금요일(20:00), 토요일(18:00), 일요일(16:00)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "조윤민, 김승빈, 김병무, 채도현",
       "registeredAt": "2026-06-04",
       "ticketLinks": [
         {
@@ -883,6 +915,7 @@
       "price": "S석 160,000원, A석 140,000원, B석 130,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "주식회사 원더로크",
+      "cast": "",
       "registeredAt": "2026-06-08",
       "ticketLinks": [
         {
@@ -908,6 +941,7 @@
       "price": "전석 20,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "Be IN;(비인), Jemu (제주음악창작소), 자유낙하(JAYUNAKHA)",
+      "cast": "",
       "registeredAt": "2026-06-19",
       "ticketLinks": [
         {
@@ -933,6 +967,7 @@
       "price": "전석 55,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "",
+      "cast": "",
       "registeredAt": "2026-06-25",
       "ticketLinks": [
         {
@@ -958,6 +993,7 @@
       "price": "VIP STANDING(SC+HT)석 165,000원, STANDING석 121,000원, R(SC)석 132,000원, R석 110,000원, S석 88,000원",
       "timeInfo": "토요일(17:00), 일요일(16:00)",
       "organizer": "(주)엠씨피 이씨씨 MCP ECC",
+      "cast": "서동현",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -983,6 +1019,7 @@
       "price": "SOUND CHECK  220,000원, M&G  253,000원, GENERAL  165,000원",
       "timeInfo": "토요일(17:00), 일요일(16:00)",
       "organizer": "(주)하이브",
+      "cast": "김채원, 미야와키 사쿠라, 제니퍼 윤진 허, 나카무라 카즈하, 홍은채",
       "registeredAt": "2026-06-10",
       "ticketLinks": [
         {
@@ -1008,6 +1045,7 @@
       "price": "R석 154,000원, S석 143,000원",
       "timeInfo": "토요일(18:00), 일요일(16:00)",
       "organizer": "(주)위얼라이브",
+      "cast": "",
       "registeredAt": "2026-06-04",
       "ticketLinks": [
         {
@@ -1033,6 +1071,7 @@
       "price": "스탠딩 77,000원",
       "timeInfo": "토요일(18:00), 일요일(17:00)",
       "organizer": "(주)안테나",
+      "cast": "",
       "registeredAt": "2026-05-07",
       "ticketLinks": [
         {
@@ -1064,6 +1103,7 @@
       "price": "전석 66,000원",
       "timeInfo": "토요일(15:00,19:00)",
       "organizer": "",
+      "cast": "김령은",
       "registeredAt": "2026-06-25",
       "ticketLinks": [
         {
@@ -1089,6 +1129,7 @@
       "price": "BLUE석 176,000원, 일반석 154,000원",
       "timeInfo": "토요일(18:00), 일요일(16:00)",
       "organizer": "(주)에스엠엔터테인먼트 (SM ENTERTAINMENT), 드림메이커엔터테인먼트리미티드(DREAM MAKER ENTERTAINMENT LIMITED)",
+      "cast": "김려욱",
       "registeredAt": "2026-05-08",
       "ticketLinks": [
         {
@@ -1114,6 +1155,7 @@
       "price": "양일권(사전예약) 199,000원, 1일권(토요일) 129,000원, 1일권(일요일) 119,000원",
       "timeInfo": "토요일 ~ 일요일(13:00)",
       "organizer": "(주)비이피씨탄젠트",
+      "cast": "",
       "registeredAt": "2026-02-24",
       "ticketLinks": [
         {
@@ -1139,6 +1181,7 @@
       "price": "S석 80,000원, 사전예약 30,000원",
       "timeInfo": "토요일(14:40)",
       "organizer": "",
+      "cast": "",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -1164,6 +1207,7 @@
       "price": "전석 66,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "톤엔터",
+      "cast": "주윤하",
       "registeredAt": "2026-06-19",
       "ticketLinks": [
         {
@@ -1189,6 +1233,7 @@
       "price": "전석 33,000원",
       "timeInfo": "토요일(15:00)",
       "organizer": "톤엔터",
+      "cast": "은도희",
       "registeredAt": "2026-06-22",
       "ticketLinks": [
         {
@@ -1214,6 +1259,7 @@
       "price": "전석 40,000원",
       "timeInfo": "토요일(16:00)",
       "organizer": "아트버스컴퍼니",
+      "cast": "신명섭, 심규민, 김영후, 히로노리 스즈키, 유토 카나자와",
       "registeredAt": "2026-06-09",
       "ticketLinks": [
         {
@@ -1239,6 +1285,7 @@
       "price": "전석 143,000원",
       "timeInfo": "토요일(18:00), 일요일(17:00)",
       "organizer": "(주)하이브",
+      "cast": "최한솔, 쉬밍하오",
       "registeredAt": "2026-06-12",
       "ticketLinks": [
         {
@@ -1264,6 +1311,7 @@
       "price": "현장판매 25,000원, 사전예약 22,000원",
       "timeInfo": "토요일(16:50)",
       "organizer": "",
+      "cast": "",
       "registeredAt": "2026-07-01",
       "ticketLinks": [
         {
@@ -1289,6 +1337,7 @@
       "price": "전석 35,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "",
+      "cast": "곽정민",
       "registeredAt": "2026-05-22",
       "ticketLinks": [
         {
@@ -1314,6 +1363,7 @@
       "price": "전석 44,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "ourzip",
+      "cast": "권경렬",
       "registeredAt": "2026-06-15",
       "ticketLinks": [
         {
@@ -1339,6 +1389,7 @@
       "price": "R석 77,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)에프엑스솔루션, (주)좋은콘서트, 굿초이스",
+      "cast": "김장훈",
       "registeredAt": "2026-06-11",
       "ticketLinks": [
         {
@@ -1376,6 +1427,7 @@
       "price": "전석 40,000원",
       "timeInfo": "토요일(16:00)",
       "organizer": "(사) 코드(우무지)",
+      "cast": "이성수, 최보경, 류정훈 등",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -1401,6 +1453,7 @@
       "price": "R석 154,000원, S석 132,000원",
       "timeInfo": "토요일(13:00,18:00)",
       "organizer": "(주)콘서트가든",
+      "cast": "",
       "registeredAt": "2026-05-08",
       "ticketLinks": [
         {
@@ -1426,6 +1479,7 @@
       "price": "전석 99,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "",
       "registeredAt": "2026-03-30",
       "ticketLinks": [
         {
@@ -1451,6 +1505,7 @@
       "price": "R석 150,000원, S석 130,000원, A석 110,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "라이브러리컴퍼니, 라이브러리컴퍼니",
+      "cast": "김주택, 박강현, 정필립, 한태인",
       "registeredAt": "2026-06-12",
       "ticketLinks": [
         {
@@ -1476,6 +1531,7 @@
       "price": "SR석 154,000원, R석 143,000원, S석 132,000원, A석 110,000원",
       "timeInfo": "토요일(13:00,18:00)",
       "organizer": "(주)장군프로덕션",
+      "cast": "이소나, 허찬미, 홍성윤, 길려원, 윤태화, 윤윤서, 염유리",
       "registeredAt": "2026-03-20",
       "ticketLinks": [
         {
@@ -1513,6 +1569,7 @@
       "price": "전석 50,000원",
       "timeInfo": "토요일(16:00)",
       "organizer": "박효진아트",
+      "cast": "박효진, 최현진, 김현수",
       "registeredAt": "2026-06-08",
       "ticketLinks": [
         {
@@ -1544,6 +1601,7 @@
       "price": "R석 143,000원, S석 132,000원, A석 110,000원, B석 99,000원",
       "timeInfo": "토요일(16:00)",
       "organizer": "(주)하늘이엔티, (주)하늘이엔티",
+      "cast": "김태원, 박완규, 채제민, 최우제",
       "registeredAt": "2026-04-06",
       "ticketLinks": [
         {
@@ -1581,6 +1639,7 @@
       "price": "전석 30,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "샘스뮤직컴퍼니(Sam’s Music Company)",
+      "cast": "임주현, 오구일, 이기영, 이호석, 이승원, 김정아, 최성락 등",
       "registeredAt": "2026-05-28",
       "ticketLinks": [
         {
@@ -1606,6 +1665,7 @@
       "price": "전석 55,000원, 사전예약 44,000원",
       "timeInfo": "토요일(15:00,19:00)",
       "organizer": "",
+      "cast": "주성근",
       "registeredAt": "2026-06-22",
       "ticketLinks": [
         {
@@ -1631,6 +1691,7 @@
       "price": "전석 10,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "익산예술의전당",
+      "cast": "신현필, 고희안",
       "registeredAt": "2026-06-30",
       "ticketLinks": [
         {
@@ -1662,6 +1723,7 @@
       "price": "전석 132,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "(주) 에스비위너엔터테인먼트",
+      "cast": "심규선, 안예은",
       "registeredAt": "2026-04-06",
       "ticketLinks": [
         {
@@ -1693,6 +1755,7 @@
       "price": "SR석 185,000원, R석 175,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "피네이션(주)",
+      "cast": "박재상",
       "registeredAt": "2026-06-08",
       "ticketLinks": [
         {
@@ -1718,6 +1781,7 @@
       "price": "전석 44,000원",
       "timeInfo": "토요일(20:00)",
       "organizer": "밴드 아사달(ASADAL)",
+      "cast": "김현산, 김규식, 김주혁",
       "registeredAt": "2026-06-30",
       "ticketLinks": [
         {
@@ -1743,6 +1807,7 @@
       "price": "R석 154,000원, S석 132,000원, A석 110,000원",
       "timeInfo": "토요일(18:00), 일요일(17:00)",
       "organizer": "(주)스프링이엔티, (주)스프링이엔티",
+      "cast": "정용훈",
       "registeredAt": "2026-05-18",
       "ticketLinks": [
         {
@@ -1780,6 +1845,7 @@
       "price": "전석 55,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "폰드메이커스",
+      "cast": "",
       "registeredAt": "2026-06-19",
       "ticketLinks": [
         {
@@ -1805,6 +1871,7 @@
       "price": "전석 35,000원",
       "timeInfo": "토요일(15:00)",
       "organizer": "",
+      "cast": "장도혁, 윤은화, 함민휘, 최예림",
       "registeredAt": "2026-05-13",
       "ticketLinks": [
         {
@@ -1836,6 +1903,7 @@
       "price": "전석 66,000원",
       "timeInfo": "토요일 ~ 일요일(17:00)",
       "organizer": "(주)롤링컬쳐원, 롤링홀",
+      "cast": "김원우, 안의건, 조장관, 오주원",
       "registeredAt": "2026-06-12",
       "ticketLinks": [
         {
@@ -1861,6 +1929,7 @@
       "price": "FS석 198,000원, VIP석 187,000원, R석 165,000원",
       "timeInfo": "토요일(16:00)",
       "organizer": "(주)타입커뮤니케이션",
+      "cast": "이승철",
       "registeredAt": "2026-05-22",
       "ticketLinks": [
         {
@@ -1892,6 +1961,7 @@
       "price": "전석 66,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "전기뱀장어(Electric eels)",
+      "cast": "황인경",
       "registeredAt": "2026-06-15",
       "ticketLinks": [
         {
@@ -1917,6 +1987,7 @@
       "price": "VIP석 121,000원, R석 99,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "나인컴퍼니 (NINE COMPANY)",
+      "cast": "최정인",
       "registeredAt": "2026-05-28",
       "ticketLinks": [
         {
@@ -1942,6 +2013,7 @@
       "price": "전석 88,000원",
       "timeInfo": "토요일(17:00), 일요일(16:00)",
       "organizer": "주식회사 지미메이크뮤직",
+      "cast": "조연호",
       "registeredAt": "2026-06-05",
       "ticketLinks": [
         {
@@ -1967,6 +2039,7 @@
       "price": "전석 77,000원",
       "timeInfo": "토요일(17:00), 일요일(16:00)",
       "organizer": "(주)준토스뮤직",
+      "cast": "성용욱",
       "registeredAt": "2026-05-18",
       "ticketLinks": [
         {
@@ -1992,6 +2065,7 @@
       "price": "VIP석 143,000원, R석 132,000원, S석 121,000원, A석 110,000원, B석 99,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "파이오니아(주)",
+      "cast": "최백호",
       "registeredAt": "2026-02-12",
       "ticketLinks": [
         {
@@ -2029,6 +2103,7 @@
       "price": "전석 5,000원",
       "timeInfo": "토요일(16:00)",
       "organizer": "",
+      "cast": "",
       "registeredAt": "2026-06-12",
       "ticketLinks": [
         {
@@ -2054,6 +2129,7 @@
       "price": "전석 66,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "KT&G 상상마당 [부산], 소수민족컴퍼니(추다혜차지스)",
+      "cast": "추다혜, 이시문, 김재호, 김다빈",
       "registeredAt": "2026-06-17",
       "ticketLinks": [
         {
@@ -2079,6 +2155,7 @@
       "price": "스탠딩(예매가) 35,000원, 스탠딩(현매가) 40,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "(사) 코드(우무지)",
+      "cast": "",
       "registeredAt": "2026-06-26",
       "ticketLinks": [
         {
@@ -2104,6 +2181,7 @@
       "price": "전석 25,000원",
       "timeInfo": "일요일(18:00)",
       "organizer": "Leaveourtears",
+      "cast": "김정훈, 김학선",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -2129,6 +2207,7 @@
       "price": "VIP석 165,000원, R석 154,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "(주)전공이엔티",
+      "cast": "이재훈",
       "registeredAt": "2026-05-19",
       "ticketLinks": [
         {
@@ -2160,6 +2239,7 @@
       "price": "전석 99,000원",
       "timeInfo": "일요일(18:00)",
       "organizer": "주식회사 원더로크",
+      "cast": "키타지마 토오루",
       "registeredAt": "2026-05-06",
       "ticketLinks": [
         {
@@ -2185,6 +2265,7 @@
       "price": "VIP 스탠딩석  154,000원, VIP 지정석  154,000원, 스탠딩석  110,000원, 지정석  110,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "(주) 에이오디(AOD)",
+      "cast": "마키 타츠야, 야나기사와 신타로, 하세가와 프리티 케이스케, 제트 세이야",
       "registeredAt": "2026-03-31",
       "ticketLinks": [
         {
@@ -2222,6 +2303,7 @@
       "price": "전석 55,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "폰드메이커스",
+      "cast": "김명수, 신성규, 소순우, 김예현, 최훈",
       "registeredAt": "2026-06-22",
       "ticketLinks": [
         {
@@ -2247,6 +2329,7 @@
       "price": "전석 40,000원",
       "timeInfo": "일요일(17:30)",
       "organizer": "Palette (팔레트)",
+      "cast": "오예린, 차가운, 이영은, 김현정, 박진현 등",
       "registeredAt": "2026-06-18",
       "ticketLinks": [
         {
@@ -2272,6 +2355,7 @@
       "price": "전석 154,000원",
       "timeInfo": "일요일(14:00,19:00)",
       "organizer": "위드어스엔터테인먼트",
+      "cast": "이회택",
       "registeredAt": "2026-06-11",
       "ticketLinks": [
         {
@@ -2297,6 +2381,7 @@
       "price": "전석 44,000원",
       "timeInfo": "월요일(20:00)",
       "organizer": "(주)엔터크라우드",
+      "cast": "심재현, 임재영, 정다운, 김성하, 오승규",
       "registeredAt": "2026-06-26",
       "ticketLinks": [
         {
@@ -2322,6 +2407,7 @@
       "price": "전석 20,000원",
       "timeInfo": "화요일(11:00)",
       "organizer": "",
+      "cast": "박완, 송낙현, 김경미 등",
       "registeredAt": "2026-03-16",
       "ticketLinks": [
         {
@@ -2353,6 +2439,7 @@
       "price": "전석 15,000원",
       "timeInfo": "수요일(14:00)",
       "organizer": "",
+      "cast": "전영랑, 고희안, 최진배, 한웅원, 노정진",
       "registeredAt": "2026-06-02",
       "ticketLinks": [
         {
@@ -2396,6 +2483,7 @@
       "price": "전석 10,000원",
       "timeInfo": "목요일(19:30)",
       "organizer": "경상북도, 경상북도",
+      "cast": "고영배",
       "registeredAt": "2026-06-24",
       "ticketLinks": [
         {
@@ -2427,6 +2515,7 @@
       "price": "전석 33,000원",
       "timeInfo": "목요일(20:00)",
       "organizer": "(주)엔터크라우드",
+      "cast": "윤혜정, 이근우, 최무근",
       "registeredAt": "2026-06-26",
       "ticketLinks": [
         {
@@ -2452,6 +2541,7 @@
       "price": "전석 10,000원",
       "timeInfo": "목요일(19:00)",
       "organizer": "",
+      "cast": "김도원, 리누스 샤스트리",
       "registeredAt": "2026-06-19",
       "ticketLinks": [
         {
@@ -2477,6 +2567,7 @@
       "price": "지정석 143,000원, 스탠딩석 132,000원",
       "timeInfo": "목요일(20:00)",
       "organizer": "(주)프라이빗커브",
+      "cast": "알레시아 카라",
       "registeredAt": "2026-04-22",
       "ticketLinks": [
         {
@@ -2502,6 +2593,7 @@
       "price": "R석 143,000원, S석 121,000원",
       "timeInfo": "목요일 ~ 금요일(19:30), 토요일(19:00)",
       "organizer": "(주)프라이빗커브",
+      "cast": "제임스 윌리엄 해처, 앤디 피터 클러터벅",
       "registeredAt": "2026-03-18",
       "ticketLinks": [
         {
@@ -2533,6 +2625,7 @@
       "price": "SOUND CHECK 220,000원, M & G 253,000원, GENERAL 165,000원",
       "timeInfo": "금요일(19:00), 토요일(18:00), 일요일(17:00)",
       "organizer": "(주)하이브",
+      "cast": "",
       "registeredAt": "2026-06-02",
       "ticketLinks": [
         {
@@ -2558,6 +2651,7 @@
       "price": "2-DAY PASS 154,000원, 입장티켓 77,000원",
       "timeInfo": "금요일(19:00), 토요일(19:00)",
       "organizer": "제로투원",
+      "cast": "조현영, 박종수, 박채령, 김하온",
       "registeredAt": "2026-06-15",
       "ticketLinks": [
         {
@@ -2583,6 +2677,7 @@
       "price": "전석 99,000원",
       "timeInfo": "HOL(19:00)",
       "organizer": "(주) 알지비컴퍼니",
+      "cast": "제이콥 준영 배",
       "registeredAt": "2026-06-30",
       "ticketLinks": [
         {
@@ -2608,12 +2703,19 @@
       "price": "1일권 일반석(스탠딩석) 65,000원, 1일권 선베드석(1인) 75,000원, 1일권 데이베드석(4인) 320,000원, 1일권 풀베드석(4인) 320,000원, 1일권 VIP석(10인) 800,000원, 1일권 셔틀버스 10,000원, 2일권 일반석(스탠딩석) 120,000원, 2일권 선베드석(1인) 120,000원, 2일권 데이베드석(4인) 500,000원, 2일권 풀베드석(4인) 500,000원, 2일권 VIP석(10인) 1,200,000원",
       "timeInfo": "금요일(19:30), 토요일(19:30)",
       "organizer": "(주)코코밈",
+      "cast": "박명수, 홍록기, 이하늘, 정재용, 김성수, 이성욱 등",
       "registeredAt": "2026-06-11",
       "ticketLinks": [
         {
           "vendor": "NOL티켓",
           "color": "#7B2FF2",
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26008393",
+          "linkType": "direct"
+        },
+        {
+          "vendor": "YES24",
+          "color": "#003399",
+          "url": "https://ticket.yes24.com/Perf/59195",
           "linkType": "direct"
         },
         {
@@ -2639,6 +2741,7 @@
       "price": "스탠딩 88,000원",
       "timeInfo": "금요일(19:00)",
       "organizer": "(주)러브칩스인터내셔널(LOVE CHIPS INTERNATIONAL INC.), (주)러브칩스인터내셔널(LOVE CHIPS INTERNATIONAL INC.)",
+      "cast": "",
       "registeredAt": "2026-06-08",
       "ticketLinks": [
         {
@@ -2664,6 +2767,7 @@
       "price": "전석 80,000원",
       "timeInfo": "HOL(18:00)",
       "organizer": "(주)골드링즈엔터테인먼트(GLDRINGZ Ent.)",
+      "cast": "",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -2689,6 +2793,7 @@
       "price": "전석 77,000원",
       "timeInfo": "금요일(18:00)",
       "organizer": "(주) 에이피에프컴퍼니(APF COMPANY)",
+      "cast": "",
       "registeredAt": "2026-06-18",
       "ticketLinks": [
         {
@@ -2714,6 +2819,7 @@
       "price": "VIP석 198,000원, 일반석 165,000원",
       "timeInfo": "금요일(18:00), 토요일(18:00), 일요일(16:00)",
       "organizer": "(주)쇼노트, (주)에스엠엔터테인먼트 (SM ENTERTAINMENT)",
+      "cast": "정윤호",
       "registeredAt": "2026-05-07",
       "ticketLinks": [
         {
@@ -2739,6 +2845,7 @@
       "price": "전석무료",
       "timeInfo": "금요일(17:00)",
       "organizer": "",
+      "cast": "구제창, 단예",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -2764,6 +2871,7 @@
       "price": "R석 77,000원, S석 66,000원, A석 55,000원",
       "timeInfo": "금요일(19:00)",
       "organizer": "(주)에프엑스솔루션, (주)좋은콘서트, 굿초이스",
+      "cast": "김장훈",
       "registeredAt": "2026-06-12",
       "ticketLinks": [
         {
@@ -2807,6 +2915,7 @@
       "price": "R석 165,000원, S석 143,000원",
       "timeInfo": "금요일(17:00), 토요일(17:00)",
       "organizer": "(주)드림어스컴퍼니, (주)미스틱스토리, (주)월드쇼마켓",
+      "cast": "손태진",
       "registeredAt": "2026-06-11",
       "ticketLinks": [
         {
@@ -2856,6 +2965,7 @@
       "price": "스탠딩SR  185,000원, 스탠딩R  175,000원, 지정석  185,000원",
       "timeInfo": "금요일(18:00), 토요일(18:00)",
       "organizer": "피네이션(주)",
+      "cast": "박재상",
       "registeredAt": "2026-06-08",
       "ticketLinks": [
         {
@@ -2881,6 +2991,7 @@
       "price": "전석 77,000원",
       "timeInfo": "금요일(20:00), 토요일(18:00), 일요일(17:00)",
       "organizer": "",
+      "cast": "백가영",
       "registeredAt": "2026-06-22",
       "ticketLinks": [
         {
@@ -2906,6 +3017,7 @@
       "price": "전석 55,000원",
       "timeInfo": "금요일(19:30), 토요일(19:30), 일요일(15:00)",
       "organizer": "(재)세종문화회관",
+      "cast": "황동규, 설빈, 장보석, 김한결, 박원형",
       "registeredAt": "2026-04-29",
       "ticketLinks": [
         {
@@ -2931,6 +3043,7 @@
       "price": "전석 88,000원",
       "timeInfo": "금요일(18:00)",
       "organizer": "폰드메이커스",
+      "cast": "조혜리",
       "registeredAt": "2026-06-18",
       "ticketLinks": [
         {
@@ -2956,6 +3069,7 @@
       "price": "스탠딩 30,000원",
       "timeInfo": "금요일(19:00)",
       "organizer": "MUNV(뮤니브)",
+      "cast": "",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -2981,6 +3095,7 @@
       "price": "전석 30,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "콘서트홀 나누",
+      "cast": "김한얼",
       "registeredAt": "2026-06-30",
       "ticketLinks": [
         {
@@ -3006,6 +3121,7 @@
       "price": "전석 110,000원",
       "timeInfo": "토요일(14:00,19:00), 일요일(16:00)",
       "organizer": "(주)티엠이그룹(TME Group) (구. 하이그라운드)",
+      "cast": "윤예찬, 조성일, 남성모, 황성빈, 박석준, 김도균",
       "registeredAt": "2026-06-10",
       "ticketLinks": [
         {
@@ -3031,6 +3147,7 @@
       "price": "전석 143,000원",
       "timeInfo": "토요일(18:00), 일요일(17:00)",
       "organizer": "(주)하이브",
+      "cast": "박우주, 조우범, 김주훈, 엄성현, 안건호",
       "registeredAt": "2026-06-16",
       "ticketLinks": [
         {
@@ -3056,6 +3173,7 @@
       "price": "전석 143,000원",
       "timeInfo": "토요일 ~ 일요일(17:00)",
       "organizer": "(주) 에버라인 (Everline)",
+      "cast": "",
       "registeredAt": "2026-06-18",
       "ticketLinks": [
         {
@@ -3081,6 +3199,7 @@
       "price": "슈퍼얼리버드 15,000원",
       "timeInfo": "토요일(18:30)",
       "organizer": "",
+      "cast": "",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -3106,6 +3225,7 @@
       "price": "전석 143,000원",
       "timeInfo": "토요일(18:00), 일요일(17:00)",
       "organizer": "(주)씨나인이엔티",
+      "cast": "",
       "registeredAt": "2026-06-17",
       "ticketLinks": [
         {
@@ -3131,6 +3251,7 @@
       "price": "전석 154,000원",
       "timeInfo": "토요일(18:00), 일요일(17:00)",
       "organizer": "(주) 빌리언스, (주)고엔터테인먼트, (주)대박기획",
+      "cast": "김성규",
       "registeredAt": "2026-06-23",
       "ticketLinks": [
         {
@@ -3156,6 +3277,7 @@
       "price": "얼리버드 티켓 10,000원, 사전예약 20,000원, 현장판매 30,000원",
       "timeInfo": "토요일(20:00)",
       "organizer": "그랜드 하얏트 서울(GRAND HYATT HOTEL SEOUL)",
+      "cast": "",
       "registeredAt": "2026-07-01",
       "ticketLinks": [
         {
@@ -3187,6 +3309,7 @@
       "price": "전석 66,000원",
       "timeInfo": "토요일(18:00), 일요일(17:00)",
       "organizer": "(주)안테나",
+      "cast": "신재평, 이장원",
       "registeredAt": "2026-05-07",
       "ticketLinks": [
         {
@@ -3212,6 +3335,7 @@
       "price": "전석 99,000원",
       "timeInfo": "토요일 ~ 일요일(18:00)",
       "organizer": "",
+      "cast": "",
       "registeredAt": "2026-05-04",
       "ticketLinks": [
         {
@@ -3237,6 +3361,7 @@
       "price": "얼리버드 양일권  139,000원, 양일권  165,000원, 일일권  121,000원",
       "timeInfo": "토요일 ~ 일요일(12:00)",
       "organizer": "(주)에스에이커뮤니케이션, (주)포스필드",
+      "cast": "",
       "registeredAt": "2026-04-27",
       "ticketLinks": [
         {
@@ -3286,6 +3411,7 @@
       "price": "일반예매(1일권) 49,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "SS:umic (쑤믹)",
+      "cast": "안상준, 이영우, 김종국, 이형진, 오민우, 오민영, 박제신 등",
       "registeredAt": "2026-06-04",
       "ticketLinks": [
         {
@@ -3311,6 +3437,7 @@
       "price": "R석 143,000원, S석 121,000원",
       "timeInfo": "토요일(18:00), 일요일(17:00)",
       "organizer": "에이치알씨 이엔티(HRC ENT)",
+      "cast": "홍이삭, 신예찬, 신광일, 최상엽, 조원상",
       "registeredAt": "2026-06-02",
       "ticketLinks": [
         {
@@ -3336,6 +3463,7 @@
       "price": "VIP석 165,000원, R석 154,000원, S석 143,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "",
+      "cast": "이재훈",
       "registeredAt": "2026-05-26",
       "ticketLinks": [
         {
@@ -3367,6 +3495,7 @@
       "price": "전석 55,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "톤엔터",
+      "cast": "",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -3392,6 +3521,7 @@
       "price": "VIP 스탠딩석 176,000원, 스탠딩석 154,000원, 지정석 132,000원",
       "timeInfo": "토요일(18:00), 일요일(17:00)",
       "organizer": "(주)엠에이엔터테인먼트",
+      "cast": "",
       "registeredAt": "2026-06-22",
       "ticketLinks": [
         {
@@ -3417,6 +3547,7 @@
       "price": "전석 66,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "해서웨이유니버스(Hathaw9yUniverse)",
+      "cast": "",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -3442,6 +3573,7 @@
       "price": "전석 29,000원",
       "timeInfo": "토요일(18:10)",
       "organizer": "",
+      "cast": "",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -3467,6 +3599,7 @@
       "price": "전석 138,000원",
       "timeInfo": "토요일 ~ 일요일(18:00)",
       "organizer": "LIVET(리벳)",
+      "cast": "",
       "registeredAt": "2026-04-20",
       "ticketLinks": [
         {
@@ -3492,6 +3625,7 @@
       "price": "R석 110,000원, S석 99,000원, A석 77,000원",
       "timeInfo": "토요일(15:00,18:30)",
       "organizer": "(주)좋은콘서트, (주)프로덕션이황",
+      "cast": "김경호",
       "registeredAt": "2026-06-12",
       "ticketLinks": [
         {
@@ -3535,6 +3669,7 @@
       "price": "전석 99,000원",
       "timeInfo": "토요일(18:00), 일요일(17:00)",
       "organizer": "KT&G 상상마당",
+      "cast": "황윤권",
       "registeredAt": "2026-06-17",
       "ticketLinks": [
         {
@@ -3560,6 +3695,7 @@
       "price": "VIP석 143,000원, R석 121,000원, S석 110,000원, A석 99,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "김남진",
       "registeredAt": "2026-05-12",
       "ticketLinks": [
         {
@@ -3597,6 +3733,7 @@
       "price": "R석 154,000원, S석 143,000원, A석 121,000원",
       "timeInfo": "토요일(13:00,18:00)",
       "organizer": "(주)콘서트가든",
+      "cast": "김성리, 이찬호, 장한별, 황윤성, 정연호, 이창민, 이루네 등",
       "registeredAt": "2026-05-15",
       "ticketLinks": [
         {
@@ -3622,6 +3759,7 @@
       "price": "SR석 154,000원, R석 143,000원, S석 132,000원",
       "timeInfo": "토요일(13:00,18:00)",
       "organizer": "(주)쇼당이엔티, (주)쇼당이엔티, 팬라이트(FANLIGHT)",
+      "cast": "이소나, 허찬미, 홍성윤, 길려원, 윤태화, 윤윤서, 염유리",
       "registeredAt": "2026-03-20",
       "ticketLinks": [
         {
@@ -3647,6 +3785,7 @@
       "price": "사전예약 50,000원, 현장판매 55,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "",
+      "cast": "",
       "registeredAt": "2026-06-15",
       "ticketLinks": [
         {
@@ -3672,6 +3811,7 @@
       "price": "VIP석 165,000원, R석 143,000원, S석 121,000원",
       "timeInfo": "토요일(17:00), 일요일(16:00)",
       "organizer": "(주) 쇼7",
+      "cast": "박지현",
       "registeredAt": "2026-04-16",
       "ticketLinks": [
         {
@@ -3709,6 +3849,7 @@
       "price": "스탠딩 77,000원",
       "timeInfo": "토요일(19:30)",
       "organizer": "당신의 여름(유어썸머)",
+      "cast": "",
       "registeredAt": "2026-06-22",
       "ticketLinks": [
         {
@@ -3740,6 +3881,7 @@
       "price": "현장판매 77,000원, 사전예약 66,000원",
       "timeInfo": "토요일(16:30)",
       "organizer": "",
+      "cast": "김도수, 이희두, 김완규, 우종선, 김재하, 노육용, 이성수 등",
       "registeredAt": "2026-06-10",
       "ticketLinks": [
         {
@@ -3765,6 +3907,7 @@
       "price": "전석 66,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "코뮤(COMU)",
+      "cast": "손하은",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -3790,6 +3933,7 @@
       "price": "현장판매 50,000원, 사전예약 44,000원",
       "timeInfo": "토요일(15:00,19:00)",
       "organizer": "",
+      "cast": "송유찬, 정지섭, 박준영, 정지섭 등",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -3815,6 +3959,7 @@
       "price": "전석 119,000원",
       "timeInfo": "토요일(19:00), 일요일(17:00)",
       "organizer": "(주)모펀",
+      "cast": "",
       "registeredAt": "2026-05-28",
       "ticketLinks": [
         {
@@ -3840,6 +3985,7 @@
       "price": "전석 77,000원",
       "timeInfo": "토요일(14:00,18:00)",
       "organizer": "인 메이트",
+      "cast": "신동곤",
       "registeredAt": "2026-06-19",
       "ticketLinks": [
         {
@@ -3865,6 +4011,7 @@
       "price": "전석 77,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "장태웅, 곽지현, 류지호",
       "registeredAt": "2026-06-30",
       "ticketLinks": [
         {
@@ -3896,6 +4043,7 @@
       "price": "FS석 198,000원, VIP석 187,000원",
       "timeInfo": "토요일(16:00)",
       "organizer": "(주)타입커뮤니케이션",
+      "cast": "이승철",
       "registeredAt": "2026-05-11",
       "ticketLinks": [
         {
@@ -3927,6 +4075,7 @@
       "price": "전석 66,000원",
       "timeInfo": "토요일(18:00), 일요일(17:00)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "장경민",
       "registeredAt": "2026-06-23",
       "ticketLinks": [
         {
@@ -3952,6 +4101,7 @@
       "price": "전석 66,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "KT&G 상상마당 [부산]",
+      "cast": "",
       "registeredAt": "2026-06-05",
       "ticketLinks": [
         {
@@ -3977,6 +4127,7 @@
       "price": "전석 44,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "말이 되는 프로젝트",
+      "cast": "",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -4002,6 +4153,7 @@
       "price": "전석 77,000원",
       "timeInfo": "토요일(17:00), 일요일(16:00)",
       "organizer": "(주)준토스",
+      "cast": "성용욱",
       "registeredAt": "2026-05-18",
       "ticketLinks": [
         {
@@ -4027,6 +4179,7 @@
       "price": "R석 115,000원, S석 105,000원, A석 95,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "디아트랩(주)",
+      "cast": "최정철",
       "registeredAt": "2026-06-02",
       "ticketLinks": [
         {
@@ -4052,6 +4205,7 @@
       "price": "VIP석 154,000원, R석 143,000원",
       "timeInfo": "토요일(13:00,18:00)",
       "organizer": "(주)로드쇼엔터테인먼트, (주)로드쇼엔터테인먼트, (주)쇼플레이",
+      "cast": "홍지윤, 이수연, 구수경, 강혜연, 김태연, 빈예서, 허솔지",
       "registeredAt": "2026-05-28",
       "ticketLinks": [
         {
@@ -4077,6 +4231,7 @@
       "price": "전석 88,000원",
       "timeInfo": "토요일(15:00,19:00)",
       "organizer": "청춘 그리다 (dy music), 청춘 그리다 (dy music)",
+      "cast": "홍대광",
       "registeredAt": "2026-06-23",
       "ticketLinks": [
         {
@@ -4102,6 +4257,7 @@
       "price": "전석 66,000원",
       "timeInfo": "일요일(19:00)",
       "organizer": "(주)이릴레반트",
+      "cast": "",
       "registeredAt": "2026-04-27",
       "ticketLinks": [
         {
@@ -4127,6 +4283,7 @@
       "price": "스탠딩 44,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "(주)러브칩스인터내셔널(LOVE CHIPS INTERNATIONAL INC.)",
+      "cast": "",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -4152,6 +4309,7 @@
       "price": "전석 25,000원",
       "timeInfo": "일요일(16:00)",
       "organizer": "음악의집",
+      "cast": "이루리, 노진아, 임민재, 한지헌, 정현",
       "registeredAt": "2026-06-24",
       "ticketLinks": [
         {
@@ -4177,6 +4335,7 @@
       "price": "R석 132,000원, S석 110,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "김남진",
       "registeredAt": "2026-05-29",
       "ticketLinks": [
         {
@@ -4214,6 +4373,7 @@
       "price": "VIP석 132,000원, R석 110,000원, S석 99,000원, A석 77,000원",
       "timeInfo": "일요일(18:00)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "변진섭",
       "registeredAt": "2026-05-28",
       "ticketLinks": [
         {
@@ -4257,6 +4417,7 @@
       "price": "현장판매 40,000원, 사전예약 38,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "숲세권 라이브",
+      "cast": "최광렬",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -4282,6 +4443,7 @@
       "price": "전석 35,000원",
       "timeInfo": "일요일(15:00)",
       "organizer": "",
+      "cast": "김백찬, 유철상, 김세형, 김민호, 박범태",
       "registeredAt": "2026-05-13",
       "ticketLinks": [
         {
@@ -4313,6 +4475,7 @@
       "price": "전석 55,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "앳시콜렉티브 (atsea)",
+      "cast": "",
       "registeredAt": "2026-06-05",
       "ticketLinks": [
         {
@@ -4338,6 +4501,7 @@
       "price": "전석 99,000원",
       "timeInfo": "일요일(16:00)",
       "organizer": "인 메이트",
+      "cast": "전종혁, 이상훈, 이유민",
       "registeredAt": "2026-06-22",
       "ticketLinks": [
         {
@@ -4363,6 +4527,7 @@
       "price": "스탠딩 38,000원",
       "timeInfo": "일요일(16:00)",
       "organizer": "(사) 코드(우무지)",
+      "cast": "",
       "registeredAt": "2026-06-22",
       "ticketLinks": [
         {
@@ -4388,6 +4553,7 @@
       "price": "스탠딩 139,000원",
       "timeInfo": "월요일(20:00)",
       "organizer": "(주)위얼라이브",
+      "cast": "",
       "registeredAt": "2026-02-24",
       "ticketLinks": [
         {
@@ -4413,6 +4579,7 @@
       "price": "전석 55,000원",
       "timeInfo": "월요일(20:00)",
       "organizer": "(주)엔터크라우드",
+      "cast": "천진우",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -4438,6 +4605,7 @@
       "price": "전석 44,000원",
       "timeInfo": "화요일(20:00)",
       "organizer": "(주)엔터크라우드",
+      "cast": "",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -4463,6 +4631,7 @@
       "price": "전석 44,000원",
       "timeInfo": "화요일(20:00)",
       "organizer": "감칠 스튜디오",
+      "cast": "",
       "registeredAt": "2026-06-24",
       "ticketLinks": [
         {
@@ -4488,6 +4657,7 @@
       "price": "전석 35,000원",
       "timeInfo": "수요일 ~ 목요일(19:30)",
       "organizer": "",
+      "cast": "김수인, 이의호, 차이삭, 백진희",
       "registeredAt": "2026-05-13",
       "ticketLinks": [
         {
@@ -4519,6 +4689,7 @@
       "price": "전석 44,000원",
       "timeInfo": "목요일(19:30)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "박찬민",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -4544,6 +4715,7 @@
       "price": "스탠딩 29,000원",
       "timeInfo": "목요일(20:00)",
       "organizer": "29CM CULTURE",
+      "cast": "주혜린, 박수민",
       "registeredAt": "2026-06-19",
       "ticketLinks": [
         {
@@ -4569,6 +4741,7 @@
       "price": "전석 44,000원",
       "timeInfo": "목요일(20:00)",
       "organizer": "",
+      "cast": "",
       "registeredAt": "2026-06-08",
       "ticketLinks": [
         {
@@ -4594,6 +4767,7 @@
       "price": "전석 55,000원",
       "timeInfo": "목요일(20:00)",
       "organizer": "(주)엔터크라우드",
+      "cast": "김슬기",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -4619,6 +4793,7 @@
       "price": "전석 10,000원",
       "timeInfo": "목요일(19:00)",
       "organizer": "(재)강남문화재단, 이지연 컨템포러리 재즈 오케스트라",
+      "cast": "이지연, 윤혜진, 이동욱, 유명한, 이경구, 정재동, 김동기 등",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -4644,6 +4819,7 @@
       "price": "스탠딩(사전예매) 44,000원, 스탠딩(현장판매) 55,000원",
       "timeInfo": "금요일(18:30)",
       "organizer": "(주)더스타파트너",
+      "cast": "",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -4669,6 +4845,7 @@
       "price": "전석 44,000원",
       "timeInfo": "금요일(20:00)",
       "organizer": "",
+      "cast": "김일두, 최윤성, 이형주, 전유동",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -4694,6 +4871,7 @@
       "price": "1983석 154,000원, 일반석 132,000원",
       "timeInfo": "금요일(20:00), 토요일(18:00), 일요일(17:00)",
       "organizer": "(주)쇼노트, (주)에스엠엔터테인먼트 (SM ENTERTAINMENT)",
+      "cast": "",
       "registeredAt": "2026-04-28",
       "ticketLinks": [
         {
@@ -4719,6 +4897,7 @@
       "price": "전석 99,000원",
       "timeInfo": "금요일(20:00)",
       "organizer": "PLE.",
+      "cast": "소피아 이셀라 미란다",
       "registeredAt": "2026-04-06",
       "ticketLinks": [
         {
@@ -4744,6 +4923,7 @@
       "price": "현장판매 35,000원, 사전예약 30,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "(사) 코드(우무지)",
+      "cast": "이종률, 정서경, 강지혜, 김지예, 이인정, 박찬형, 박규호 등",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -4769,6 +4949,7 @@
       "price": "스탠딩 33,000원",
       "timeInfo": "금요일(20:00)",
       "organizer": "오모오페 사운드",
+      "cast": "",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -4794,6 +4975,7 @@
       "price": "전석 15,000원",
       "timeInfo": "금요일 ~ 토요일(11:11)",
       "organizer": "(재)성북문화재단",
+      "cast": "정우철, 김주헌, 송미호, 김종현, 유호정 등",
       "registeredAt": "2026-06-22",
       "ticketLinks": [
         {
@@ -4819,6 +5001,7 @@
       "price": "전석 55,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "(주)스튜디오브로콜리",
+      "cast": "윤덕원, 류지현, 김잔디, 문동혁",
       "registeredAt": "2026-06-09",
       "ticketLinks": [
         {
@@ -4844,6 +5027,7 @@
       "price": "전석 45,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "(재)영등포문화재단",
+      "cast": "이동민, 김지민",
       "registeredAt": "2026-04-28",
       "ticketLinks": [
         {
@@ -4869,6 +5053,7 @@
       "price": "전석 30,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "(재)인천광역시 부평구문화재단(부평아트센터)",
+      "cast": "하범석, 강전호, 황상진, 유병현, 류경선, 정환규, 서민광 등",
       "registeredAt": "2026-06-30",
       "ticketLinks": [
         {
@@ -4894,6 +5079,7 @@
       "price": "1-DAY 티켓 165,000원",
       "timeInfo": "금요일(13:00), 토요일 ~ 일요일(13:00)",
       "organizer": "주식회사 메이드온(MADEONE)",
+      "cast": "",
       "registeredAt": "2026-02-09",
       "ticketLinks": [
         {
@@ -4949,6 +5135,7 @@
       "price": "전석 77,000원",
       "timeInfo": "금요일(20:00), 토요일(18:00)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "유승우",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -4974,6 +5161,7 @@
       "price": "전석 20,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "",
+      "cast": "정윤지, 신은섭, 김소연, 김재현, 서진교, 전은총, 손주영",
       "registeredAt": "2026-05-20",
       "ticketLinks": [
         {
@@ -4999,6 +5187,7 @@
       "price": "전석 66,000원",
       "timeInfo": "금요일(21:00)",
       "organizer": "Laaf (라프)",
+      "cast": "켈리 리 오웬스 등",
       "registeredAt": "2026-06-12",
       "ticketLinks": [
         {
@@ -5024,6 +5213,7 @@
       "price": "스탠딩 121,000원",
       "timeInfo": "금요일(20:00)",
       "organizer": "(주)프라이빗커브, 파운데이션",
+      "cast": "",
       "registeredAt": "2026-04-20",
       "ticketLinks": [
         {
@@ -5049,6 +5239,7 @@
       "price": "전석 20,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "공연예술기획 에이치아츠(H-Arts)",
+      "cast": "황찰리, 이시카와 타케시, 장세연, 박주민, 심규성, 이성우",
       "registeredAt": "2026-04-17",
       "ticketLinks": [
         {
@@ -5086,6 +5277,7 @@
       "price": "스탠딩석  66,000원",
       "timeInfo": "토요일(18:30)",
       "organizer": "앰비션뮤직",
+      "cast": "이상용",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -5111,6 +5303,7 @@
       "price": "VIP석 143,000원, R석 110,000원, S석 99,000원",
       "timeInfo": "토요일 ~ 일요일(18:00)",
       "organizer": "LIVET(리벳)",
+      "cast": "후루사와 리사, 사노 아이카, 이타쿠라 카나, 마스다 아야노, 가와모토 에미루, 우메다 미유, 마나베 나기사 등",
       "registeredAt": "2026-04-07",
       "ticketLinks": [
         {
@@ -5136,6 +5329,7 @@
       "price": "전석 99,000원",
       "timeInfo": "토요일(18:00), 일요일(16:00)",
       "organizer": "(주)드림어스컴퍼니",
+      "cast": "김선일, 이원석, 김장원, 정유종",
       "registeredAt": "2026-06-24",
       "ticketLinks": [
         {
@@ -5161,6 +5355,7 @@
       "price": "전석 55,000원",
       "timeInfo": "토요일 ~ 일요일(17:00)",
       "organizer": "",
+      "cast": "",
       "registeredAt": "2026-06-12",
       "ticketLinks": [
         {
@@ -5186,6 +5381,7 @@
       "price": "전석 132,000원",
       "timeInfo": "토요일(18:00), 일요일(16:00)",
       "organizer": "(주)비유티컴",
+      "cast": "김명수",
       "registeredAt": "2026-06-25",
       "ticketLinks": [
         {
@@ -5211,6 +5407,7 @@
       "price": "전석 66,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)안테나",
+      "cast": "신재평, 이장원",
       "registeredAt": "2026-05-08",
       "ticketLinks": [
         {
@@ -5236,6 +5433,7 @@
       "price": "전석 154,000원",
       "timeInfo": "수요일(19:00), 토요일(18:00), 일요일(17:00)",
       "organizer": "(주)제이와이피엔터테인먼트(JYP Entertainment)",
+      "cast": "",
       "registeredAt": "2026-06-30",
       "ticketLinks": [
         {
@@ -5261,6 +5459,7 @@
       "price": "전석 33,000원",
       "timeInfo": "토요일(15:00)",
       "organizer": "톤엔터",
+      "cast": "",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -5286,6 +5485,7 @@
       "price": "전석 99,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)라이브유니크 (LIVE UNIQUE Co., Ltd.)",
+      "cast": "",
       "registeredAt": "2026-06-10",
       "ticketLinks": [
         {
@@ -5311,6 +5511,7 @@
       "price": "전석 55,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "해서웨이유니버스(Hathaw9yUniverse)",
+      "cast": "",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -5336,6 +5537,7 @@
       "price": "전석 88,000원",
       "timeInfo": "토요일(15:00,19:00)",
       "organizer": "(주)ATCM, 청춘 그리다 (dy music)",
+      "cast": "서석우",
       "registeredAt": "2026-06-23",
       "ticketLinks": [
         {
@@ -5361,6 +5563,7 @@
       "price": "전석 143,000원",
       "timeInfo": "토요일(18:00), 일요일(17:00)",
       "organizer": "(주)브이엘엔터테인먼트",
+      "cast": "김중연",
       "registeredAt": "2026-06-26",
       "ticketLinks": [
         {
@@ -5386,6 +5589,7 @@
       "price": "스탠딩 77,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "당신의 여름(유어썸머)",
+      "cast": "",
       "registeredAt": "2026-07-01",
       "ticketLinks": [
         {
@@ -5411,6 +5615,7 @@
       "price": "R석 110,000원, S석 99,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "(주)먼데이키즈 컴퍼니",
+      "cast": "",
       "registeredAt": "2026-06-26",
       "ticketLinks": [
         {
@@ -5442,6 +5647,7 @@
       "price": "R석 154,000원, S석 143,000원",
       "timeInfo": "토요일(13:00,18:00), 일요일(13:00)",
       "organizer": "(주)콘서트가든",
+      "cast": "김성리, 이찬호, 장한별, 황윤성, 정연호, 이창민, 이루네 등",
       "registeredAt": "2026-06-04",
       "ticketLinks": [
         {
@@ -5467,6 +5673,7 @@
       "price": "SR석 154,000원, R석 143,000원",
       "timeInfo": "토요일(13:00,18:00)",
       "organizer": "(주)쇼당이엔티, (주)쇼당이엔티, 팬라이트(FANLIGHT)",
+      "cast": "이소나, 허찬미, 홍성윤, 길려원, 윤태화, 윤윤서, 염유리",
       "registeredAt": "2026-03-30",
       "ticketLinks": [
         {
@@ -5492,6 +5699,7 @@
       "price": "전석 66,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "(주)롤링컬쳐원, 롤링홀",
+      "cast": "박은빈",
       "registeredAt": "2026-06-26",
       "ticketLinks": [
         {
@@ -5517,6 +5725,7 @@
       "price": "전석 1,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "",
+      "cast": "조수연, 김동균, 강민구, 류영근 등",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -5542,6 +5751,7 @@
       "price": "R석 143,000원, S석 132,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "빅쇼이엔엠",
+      "cast": "김재환 등",
       "registeredAt": "2026-06-12",
       "ticketLinks": [
         {
@@ -5573,6 +5783,7 @@
       "price": "스탠딩SR  185,000원, 스탠딩R  175,000원, 지정석SR  185,000원, 지정석R  175,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "피네이션(주)",
+      "cast": "박재상",
       "registeredAt": "2026-06-08",
       "ticketLinks": [
         {
@@ -5598,6 +5809,7 @@
       "price": "전석 77,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "장태웅, 곽지현, 류지호",
       "registeredAt": "2026-06-30",
       "ticketLinks": [
         {
@@ -5623,6 +5835,7 @@
       "price": "R석 154,000원, S석 132,000원, A석 110,000원",
       "timeInfo": "토요일(16:00)",
       "organizer": "(주)다날스테이지, (주)월간윤종신, 뉴에라프로젝트, 라이브아트(유), 하이퍼어스 주식회사",
+      "cast": "윤종신",
       "registeredAt": "2026-06-01",
       "ticketLinks": [
         {
@@ -5660,6 +5873,7 @@
       "price": "FS석(FLYING SOUND SYSTEM SEAT)  198,000원, VIP석 187,000원",
       "timeInfo": "토요일(16:00)",
       "organizer": "(주)타입커뮤니케이션",
+      "cast": "이승철",
       "registeredAt": "2026-05-11",
       "ticketLinks": [
         {
@@ -5691,6 +5905,7 @@
       "price": "VIP석 110,000원, 일반석 77,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "(주)락킨코리아",
+      "cast": "이재용, 김정모",
       "registeredAt": "2026-06-25",
       "ticketLinks": [
         {
@@ -5716,6 +5931,7 @@
       "price": "전석 44,000원",
       "timeInfo": "토요일 ~ 일요일(18:00)",
       "organizer": "롤링홀",
+      "cast": "",
       "registeredAt": "2026-06-25",
       "ticketLinks": [
         {
@@ -5741,6 +5957,7 @@
       "price": "VIP석 132,000원, R석 121,000원, S석 99,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "홍원표",
       "registeredAt": "2026-06-12",
       "ticketLinks": [
         {
@@ -5778,6 +5995,7 @@
       "price": "전석 20,000원",
       "timeInfo": "토요일(14:30)",
       "organizer": "박혜원 재즈 앙상블 (Hyewon Park Jazz Ensemble)",
+      "cast": "신해랑, 김태국, 박준서, 김기범, 민홍기, 정재환, 김보민",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -5803,6 +6021,7 @@
       "price": "R석 154,000원, S석 132,000원, 시청각제한석  110,000원",
       "timeInfo": "토요일 ~ 일요일(18:00)",
       "organizer": "(주)스프링이엔티",
+      "cast": "고우림, 조민규, 강형호, 배두훈",
       "registeredAt": "2026-06-19",
       "ticketLinks": [
         {
@@ -5834,6 +6053,7 @@
       "price": "VIP석 154,000원, R석 143,000원",
       "timeInfo": "토요일(13:00,18:00)",
       "organizer": "(주)로드쇼엔터테인먼트, (주)로드쇼엔터테인먼트, (주)쇼플레이",
+      "cast": "홍지윤, 이수연, 구수경, 강혜연, 김태연, 허솔지, 빈예서",
       "registeredAt": "2026-05-28",
       "ticketLinks": [
         {
@@ -5865,6 +6085,7 @@
       "price": "스탠딩  55,000원",
       "timeInfo": "일요일(18:00)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "홍다혜, 이회원, 박진규",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -5890,6 +6111,7 @@
       "price": "스탠딩 66,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "(주)안테나",
+      "cast": "",
       "registeredAt": "2026-05-08",
       "ticketLinks": [
         {
@@ -5915,6 +6137,7 @@
       "price": "VIP석 132,000원, R석 110,000원, S석 88,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "심민경",
       "registeredAt": "2026-06-04",
       "ticketLinks": [
         {
@@ -5958,6 +6181,7 @@
       "price": "전석 66,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "닙아카이브(nib.archive)",
+      "cast": "",
       "registeredAt": "2026-06-26",
       "ticketLinks": [
         {
@@ -5983,6 +6207,7 @@
       "price": "전석 66,000원",
       "timeInfo": "일요일(14:00)",
       "organizer": "롤링홀",
+      "cast": "",
       "registeredAt": "2026-06-24",
       "ticketLinks": [
         {
@@ -6008,6 +6233,7 @@
       "price": "전석 77,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "당신의 여름(유어썸머)",
+      "cast": "신연태, 박재현, 서영주, 최승원",
       "registeredAt": "2026-07-01",
       "ticketLinks": [
         {
@@ -6033,6 +6259,7 @@
       "price": "전석 70,000원",
       "timeInfo": "일요일(16:00)",
       "organizer": "아트홀 베짱이",
+      "cast": "",
       "registeredAt": "2026-07-01",
       "ticketLinks": [
         {
@@ -6058,6 +6285,7 @@
       "price": "R석 110,000원",
       "timeInfo": "일요일(19:30)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "변진섭",
       "registeredAt": "2026-06-16",
       "ticketLinks": [
         {
@@ -6095,6 +6323,7 @@
       "price": "전석 77,000원",
       "timeInfo": "일요일(12:20,17:00)",
       "organizer": "OVAL SISTEM LIVE제작 위원회",
+      "cast": "스미다 아이코, 모치즈키 루카",
       "registeredAt": "2026-06-08",
       "ticketLinks": [
         {
@@ -6120,6 +6349,7 @@
       "price": "전석 20,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "",
+      "cast": "주기훈, 김정은, 은선",
       "registeredAt": "2026-06-05",
       "ticketLinks": [
         {
@@ -6145,6 +6375,7 @@
       "price": "전석 88,000원",
       "timeInfo": "일요일(18:00)",
       "organizer": "재즈브릿지컴퍼니",
+      "cast": "아이재아 제이 톰슨",
       "registeredAt": "2026-06-01",
       "ticketLinks": [
         {
@@ -6176,6 +6407,7 @@
       "price": "전석 66,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "폰드메이커스",
+      "cast": "신성규, 소순우, 최훈, 김예현, 김명수",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -6201,6 +6433,7 @@
       "price": "전석 121,000원",
       "timeInfo": "일요일(14:00)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "박노희",
       "registeredAt": "2026-06-12",
       "ticketLinks": [
         {
@@ -6238,6 +6471,7 @@
       "price": "전석 132,000원",
       "timeInfo": "일요일(16:00)",
       "organizer": "(주) 위즈온센(WYS EN SCÈNE), (주)파인컴퍼니",
+      "cast": "정재환",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -6269,6 +6503,7 @@
       "price": "스탠딩 110,000원, 지정석 110,000원",
       "timeInfo": "화요일(20:00)",
       "organizer": "HIGHJINKX(하이징크스)",
+      "cast": "",
       "registeredAt": "2026-04-08",
       "ticketLinks": [
         {
@@ -6294,6 +6529,7 @@
       "price": "VIP석 150,000원, 일반석  98,000원",
       "timeInfo": "화요일(14:00,18:30)",
       "organizer": "(주)PIA LIVE CREATIVE",
+      "cast": "",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -6319,6 +6555,7 @@
       "price": "전석 20,000원",
       "timeInfo": "화요일(20:00)",
       "organizer": "(주)그루브뮤직",
+      "cast": "피오트르 주벡, 야네크 펜츠",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -6344,6 +6581,7 @@
       "price": "전석 150,000원",
       "timeInfo": "화요일(11:30)",
       "organizer": "라움아트센터(소셜베뉴 라움)",
+      "cast": "김주환, 강재훈, 박진교, 김성화, 홍태훈",
       "registeredAt": "2026-06-30",
       "ticketLinks": [
         {
@@ -6375,6 +6613,7 @@
       "price": "전석 88,000원",
       "timeInfo": "화요일(20:00)",
       "organizer": "",
+      "cast": "조지 웨이드 그립",
       "registeredAt": "2026-05-14",
       "ticketLinks": [
         {
@@ -6400,6 +6639,7 @@
       "price": "전석 5,000원",
       "timeInfo": "수요일(19:30)",
       "organizer": "안동문화예술의전당",
+      "cast": "박병재, 전창민, 강재훈, 김성화 등",
       "registeredAt": "2026-04-27",
       "ticketLinks": [
         {
@@ -6431,6 +6671,7 @@
       "price": "R석 40,000원, S석 30,000원",
       "timeInfo": "수요일(19:30)",
       "organizer": "(재)양천문화재단",
+      "cast": "강균성, 전우성, 이상곤, 나성호",
       "registeredAt": "2026-07-01",
       "ticketLinks": [
         {
@@ -6456,6 +6697,7 @@
       "price": "전석 10,000원",
       "timeInfo": "목요일(19:30)",
       "organizer": "(재)달서문화재단 (웃는얼굴아트센터, 달서아트센터)",
+      "cast": "김순영 등",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -6481,6 +6723,7 @@
       "price": "전석 20,000원",
       "timeInfo": "목요일(19:30)",
       "organizer": "연천군청",
+      "cast": "정화, 강한성, 이용석, 최성환, 최보미",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -6506,6 +6749,7 @@
       "price": "전석 30,000원",
       "timeInfo": "목요일(11:00)",
       "organizer": "",
+      "cast": "이성우, 황현성",
       "registeredAt": "2026-01-22",
       "ticketLinks": [
         {
@@ -6531,6 +6775,7 @@
       "price": "VIP석 165,000원, R석 154,000원, S석 143,000원",
       "timeInfo": "금요일(20:00), 토요일(18:00), 일요일(16:00)",
       "organizer": "(주)드림어스컴퍼니",
+      "cast": "공찬식, 이정환, 신동우",
       "registeredAt": "2026-06-30",
       "ticketLinks": [
         {
@@ -6556,6 +6801,7 @@
       "price": "전석 165,000원",
       "timeInfo": "금요일(19:00), 토요일(18:00), 일요일(17:00)",
       "organizer": "(주)월드쇼마켓",
+      "cast": "박성호, 이상혁, 명재현, 한동민, 김동현, 김운학",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -6581,6 +6827,7 @@
       "price": "전석 55,000원",
       "timeInfo": "금요일(20:00)",
       "organizer": "YHONG",
+      "cast": "김하진, 김윤아",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -6606,6 +6853,7 @@
       "price": "R석(1층)  55,000원, S석(2층)  44,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "(재) 군포문화재단, (주)콘텐츠컬쳐플레이스, HK 엔터프로",
+      "cast": "배영길, 박기영, 유준열, 박학기, 조용진, 박승화, 이세준 등",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -6631,6 +6879,7 @@
       "price": "R석 170,000원, S석 140,000원, A석 110,000원, B석 80,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "(주)라이브유니크 (LIVE UNIQUE Co., Ltd.)",
+      "cast": "마리아 슈나이더, 스티브 윌슨, 도니 맥카슬린, 리치 페리, 데이브 피에트로, 스캇 로빈슨, 마이크 로드리게스 등",
       "registeredAt": "2026-04-24",
       "ticketLinks": [
         {
@@ -6674,6 +6923,7 @@
       "price": "전석 35,000원",
       "timeInfo": "금요일(20:00)",
       "organizer": "",
+      "cast": "백승환",
       "registeredAt": "2026-06-30",
       "ticketLinks": [
         {
@@ -6699,6 +6949,7 @@
       "price": "전석 55,000원",
       "timeInfo": "금요일(20:00)",
       "organizer": "롤링홀",
+      "cast": "박종오",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -6724,6 +6975,7 @@
       "price": "블라인드 티켓 (3일권) 168,000원",
       "timeInfo": "금요일(11:00), 토요일 ~ 일요일(11:00)",
       "organizer": "(주)경기일보",
+      "cast": "",
       "registeredAt": "2026-04-24",
       "ticketLinks": [
         {
@@ -6767,6 +7019,7 @@
       "price": "전석 121,000원",
       "timeInfo": "금요일(20:00), 토요일 ~ 일요일(17:00)",
       "organizer": "엔에이치엔링크(주)",
+      "cast": "정준일",
       "registeredAt": "2026-06-12",
       "ticketLinks": [
         {
@@ -6792,6 +7045,7 @@
       "price": "R석 110,000원, S석 99,000원",
       "timeInfo": "토요일(18:00), 일요일(16:00)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "권정열, 고영배",
       "registeredAt": "2026-06-30",
       "ticketLinks": [
         {
@@ -6829,6 +7083,7 @@
       "price": "전석 135,000원",
       "timeInfo": "토요일 ~ 일요일(18:00)",
       "organizer": "LIVET(리벳)",
+      "cast": "오리베 리사",
       "registeredAt": "2026-03-16",
       "ticketLinks": [
         {
@@ -6854,6 +7109,7 @@
       "price": "스탠딩(Standing) VIP석  220,000원, 스탠딩(Standing) R석  165,000원, 스탠딩(Standing) S석  154,000원, 지정석(Reserved Seats) R석   176,000원, 지정석(Reserved Seats) S석  165,000원",
       "timeInfo": "토요일 ~ 일요일(18:00)",
       "organizer": "(주)메이저나인",
+      "cast": "",
       "registeredAt": "2026-05-14",
       "ticketLinks": [
         {
@@ -6885,6 +7141,7 @@
       "price": "전석 66,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)안테나",
+      "cast": "",
       "registeredAt": "2026-05-08",
       "ticketLinks": [
         {
@@ -6910,6 +7167,7 @@
       "price": "전석 143,000원",
       "timeInfo": "토요일(18:00), 일요일(16:00)",
       "organizer": "드림메이커엔터테인먼트리미티드(DREAM MAKER ENTERTAINMENT LIMITED)",
+      "cast": "배주현, 강슬기, 손승완, 박수영, 김예림",
       "registeredAt": "2026-06-19",
       "ticketLinks": [
         {
@@ -6935,6 +7193,7 @@
       "price": "VIP B석 249,990원, D석 199,000원, F석 169,990원, 2층 지정석 159,990원",
       "timeInfo": "토요일(18:30)",
       "organizer": "주식회사 원더로크",
+      "cast": "",
       "registeredAt": "2026-06-25",
       "ticketLinks": [
         {
@@ -6960,6 +7219,7 @@
       "price": "R석 77,000원, S석 66,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)에프엑스솔루션, (주)좋은콘서트, 굿초이스",
+      "cast": "김장훈",
       "registeredAt": "2026-06-19",
       "ticketLinks": [
         {
@@ -6997,6 +7257,7 @@
       "price": "R석 99,000원",
       "timeInfo": "토요일(18:30)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "김종서",
       "registeredAt": "2026-06-12",
       "ticketLinks": [
         {
@@ -7034,6 +7295,7 @@
       "price": "전석 99,000원",
       "timeInfo": "토요일(18:00), 일요일(17:00)",
       "organizer": "KT&G 상상마당",
+      "cast": "황윤권",
       "registeredAt": "2026-06-18",
       "ticketLinks": [
         {
@@ -7059,6 +7321,7 @@
       "price": "전석 77,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "당신의 여름(유어썸머)",
+      "cast": "",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -7084,6 +7347,7 @@
       "price": "전석 25,000원",
       "timeInfo": "토요일(20:00)",
       "organizer": "옥타곤월드와이드",
+      "cast": "",
       "registeredAt": "2026-06-25",
       "ticketLinks": [
         {
@@ -7109,6 +7373,7 @@
       "price": "전석 77,000원",
       "timeInfo": "토요일 ~ 일요일(14:00)",
       "organizer": "(주) 오드삼삼ODD33",
+      "cast": "정현지",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -7134,6 +7399,7 @@
       "price": "R석 154,000원, S석 143,000원, B석 121,000원",
       "timeInfo": "토요일(13:00,18:00)",
       "organizer": "",
+      "cast": "김성리, 이찬호, 장한별, 황윤성, 정연호, 이창민, 이석훈 등",
       "registeredAt": "2026-05-15",
       "ticketLinks": [
         {
@@ -7159,6 +7425,7 @@
       "price": "전석 20,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "",
+      "cast": "",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -7184,6 +7451,7 @@
       "price": "전석 55,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "(주)스튜디오브로콜리",
+      "cast": "윤덕원, 류지현, 김잔디, 문동혁",
       "registeredAt": "2026-06-09",
       "ticketLinks": [
         {
@@ -7209,6 +7477,7 @@
       "price": "스탠딩 SR석 185,000원, 스탠딩 R석 175,000원, 지정석 185,000원",
       "timeInfo": "토요일 ~ 일요일(18:00)",
       "organizer": "피네이션(주)",
+      "cast": "박재상",
       "registeredAt": "2026-06-08",
       "ticketLinks": [
         {
@@ -7234,6 +7503,7 @@
       "price": "전석 121,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "호이 컴퍼니(HOI COMPANY)",
+      "cast": "김상우",
       "registeredAt": "2026-07-01",
       "ticketLinks": [
         {
@@ -7265,6 +7535,7 @@
       "price": "전석 60,000원",
       "timeInfo": "토요일 ~ 일요일(18:00)",
       "organizer": "(주)롤링컬쳐원",
+      "cast": "이성주",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -7290,6 +7561,7 @@
       "price": "전석 110,000원",
       "timeInfo": "토요일(13:00)",
       "organizer": "(주)좋은콘서트, (주)좋은콘서트",
+      "cast": "조영남",
       "registeredAt": "2026-06-12",
       "ticketLinks": [
         {
@@ -7327,6 +7599,7 @@
       "price": "병행석(좌석+스탠딩)  65,000원, 스탠딩석  50,000원, 지정석(SEAT ONLY)  45,000원",
       "timeInfo": "토요일(15:00)",
       "organizer": "주식회사 원더로크",
+      "cast": "",
       "registeredAt": "2026-06-23",
       "ticketLinks": [
         {
@@ -7352,6 +7625,7 @@
       "price": "VIP석 154,000원, R석 143,000원",
       "timeInfo": "토요일(13:00,18:00)",
       "organizer": "(주)로드쇼엔터테인먼트, (주)로드쇼엔터테인먼트, (주)쇼플레이",
+      "cast": "홍지윤, 이수연, 구수경, 강혜연, 김태연, 빈예서, 김주이",
       "registeredAt": "2026-06-08",
       "ticketLinks": [
         {
@@ -7377,6 +7651,7 @@
       "price": "전석 77,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "마루엔터테인먼트",
+      "cast": "홍성민",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -7402,6 +7677,7 @@
       "price": "R석 121,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "심민경",
       "registeredAt": "2026-06-12",
       "ticketLinks": [
         {
@@ -7439,6 +7715,7 @@
       "price": "전석 55,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "닙아카이브(nib.archive)",
+      "cast": "",
       "registeredAt": "2026-06-26",
       "ticketLinks": [
         {
@@ -7464,6 +7741,7 @@
       "price": "전석 99,000원",
       "timeInfo": "일요일(14:00)",
       "organizer": "(주)좋은콘서트",
+      "cast": "박강성",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -7495,6 +7773,7 @@
       "price": "전석 132,000원",
       "timeInfo": "일요일(19:00)",
       "organizer": "(주)오름기획, (주)좋은콘서트",
+      "cast": "변진섭",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -7532,6 +7811,7 @@
       "price": "R석 110,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "차태현, 홍성민, 조정민, 조영수, 전익현, 김준현",
       "registeredAt": "2026-06-17",
       "ticketLinks": [
         {
@@ -7575,6 +7855,7 @@
       "price": "스탠딩(VIP) 120,000원, 스탠딩PGA석 90,000원, 스탠딩GA석 60,000원",
       "timeInfo": "화요일(20:00)",
       "organizer": "스타힐스엔터테인먼트",
+      "cast": "버나드 디나타",
       "registeredAt": "2026-04-14",
       "ticketLinks": [
         {
@@ -7600,6 +7881,7 @@
       "price": "VIP석 (08.05, 08.06) 66,000원, R석 (08.05, 08.06) 55,000원, VIP석 (08.07) 77,000원, R석 (08.08) 66,000원",
       "timeInfo": "수요일 ~ 목요일(14:00), 금요일(19:30)",
       "organizer": "알유알컴퍼니(RURCompany)",
+      "cast": "김현수, 이벼리",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -7625,6 +7907,7 @@
       "price": "R석 160,000원, S석 140,000원, A석 120,000원, 시야방해R 112,000원, 시야방해S 98,000원",
       "timeInfo": "목요일 ~ 금요일(19:30)",
       "organizer": "(주)대홍기획",
+      "cast": "한지수",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -7656,6 +7939,7 @@
       "price": "스탠딩 99,000원",
       "timeInfo": "금요일(19:30), 토요일(18:00), 일요일(16:00)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "",
       "registeredAt": "2026-06-24",
       "ticketLinks": [
         {
@@ -7681,6 +7965,7 @@
       "price": "COMPLaeXITY석 198,000원, 일반석 165,000원",
       "timeInfo": "금요일(19:00), 토요일(19:00)",
       "organizer": "(주)에스엠엔터테인먼트 (SM ENTERTAINMENT)",
+      "cast": "",
       "registeredAt": "2026-06-25",
       "ticketLinks": [
         {
@@ -7706,6 +7991,7 @@
       "price": "전석 99,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "(주)루이이엔엠",
+      "cast": "",
       "registeredAt": "2026-06-18",
       "ticketLinks": [
         {
@@ -7731,6 +8017,7 @@
       "price": "전석 159,000원",
       "timeInfo": "토요일(18:00), 일요일(16:00)",
       "organizer": "(주)스튜디오2046",
+      "cast": "김태형, 오종혁, 김상혁, 우연석, 유호석, 하일라, 노민혁",
       "registeredAt": "2026-06-10",
       "ticketLinks": [
         {
@@ -7756,6 +8043,7 @@
       "price": "전석 88,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "(주)아뮤즈엔터테인먼트",
+      "cast": "",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -7781,6 +8069,7 @@
       "price": "스탠딩 99,000원, 지정석 99,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "주식회사 원더로크",
+      "cast": "",
       "registeredAt": "2026-05-21",
       "ticketLinks": [
         {
@@ -7806,6 +8095,7 @@
       "price": "SOUND CHECK석 220,000원, M&G석 253,000원, 일반석 165,000원",
       "timeInfo": "토요일(18:00), 일요일(17:00)",
       "organizer": "(주)월드쇼마켓",
+      "cast": "",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -7831,6 +8121,7 @@
       "price": "VIP석 165,000원, S석 110,000원, A석 88,000원",
       "timeInfo": "토요일(15:30)",
       "organizer": "(주)스타시티티앤드이",
+      "cast": "호리카와 마사야",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -7856,6 +8147,7 @@
       "price": "R석 143,000원, S석 132,000원",
       "timeInfo": "토요일(18:00), 일요일(16:00)",
       "organizer": "(주)공연마루",
+      "cast": "",
       "registeredAt": "2026-06-26",
       "ticketLinks": [
         {
@@ -7881,6 +8173,7 @@
       "price": "1,2층석 50,000원, 3층석 30,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "제물포구문화체육센터(구. 인천광역시 동구(동구문화체육센터))",
+      "cast": "변진섭, 박상현, 송인군, 이효종, 신성진, 최형진, 정송기 등",
       "registeredAt": "2026-06-25",
       "ticketLinks": [
         {
@@ -7912,6 +8205,7 @@
       "price": "전석 58,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "닙아카이브(nib.archive)",
+      "cast": "유다빈, 윤준",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -7937,6 +8231,7 @@
       "price": "전석 66,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "라이너노트",
+      "cast": "성수빈",
       "registeredAt": "2026-06-26",
       "ticketLinks": [
         {
@@ -7962,6 +8257,7 @@
       "price": "스탠딩 77,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "당신의 여름(유어썸머)",
+      "cast": "",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -7987,6 +8283,7 @@
       "price": "전석 40,000원",
       "timeInfo": "토요일(16:00)",
       "organizer": "(재) 여주세종문화관광재단",
+      "cast": "김경호, 임재욱",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -8012,6 +8309,7 @@
       "price": "R석 154,000원, S석 143,000원, A석 99,000원",
       "timeInfo": "토요일(13:00,18:00)",
       "organizer": "(주)콘서트가든",
+      "cast": "김성리, 이찬호, 장한별, 황윤성, 정연호, 이창민, 김이도 등",
       "registeredAt": "2026-05-22",
       "ticketLinks": [
         {
@@ -8043,6 +8341,7 @@
       "price": "SR석 154,000원, R석 143,000원",
       "timeInfo": "토요일(13:00,18:00)",
       "organizer": "(주) 베테랑글로벌, (주)쇼당이엔티, 팬라이트(FANLIGHT)",
+      "cast": "이소나, 허찬미, 홍성윤, 길려원, 윤태화, 윤윤서, 염유리",
       "registeredAt": "2026-05-14",
       "ticketLinks": [
         {
@@ -8080,6 +8379,7 @@
       "price": "전석 66,000원",
       "timeInfo": "토요일(18:00), 일요일(17:00)",
       "organizer": "KT&G 상상마당 [부산]",
+      "cast": "윤덕원, 류지현, 김잔디, 문동혁",
       "registeredAt": "2026-06-10",
       "ticketLinks": [
         {
@@ -8105,6 +8405,7 @@
       "price": "VIP석 110,000원, R석 99,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "유앤아이 커뮤니케이션즈",
+      "cast": "설리번 포트너, 타이론 앨런 2세, 케이븐 고든",
       "registeredAt": "2026-04-13",
       "ticketLinks": [
         {
@@ -8136,6 +8437,7 @@
       "price": "스탠딩SR  185,000원, 스탠딩R  175,000원, 지정석  185,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "피네이션(주)",
+      "cast": "박재상",
       "registeredAt": "2026-06-08",
       "ticketLinks": [
         {
@@ -8161,6 +8463,7 @@
       "price": "VIP석 55,000원, R석 44,000원, S석 33,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)아이엠케이엔터테인먼트(iMK Entertainment)",
+      "cast": "",
       "registeredAt": "2026-06-24",
       "ticketLinks": [
         {
@@ -8186,6 +8489,7 @@
       "price": "R석 165,000원, S석 154,000원, A석 143,000원, B석 132,000원",
       "timeInfo": "토요일 ~ 일요일(19:00)",
       "organizer": "(주)엑세스엑스",
+      "cast": "후지하라 사토시, 오자사 다이스케, 나라자키 마코토, 마츠우라 마사키",
       "registeredAt": "2026-04-17",
       "ticketLinks": [
         {
@@ -8211,6 +8515,7 @@
       "price": "전석 99,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "뮤직 쥬 엔터테인먼트",
+      "cast": "이세준, 박승화, 배기성, 최재훈, 박창근",
       "registeredAt": "2026-06-12",
       "ticketLinks": [
         {
@@ -8236,6 +8541,7 @@
       "price": "FS석(FLYING SOUND SYSTEM SEAT)  198,000원, VIP석 187,000원, R석 165,000원",
       "timeInfo": "토요일(16:00)",
       "organizer": "(주)타입커뮤니케이션",
+      "cast": "이승철",
       "registeredAt": "2026-05-11",
       "ticketLinks": [
         {
@@ -8273,6 +8579,7 @@
       "price": "전석 44,000원, 양일권 88,000원",
       "timeInfo": "토요일 ~ 일요일(17:00)",
       "organizer": "",
+      "cast": "김승재, 홍대희, 고은혁, 이종민, 이종원, 전유동, 손다연 등",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -8298,6 +8605,7 @@
       "price": "VIP석 154,000원, R석 143,000원",
       "timeInfo": "토요일(13:00,18:00)",
       "organizer": "(주)로드쇼엔터테인먼트, (주)로드쇼엔터테인먼트, (주)쇼플레이",
+      "cast": "홍지윤, 이수연, 구수경, 강혜연, 김태연, 빈예서, 김주이",
       "registeredAt": "2026-06-18",
       "ticketLinks": [
         {
@@ -8323,6 +8631,7 @@
       "price": "VIP석 132,000원, R석 110,000원, S석 99,000원",
       "timeInfo": "일요일(18:00)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "심민경",
       "registeredAt": "2026-06-10",
       "ticketLinks": [
         {
@@ -8360,6 +8669,7 @@
       "price": "전석 58,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "닙아카이브(nib.archive)",
+      "cast": "유다빈, 채윤",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -8385,6 +8695,7 @@
       "price": "스탠딩 77,000원",
       "timeInfo": "일요일(18:00)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "",
       "registeredAt": "2026-07-01",
       "ticketLinks": [
         {
@@ -8416,6 +8727,7 @@
       "price": "VIP석 121,000원, R석 110,000원, S석 99,000원",
       "timeInfo": "일요일(18:00)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "홍원표",
       "registeredAt": "2026-06-16",
       "ticketLinks": [
         {
@@ -8453,6 +8765,7 @@
       "price": "스탠딩 66,000원",
       "timeInfo": "수요일(20:00)",
       "organizer": "HIGHJINKX(하이징크스)",
+      "cast": "",
       "registeredAt": "2026-06-04",
       "ticketLinks": [
         {
@@ -8478,6 +8791,7 @@
       "price": "스탠딩 119,000원",
       "timeInfo": "수요일(20:00)",
       "organizer": "(주)위얼라이브",
+      "cast": "",
       "registeredAt": "2026-06-18",
       "ticketLinks": [
         {
@@ -8509,6 +8823,7 @@
       "price": "SOUNDCHECK VIP PACKAGE 375,000원, 스탠딩석 110,000원, 지정석 P석 121,000원, 지정석 R석 110,000원",
       "timeInfo": "수요일(20:00)",
       "organizer": "(주)라이브네이션코리아",
+      "cast": "",
       "registeredAt": "2026-03-31",
       "ticketLinks": [
         {
@@ -8534,6 +8849,7 @@
       "price": "VIP패키지석 178,000원, GA스탠딩석 123,000원",
       "timeInfo": "목요일(20:00)",
       "organizer": "스타힐스엔터테인먼트",
+      "cast": "마테우스 아사토",
       "registeredAt": "2026-03-16",
       "ticketLinks": [
         {
@@ -8559,6 +8875,7 @@
       "price": "3일권 218,000원, 2일권 164,000원, 1일권(사전예약) 99,000원",
       "timeInfo": "금요일(14:00), 토요일 ~ 일요일(14:00)",
       "organizer": "전주문화방송(전주MBC)",
+      "cast": "이선규, 김진만, 김윤아, 김종완, 이재경, 이정훈, 권정열 등",
       "registeredAt": "2026-06-16",
       "ticketLinks": [
         {
@@ -8584,6 +8901,7 @@
       "price": "전석 80,000원",
       "timeInfo": "금요일(20:00)",
       "organizer": "플러스히치",
+      "cast": "루이스 내쉬, 강재훈, 김대호",
       "registeredAt": "2026-06-15",
       "ticketLinks": [
         {
@@ -8615,6 +8933,7 @@
       "price": "R석 165,000원, S석 143,000원, A석 121,000원, 시야방해R  115,500원, 시야방해S  100,100원, 시야방해A  84,700원",
       "timeInfo": "토요일(19:00), 일요일(17:00)",
       "organizer": "(주)라이브유니크 (LIVE UNIQUE Co., Ltd.)",
+      "cast": "이홍기, 이재진, 최민환",
       "registeredAt": "2026-06-15",
       "ticketLinks": [
         {
@@ -8652,6 +8971,7 @@
       "price": "R석 143,000원, S석 132,000원",
       "timeInfo": "토요일(18:00), 일요일(16:00)",
       "organizer": "(주)공연마루",
+      "cast": "이승협, 차훈, 김재현, 유회승, 서동성",
       "registeredAt": "2026-06-26",
       "ticketLinks": [
         {
@@ -8677,6 +8997,7 @@
       "price": "R석 154,000원, S석 143,000원",
       "timeInfo": "토요일(18:00), 일요일(17:00)",
       "organizer": "(주)밝은누리, (주)밝은누리",
+      "cast": "김종국",
       "registeredAt": "2026-06-04",
       "ticketLinks": [
         {
@@ -8702,6 +9023,7 @@
       "price": "전석 77,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "재뉴어리",
+      "cast": "나상현, 강현웅, 백승렬",
       "registeredAt": "2026-06-25",
       "ticketLinks": [
         {
@@ -8727,6 +9049,7 @@
       "price": "스탠딩 77,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "당신의 여름(유어썸머)",
+      "cast": "",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -8752,6 +9075,7 @@
       "price": "전석 35,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "",
+      "cast": "김상범 등",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -8777,6 +9101,7 @@
       "price": "전석 77,000원",
       "timeInfo": "토요일(14:00)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "박남정",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -8814,6 +9139,7 @@
       "price": "전석 55,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "(주)스튜디오브로콜리",
+      "cast": "윤덕원, 류지현, 김잔디, 문동혁",
       "registeredAt": "2026-06-11",
       "ticketLinks": [
         {
@@ -8839,6 +9165,7 @@
       "price": "R석 99,000원, S석 77,000원, A석 55,000원",
       "timeInfo": "토요일(19:30)",
       "organizer": "(재)수성문화재단 수성아트피아",
+      "cast": "송영주, 신동하, 임주찬, 송하철, 선우정아",
       "registeredAt": "2026-05-15",
       "ticketLinks": [
         {
@@ -8870,6 +9197,7 @@
       "price": "SR석 185,000원, R석 175,000원, 물제한석 150,000원",
       "timeInfo": "토요일 ~ 일요일(18:00)",
       "organizer": "피네이션(주)",
+      "cast": "박재상",
       "registeredAt": "2026-06-08",
       "ticketLinks": [
         {
@@ -8895,6 +9223,7 @@
       "price": "스탠딩 R석 132,000원, 지정석 R석 132,000원, 지정석 S석 121,000원",
       "timeInfo": "토요일(19:00), 일요일(17:00)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "",
       "registeredAt": "2026-06-19",
       "ticketLinks": [
         {
@@ -8920,6 +9249,7 @@
       "price": "전석 80,000원",
       "timeInfo": "토요일(20:00)",
       "organizer": "플러스히치",
+      "cast": "루이스 내쉬, 강재훈, 김대호",
       "registeredAt": "2026-06-17",
       "ticketLinks": [
         {
@@ -8957,6 +9287,7 @@
       "price": "스탠딩 77,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "",
       "registeredAt": "2026-07-01",
       "ticketLinks": [
         {
@@ -8988,6 +9319,7 @@
       "price": "VIP석 121,000원, R석 99,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "호이 컴퍼니(HOI COMPANY)",
+      "cast": "김상우",
       "registeredAt": "2026-07-01",
       "ticketLinks": [
         {
@@ -9019,6 +9351,7 @@
       "price": "R석 77,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "(주)좋은콘서트, 굿초이스, 오언니컴퍼니",
+      "cast": "허현석, 장태웅, 황정관, 박상현, 황은혜, 김성주, 이현승 등",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -9044,6 +9377,7 @@
       "price": "전석 88,000원",
       "timeInfo": "일요일(18:00)",
       "organizer": "위트(weete)",
+      "cast": "",
       "registeredAt": "2026-05-29",
       "ticketLinks": [
         {
@@ -9069,6 +9403,7 @@
       "price": "전석 55,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "닙아카이브(nib.archive)",
+      "cast": "유다빈, 채윤",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -9094,6 +9429,7 @@
       "price": "스탠딩 77,000원",
       "timeInfo": "일요일(18:00)",
       "organizer": "재뉴어리",
+      "cast": "",
       "registeredAt": "2026-06-25",
       "ticketLinks": [
         {
@@ -9119,6 +9455,7 @@
       "price": "SR석 154,000원, R석 143,000원, S석 132,000원",
       "timeInfo": "일요일(13:00,18:00)",
       "organizer": "(주)쇼당이엔티, (주)쇼당이엔티, 팬라이트(FANLIGHT), 팬라이트(FANLIGHT)",
+      "cast": "이소나, 허찬미, 홍성윤, 길려원, 윤태화, 윤윤서, 염유리",
       "registeredAt": "2026-03-30",
       "ticketLinks": [
         {
@@ -9144,6 +9481,7 @@
       "price": "전석 55,000원",
       "timeInfo": "일요일(18:00)",
       "organizer": "(주)스튜디오브로콜리",
+      "cast": "윤덕원, 류지현, 김잔디, 문동혁",
       "registeredAt": "2026-06-11",
       "ticketLinks": [
         {
@@ -9169,6 +9507,7 @@
       "price": "스탠딩 77,000원, 지정석 77,000원",
       "timeInfo": "일요일(18:00)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -9200,6 +9539,7 @@
       "price": "R석 110,000원",
       "timeInfo": "일요일(14:00)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "조영남",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -9237,6 +9577,7 @@
       "price": "R석 77,000원",
       "timeInfo": "월요일(14:00)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -9274,6 +9615,7 @@
       "price": "전석 132,000원",
       "timeInfo": "월요일(18:00)",
       "organizer": "(주)라이브네이션코리아",
+      "cast": "존 앤서니 화이트",
       "registeredAt": "2026-05-15",
       "ticketLinks": [
         {
@@ -9305,6 +9647,7 @@
       "price": "VIP패키지석  185,000원, GA스탠딩석  128,000원",
       "timeInfo": "월요일(20:00)",
       "organizer": "스타힐스엔터테인먼트",
+      "cast": "카일 패트릭, 이썬 멘처, 벤 로만스, 조이 제어, 조 기스",
       "registeredAt": "2026-06-04",
       "ticketLinks": [
         {
@@ -9330,6 +9673,7 @@
       "price": "전석 99,000원",
       "timeInfo": "화요일(20:00)",
       "organizer": "(주)라이브네이션코리아",
+      "cast": "더못 케네디",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -9355,6 +9699,7 @@
       "price": "스탠딩 120,000원",
       "timeInfo": "화요일(20:00)",
       "organizer": "(주)위얼라이브",
+      "cast": "",
       "registeredAt": "2026-06-24",
       "ticketLinks": [
         {
@@ -9380,6 +9725,7 @@
       "price": "스탠딩R석 154,000원, 스탠딩S석 143,000원, 지정석 154,000원",
       "timeInfo": "수요일(19:30)",
       "organizer": "(주)엑세스엑스",
+      "cast": "콜슨 베이커",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -9405,6 +9751,7 @@
       "price": "스탠딩석  121,000원, 지정석 P석  143,000원, 지정석 R석  132,000원",
       "timeInfo": "수요일(20:00)",
       "organizer": "(주)라이브네이션코리아",
+      "cast": "스티브 레이시",
       "registeredAt": "2026-06-30",
       "ticketLinks": [
         {
@@ -9430,6 +9777,7 @@
       "price": "전석 15,000원",
       "timeInfo": "수요일(14:00)",
       "organizer": "",
+      "cast": "다니엘 린데만, 최경식, 김현석, 김예성, 임채광",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -9467,6 +9815,7 @@
       "price": "전석 88,000원",
       "timeInfo": "목요일(20:00)",
       "organizer": "",
+      "cast": "애런 올슨, 댄 비트니, 더글라스 매콤스, 존 헌든, 존 매킨타이어",
       "registeredAt": "2026-05-14",
       "ticketLinks": [
         {
@@ -9492,6 +9841,7 @@
       "price": "스탠딩 88,000원",
       "timeInfo": "금요일(20:00)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "",
       "registeredAt": "2026-06-08",
       "ticketLinks": [
         {
@@ -9517,6 +9867,7 @@
       "price": "R석 187,000원, S석 154,000원, A석 121,000원",
       "timeInfo": "금요일(20:00)",
       "organizer": "(주)프라이빗커브",
+      "cast": "데이비드 번",
       "registeredAt": "2026-04-28",
       "ticketLinks": [
         {
@@ -9554,6 +9905,7 @@
       "price": "전석 20,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "",
+      "cast": "심준석, 정현철, 손세원, 김경훈, 장수원",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -9579,6 +9931,7 @@
       "price": "R석 110,000원, S석 99,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)에스와이콘텐츠랩, (주)에스와이콘텐츠랩",
+      "cast": "하동훈",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -9616,6 +9969,7 @@
       "price": "R석 143,000원, S석 132,000원",
       "timeInfo": "토요일(18:00), 일요일(16:00)",
       "organizer": "(주)공연마루",
+      "cast": "이승협, 차훈, 김재현, 유회승, 서동성",
       "registeredAt": "2026-06-26",
       "ticketLinks": [
         {
@@ -9641,6 +9995,7 @@
       "price": "스탠딩 77,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "재뉴어리",
+      "cast": "",
       "registeredAt": "2026-06-26",
       "ticketLinks": [
         {
@@ -9666,6 +10021,7 @@
       "price": "R석 154,000원, S석 143,000원, A석 121,000원",
       "timeInfo": "토요일(13:00,18:00)",
       "organizer": "(주)콘서트가든",
+      "cast": "김성리, 이찬호, 장한별, 황윤성, 정연호, 이창민, 김이도 등",
       "registeredAt": "2026-05-22",
       "ticketLinks": [
         {
@@ -9691,6 +10047,7 @@
       "price": "VIP석 132,000원, R석 110,000원, S석 88,000원, A석 66,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "변진섭",
       "registeredAt": "2026-06-08",
       "ticketLinks": [
         {
@@ -9734,6 +10091,7 @@
       "price": "R석 132,000원, S석 125,000원, A석 121,000원",
       "timeInfo": "토요일(16:00)",
       "organizer": "(주)에프엑스솔루션",
+      "cast": "박노희",
       "registeredAt": "2026-06-26",
       "ticketLinks": [
         {
@@ -9771,6 +10129,7 @@
       "price": "SR석 185,000원, R석 175,000원, 지정석 185,000원",
       "timeInfo": "토요일 ~ 일요일(18:00)",
       "organizer": "피네이션(주)",
+      "cast": "박재상",
       "registeredAt": "2026-06-08",
       "ticketLinks": [
         {
@@ -9796,6 +10155,7 @@
       "price": "전석 88,000원",
       "timeInfo": "토요일 ~ 일요일(18:00)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "류지호, 곽지현, 장태웅",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -9827,6 +10187,7 @@
       "price": "VIP석 121,000원, R석 99,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "호이 컴퍼니(HOI COMPANY)",
+      "cast": "김상우",
       "registeredAt": "2026-07-01",
       "ticketLinks": [
         {
@@ -9858,6 +10219,7 @@
       "price": "워터피아 패키지 175,000원, 일반 이용권 165,000원",
       "timeInfo": "토요일(13:00)",
       "organizer": "주식회사 메이드온(MADEONE)",
+      "cast": "",
       "registeredAt": "2026-03-09",
       "ticketLinks": [
         {
@@ -9889,6 +10251,7 @@
       "price": "전석 66,000원",
       "timeInfo": "토요일(18:30)",
       "organizer": "큐리어스",
+      "cast": "",
       "registeredAt": "2026-06-10",
       "ticketLinks": [
         {
@@ -9920,6 +10283,7 @@
       "price": "전석 50,000원",
       "timeInfo": "토요일(19:30)",
       "organizer": "(재)창원문화재단",
+      "cast": "김현철, 조삼희, 박계수, 이한주, 장효석, 이효석",
       "registeredAt": "2026-06-23",
       "ticketLinks": [
         {
@@ -9951,6 +10315,7 @@
       "price": "전석 66,000원",
       "timeInfo": "토요일(14:00)",
       "organizer": "(주)비이피씨탄젠트",
+      "cast": "",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -9988,6 +10353,7 @@
       "price": "R석 132,000원, S석 110,000원, A석 88,000원",
       "timeInfo": "토요일(15:00)",
       "organizer": "(주)하늘이엔티, (주)하늘이엔티",
+      "cast": "한영애",
       "registeredAt": "2026-05-18",
       "ticketLinks": [
         {
@@ -10025,6 +10391,7 @@
       "price": "스탠딩(VIP) 99,000원, 스탠딩R 66,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "HIGHJINKX(하이징크스)",
+      "cast": "",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -10050,6 +10417,7 @@
       "price": "R석 121,000원, S석 99,000원, A석 77,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "(주)장군프로덕션, (주)하늘이엔티",
+      "cast": "김하온, 박종수, 이재형, 이재학, 이상용",
       "registeredAt": "2026-06-11",
       "ticketLinks": [
         {
@@ -10087,6 +10455,7 @@
       "price": "전석 77,000원",
       "timeInfo": "일요일(19:00)",
       "organizer": "더 텔 테일 하트 (The Tell-Tale Heart)",
+      "cast": "",
       "registeredAt": "2026-05-26",
       "ticketLinks": [
         {
@@ -10112,6 +10481,7 @@
       "price": "전석 77,000원",
       "timeInfo": "일요일(18:00)",
       "organizer": "재뉴어리",
+      "cast": "나상현, 백승렬, 강현웅",
       "registeredAt": "2026-06-26",
       "ticketLinks": [
         {
@@ -10137,6 +10507,7 @@
       "price": "전석 77,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "당신의 여름(유어썸머)",
+      "cast": "",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -10162,6 +10533,7 @@
       "price": "R석 143,000원, S석 132,000원, A석 99,000원",
       "timeInfo": "일요일(16:00)",
       "organizer": "(주)하늘이엔티, (주)하늘이엔티",
+      "cast": "김태원, 채제민, 박완규, 최우제",
       "registeredAt": "2026-05-26",
       "ticketLinks": [
         {
@@ -10199,6 +10571,7 @@
       "price": "R석 143,000원, S석 121,000원, A석 110,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "파이오니아(주)",
+      "cast": "최백호",
       "registeredAt": "2026-06-17",
       "ticketLinks": [
         {
@@ -10236,6 +10609,7 @@
       "price": "전석 60,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "재즈브릿지컴퍼니",
+      "cast": "케빈 요수아, 리오 마누엘, 한센 아리프, 제이콥 청",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -10261,6 +10635,7 @@
       "price": "VIP석 143,000원, R석 132,000원, S석 110,000원, A석 99,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "(주)하늘이엔티, (주)하늘이엔티",
+      "cast": "한영애",
       "registeredAt": "2026-04-27",
       "ticketLinks": [
         {
@@ -10304,6 +10679,7 @@
       "price": "전석 110,000원",
       "timeInfo": "화요일(20:00)",
       "organizer": "김밥레코즈",
+      "cast": "사브리나 말례이로스 등",
       "registeredAt": "2026-05-27",
       "ticketLinks": [
         {
@@ -10329,6 +10705,7 @@
       "price": "R석 30,000원, S석 20,000원",
       "timeInfo": "수요일(11:00,19:30)",
       "organizer": "국립아시아문화전당",
+      "cast": "고영열, 고아라, 고희안, 최진배, 노정진, 한웅원",
       "registeredAt": "2026-06-24",
       "ticketLinks": [
         {
@@ -10354,6 +10731,7 @@
       "price": "전석 5,000원",
       "timeInfo": "수요일(19:30)",
       "organizer": "안동문화예술의전당",
+      "cast": "임미정, 이지영, 전용준, 심규민",
       "registeredAt": "2026-06-16",
       "ticketLinks": [
         {
@@ -10379,6 +10757,7 @@
       "price": "전석 20,000원",
       "timeInfo": "수요일(11:00)",
       "organizer": "(재)영화의전당",
+      "cast": "김대경 등",
       "registeredAt": "2026-03-04",
       "ticketLinks": [
         {
@@ -10410,6 +10789,7 @@
       "price": "전석 10,000원",
       "timeInfo": "수요일(19:30)",
       "organizer": "(재)하남문화재단",
+      "cast": "고상지",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -10435,6 +10815,7 @@
       "price": "VIP석 140,000원, R석 120,000원, S석 90,000원, A석 70,000원",
       "timeInfo": "목요일(19:30)",
       "organizer": "플러스히치",
+      "cast": "존 패티투치, 크리스 포터, 브라이언 블레이드",
       "registeredAt": "2026-05-12",
       "ticketLinks": [
         {
@@ -10472,6 +10853,7 @@
       "price": "VIP 스탠딩석 150,000원, 일반 스탠딩석 140,000원",
       "timeInfo": "금요일(20:00)",
       "organizer": "호프 포 라이프(HOPE FOR LIFE)",
+      "cast": "",
       "registeredAt": "2026-04-28",
       "ticketLinks": [
         {
@@ -10497,6 +10879,7 @@
       "price": "전석 75,000원",
       "timeInfo": "금요일(19:30), 토요일(18:00)",
       "organizer": "(재)세종문화회관, (재)세종문화회관",
+      "cast": "김창완, 이상훈, 강윤기, 최원식, 염민열",
       "registeredAt": "2026-04-28",
       "ticketLinks": [
         {
@@ -10528,6 +10911,7 @@
       "price": "스탠딩 99,000원",
       "timeInfo": "토요일(15:00,18:30)",
       "organizer": "",
+      "cast": "",
       "registeredAt": "2026-06-22",
       "ticketLinks": [
         {
@@ -10553,6 +10937,7 @@
       "price": "R석 77,000원, S석 66,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)에프엑스솔루션, (주)좋은콘서트",
+      "cast": "김장훈",
       "registeredAt": "2026-05-29",
       "ticketLinks": [
         {
@@ -10596,6 +10981,7 @@
       "price": "전석 99,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "김종서",
       "registeredAt": "2026-06-11",
       "ticketLinks": [
         {
@@ -10633,6 +11019,7 @@
       "price": "전석 77,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "재뉴어리",
+      "cast": "나상현, 강현웅, 백승렬",
       "registeredAt": "2026-06-26",
       "ticketLinks": [
         {
@@ -10658,6 +11045,7 @@
       "price": "S석 183,000원, A석 158,000원, B석 148,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "LIVET(리벳)",
+      "cast": "",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -10683,6 +11071,7 @@
       "price": "R석 154,000원, S석 143,000원, A석 121,000원",
       "timeInfo": "토요일(13:00,18:00)",
       "organizer": "(주)콘서트가든",
+      "cast": "김성리, 이찬호, 장한별, 황윤성, 정연호, 이창민, 김이도 등",
       "registeredAt": "2026-05-22",
       "ticketLinks": [
         {
@@ -10708,6 +11097,7 @@
       "price": "VIP 티켓 121,000원, 일반 티켓 88,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "(주)루이이엔엠",
+      "cast": "",
       "registeredAt": "2026-05-28",
       "ticketLinks": [
         {
@@ -10733,6 +11123,7 @@
       "price": "R석 132,000원, S석 121,000원",
       "timeInfo": "토요일(19:00), 일요일(17:00)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "",
       "registeredAt": "2026-06-19",
       "ticketLinks": [
         {
@@ -10758,6 +11149,7 @@
       "price": "VIP석 154,000원, R석 132,000원, S석 110,000원, A석 99,000원",
       "timeInfo": "토요일(18:00), 일요일(17:00)",
       "organizer": "(주)에스와이콘텐츠랩",
+      "cast": "김연지, 남규리, 이보람",
       "registeredAt": "2026-06-12",
       "ticketLinks": [
         {
@@ -10795,6 +11187,7 @@
       "price": "전석 154,000원",
       "timeInfo": "토요일(18:00), 일요일(16:00)",
       "organizer": "(주)쇼노트",
+      "cast": "전광철",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -10820,6 +11213,7 @@
       "price": "전석 77,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지), (주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "장태웅, 류지호, 곽지현",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -10851,6 +11245,7 @@
       "price": "전석 66,000원",
       "timeInfo": "토요일(18:30)",
       "organizer": "큐리어스, 큐리어스",
+      "cast": "",
       "registeredAt": "2026-06-10",
       "ticketLinks": [
         {
@@ -10882,6 +11277,7 @@
       "price": "전석 88,000원",
       "timeInfo": "일요일(18:00)",
       "organizer": "재뉴어리",
+      "cast": "나상현, 백승렬, 강현웅",
       "registeredAt": "2026-06-25",
       "ticketLinks": [
         {
@@ -10913,6 +11309,7 @@
       "price": "VIP석 132,000원, R석 110,000원, S석 88,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "변진섭",
       "registeredAt": "2026-06-02",
       "ticketLinks": [
         {
@@ -10950,6 +11347,7 @@
       "price": "R석 110,000원",
       "timeInfo": "일요일(18:00)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "조영남",
       "registeredAt": "2026-06-11",
       "ticketLinks": [
         {
@@ -10987,6 +11385,7 @@
       "price": "VIP패키지석  158,000원, GA스탠딩석  88,000원",
       "timeInfo": "목요일(20:00)",
       "organizer": "스타힐스엔터테인먼트",
+      "cast": "제시 바레라, 알버트 포시스",
       "registeredAt": "2026-04-06",
       "ticketLinks": [
         {
@@ -11012,6 +11411,7 @@
       "price": "전석 55,000원",
       "timeInfo": "금요일(21:00), 토요일(21:00)",
       "organizer": "(재)세종문화회관, (재)세종문화회관",
+      "cast": "이주호, 장유석",
       "registeredAt": "2026-04-29",
       "ticketLinks": [
         {
@@ -11043,6 +11443,7 @@
       "price": "전석 25,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "인천광역시 경제자유구역청(아트센터 인천)",
+      "cast": "김요한, 황호규, 김종국",
       "registeredAt": "2026-01-30",
       "ticketLinks": [
         {
@@ -11068,6 +11469,7 @@
       "price": "VIP석 110,000원, R석 80,000원, S석 60,000원, A석 40,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "",
+      "cast": "김지훈, 진원, 노현우",
       "registeredAt": "2026-05-07",
       "ticketLinks": [
         {
@@ -11105,6 +11507,7 @@
       "price": "VIP석(A Type / T shirt)  187,000원, VIP석(B Type / Towel)  172,000원, 일반석  138,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "주식회사 원더로크",
+      "cast": "",
       "registeredAt": "2026-06-01",
       "ticketLinks": [
         {
@@ -11130,6 +11533,7 @@
       "price": "R석 110,000원, S석 99,000원",
       "timeInfo": "토요일(15:00,18:30)",
       "organizer": "(주)좋은콘서트, (주)프로덕션이황, 굿초이스",
+      "cast": "김경호",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -11167,6 +11571,7 @@
       "price": "스페셜패키지 176,000원, VIP석 132,000원, R석 110,000원",
       "timeInfo": "토요일(16:00)",
       "organizer": "(주)타입커뮤니케이션",
+      "cast": "이승철, 이산, 김유신, 박민석, 조용환, 이제빈, 양태선 등",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -11192,6 +11597,7 @@
       "price": "R석 50,000원, S석 30,000원, A석 20,000원, B석 10,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "(재) 공주문화관광재단(공주문예회관)",
+      "cast": "정민성, 최성훈, 유채훈 등",
       "registeredAt": "2026-03-10",
       "ticketLinks": [
         {
@@ -11217,6 +11623,7 @@
       "price": "R석 154,000원, S석 143,000원, A석 121,000원",
       "timeInfo": "토요일(13:00,18:00)",
       "organizer": "(주)콘서트가든",
+      "cast": "김성리, 이찬호, 장한별, 황윤성, 정연호, 이창민, 김이도 등",
       "registeredAt": "2026-05-29",
       "ticketLinks": [
         {
@@ -11242,6 +11649,7 @@
       "price": "SR석 154,000원, R석 143,000원, S석 132,000원",
       "timeInfo": "토요일(13:00,18:00)",
       "organizer": "(주)쇼당이엔티, (주)쇼당이엔티, 팬라이트(FANLIGHT)",
+      "cast": "이소나, 허찬미, 홍성윤, 길려원, 윤태화, 윤윤서, 염유리",
       "registeredAt": "2026-03-30",
       "ticketLinks": [
         {
@@ -11267,6 +11675,7 @@
       "price": "VIP석 154,000원, R석 132,000원, S석 110,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)에스와이콘텐츠랩",
+      "cast": "김연지, 남규리, 이보람",
       "registeredAt": "2026-06-19",
       "ticketLinks": [
         {
@@ -11298,6 +11707,7 @@
       "price": "R석 50,000원, S석 30,000원, A석 10,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "안동문화예술의전당",
+      "cast": "김정수, 김경희, 홍록기, 이성욱, 성대현",
       "registeredAt": "2026-07-06",
       "ticketLinks": [
         {
@@ -11329,6 +11739,7 @@
       "price": "R석 99,000원, S석 77,000원",
       "timeInfo": "일요일(13:00)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "김종서",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -11366,6 +11777,7 @@
       "price": "VIP석 132,000원, R석 110,000원, S석 99,000원, A석 77,000원",
       "timeInfo": "일요일(18:30)",
       "organizer": "(주)좋은콘서트, 굿초이스",
+      "cast": "홍원표",
       "registeredAt": "2026-07-02",
       "ticketLinks": [
         {
@@ -11403,6 +11815,7 @@
       "price": "전석 20,000원",
       "timeInfo": "금요일(20:00)",
       "organizer": "",
+      "cast": "박진영, 전창민, 신야 후쿠모리",
       "registeredAt": "2026-06-24",
       "ticketLinks": [
         {
@@ -11440,6 +11853,7 @@
       "price": "전석 45,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "(재)영등포문화재단",
+      "cast": "차세정",
       "registeredAt": "2026-06-30",
       "ticketLinks": [
         {
@@ -11465,6 +11879,7 @@
       "price": "VIP석 198,000원, R석 154,000원, S석 132,000원",
       "timeInfo": "토요일 ~ 일요일(19:00)",
       "organizer": "블래스트(VLAST)",
+      "cast": "",
       "registeredAt": "2026-06-18",
       "ticketLinks": [
         {
@@ -11490,6 +11905,7 @@
       "price": "스탠딩 R석  154,000원, 좌석 R석  154,000원, 스탠딩 S석  143,000원",
       "timeInfo": "토요일 ~ 일요일(18:00)",
       "organizer": "(주)Master Plan Music Group(MPMG, 엠피엠지)",
+      "cast": "시미즈 이요리, 코지마 카즈야, 쿠리하라 히사시",
       "registeredAt": "2026-04-23",
       "ticketLinks": [
         {
@@ -11515,6 +11931,7 @@
       "price": "R석 154,000원, S석 143,000원, A석 132,000원, B석 88,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "(주)콘서트가든, (주)콘서트가든",
+      "cast": "김성리, 이찬호, 장한별, 황윤성, 정연호, 이창민, 김이도 등",
       "registeredAt": "2026-05-29",
       "ticketLinks": [
         {
@@ -11540,6 +11957,7 @@
       "price": "VIP석 154,000원, R석 132,000원, S석 110,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)에스와이콘텐츠랩",
+      "cast": "김연지, 남규리, 이보람",
       "registeredAt": "2026-06-26",
       "ticketLinks": [
         {
@@ -11571,6 +11989,7 @@
       "price": "전석 66,000원",
       "timeInfo": "토요일(18:30)",
       "organizer": "큐리어스, 큐리어스",
+      "cast": "권경렬",
       "registeredAt": "2026-06-10",
       "ticketLinks": [
         {
@@ -11596,6 +12015,7 @@
       "price": "전석 50,000원",
       "timeInfo": "토요일(17:00)",
       "organizer": "(재)김해문화재단 김해문화의전당",
+      "cast": "정훈희",
       "registeredAt": "2026-05-20",
       "ticketLinks": [
         {
@@ -11621,6 +12041,7 @@
       "price": "R석 110,000원, S석 99,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "(주)에스와이콘텐츠랩",
+      "cast": "하동훈",
       "registeredAt": "2026-07-01",
       "ticketLinks": [
         {
@@ -11658,6 +12079,7 @@
       "price": "PL 1 STANDING  187,000원, PL 2 SEATED  187,000원, PL 3 SEATED  165,000원, PL 4 SEATED  143,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "(주)고엔터테인먼트",
+      "cast": "야마다 료스케",
       "registeredAt": "2026-06-09",
       "ticketLinks": [
         {
@@ -11683,6 +12105,7 @@
       "price": "전석 30,000원",
       "timeInfo": "목요일(11:00)",
       "organizer": "",
+      "cast": "서영택, 이승민",
       "registeredAt": "2026-01-22",
       "ticketLinks": [
         {
@@ -11708,6 +12131,7 @@
       "price": "스탠딩 66,000원",
       "timeInfo": "금요일(20:00)",
       "organizer": "더 텔 테일 하트 (The Tell-Tale Heart), 액시콜렉티브(atsea collective)",
+      "cast": "",
       "registeredAt": "2026-06-23",
       "ticketLinks": [
         {
@@ -11733,6 +12157,7 @@
       "price": "스탠딩석 165,000원, R석 165,000원, S석 154,000원",
       "timeInfo": "토요일(17:00), 일요일(16:00)",
       "organizer": "(주)타입커뮤니케이션",
+      "cast": "",
       "registeredAt": "2026-03-13",
       "ticketLinks": [
         {
@@ -11758,6 +12183,7 @@
       "price": "R석 154,000원, S석 143,000원, A석 132,000원, B석 88,000원",
       "timeInfo": "토요일(13:00)",
       "organizer": "(주)콘서트가든",
+      "cast": "김성리, 이찬호, 장한별, 황윤성, 정연호, 이창민, 김이도 등",
       "registeredAt": "2026-05-29",
       "ticketLinks": [
         {
@@ -11783,6 +12209,7 @@
       "price": "전석 110,000원",
       "timeInfo": "일요일(18:00)",
       "organizer": "(주)엑세스엑스",
+      "cast": "레이첼 야마가타",
       "registeredAt": "2026-06-25",
       "ticketLinks": [
         {
@@ -11808,6 +12235,7 @@
       "price": "스탠딩 VIP석  143,000원, 지정석 VIP석  143,000원, 지정석 R석  121,000원, 지정석 S석  110,000원",
       "timeInfo": "토요일(18:00), 일요일(17:00)",
       "organizer": "Knowmerce(노머스)",
+      "cast": "김건재, 김한주, 김춘주, 최웅희",
       "registeredAt": "2026-06-08",
       "ticketLinks": [
         {
@@ -11833,6 +12261,7 @@
       "price": "VIP석 242,000원, R석 187,000원, S석 165,000원",
       "timeInfo": "토요일(16:00)",
       "organizer": "(주)티엠이그룹(TME Group) (구. 하이그라운드)",
+      "cast": "기무라 타쿠야",
       "registeredAt": "2026-06-30",
       "ticketLinks": [
         {
@@ -11858,6 +12287,7 @@
       "price": "R석 99,000원, S석 77,000원",
       "timeInfo": "일요일(18:00)",
       "organizer": "(주)에프엑스솔루션, (주)좋은콘서트, 극단 트멍",
+      "cast": "김장훈",
       "registeredAt": "2026-06-22",
       "ticketLinks": [
         {
@@ -11901,6 +12331,7 @@
       "price": "스탠딩석  77,000원",
       "timeInfo": "월요일(20:00)",
       "organizer": "매니아 서울",
+      "cast": "",
       "registeredAt": "2026-06-17",
       "ticketLinks": [
         {
@@ -11926,6 +12357,7 @@
       "price": "전석 77,000원",
       "timeInfo": "화요일(20:00)",
       "organizer": "매니아 서울",
+      "cast": "캐스퍼 휴즈, 재스퍼 루엘린, 마이크 오맬리, 올리버 해밀튼, 마그달레나 맥클런, 프레디 워즈워스, 알렉스 맥켄지 등",
       "registeredAt": "2026-06-19",
       "ticketLinks": [
         {
@@ -11951,6 +12383,7 @@
       "price": "전석 20,000원",
       "timeInfo": "수요일(11:00)",
       "organizer": "(재)성남문화재단",
+      "cast": "고상지, 조영훈, 윤종수 등",
       "registeredAt": "2026-03-24",
       "ticketLinks": [
         {
@@ -11982,6 +12415,7 @@
       "price": "3일권 266,000원",
       "timeInfo": "금요일(11:00), 토요일 ~ 일요일(11:00)",
       "organizer": "(사) 부산축제조직위원회",
+      "cast": "",
       "registeredAt": "2026-07-01",
       "ticketLinks": [
         {
@@ -12007,6 +12441,7 @@
       "price": "EARLY ENTRY VIP PACKAGE  434,000원, PREMIUM VIP PACKAGE 520,000원, 스탠딩석  154,000원, 지정석 P  240,000원, 지정석 R  210,000원, 지정석 S  198,000원, 지정석 A  187,000원, 지정석 B  176,000원, 지정석 C  165,000원, 지정석 D  121,000원, 지정석 E  99,000원",
       "timeInfo": "금요일(20:00)",
       "organizer": "(주)라이브네이션코리아",
+      "cast": "포스트 말론",
       "registeredAt": "2026-04-07",
       "ticketLinks": [
         {
@@ -12032,6 +12467,7 @@
       "price": "VIP석 250,000원, R석 154,000원, S석 143,000원, A석 132,000원",
       "timeInfo": "토요일(17:00), 일요일(16:00)",
       "organizer": "(주) 라이브랜드",
+      "cast": "나카지마 켄토",
       "registeredAt": "2026-06-05",
       "ticketLinks": [
         {
@@ -12057,6 +12493,7 @@
       "price": "The Last Forever Fan Experience 393,000원, The Soft VIP Package 269,000원, 스탠딩석 143,000원, P석 176,000원, R석 165,000원, S석 154,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "(주)라이브네이션코리아",
+      "cast": "",
       "registeredAt": "2026-03-31",
       "ticketLinks": [
         {
@@ -12082,6 +12519,7 @@
       "price": "자라 라슨 사운드체크 VIP 패키지 347,000원, 지정석 132,000원, 스탠딩 132,000원",
       "timeInfo": "월요일(19:30), 일요일(19:30)",
       "organizer": "(주)라이브네이션코리아",
+      "cast": "사라 마리아 라르손",
       "registeredAt": "2026-06-10",
       "ticketLinks": [
         {
@@ -12107,6 +12545,7 @@
       "price": "지정석 P 289,000원, 지정석 R 247,000원, 지정석 S 200,000원, 지정석 A 178,000원, 지정석 B 167,000원, 지정석 C 156,000원, 지정석 D 145,000원, 스탠딩석 189,000원, 스탠딩 EARLY ENTRY PACKAGE  469,000원",
       "timeInfo": "수요일 ~ 목요일(19:45)",
       "organizer": "(주)라이브네이션코리아",
+      "cast": "에이블 마코넨 테스페이 등",
       "registeredAt": "2026-05-19",
       "ticketLinks": [
         {
@@ -12132,6 +12571,7 @@
       "price": "지정석 99,000원, 스탠딩 88,000원",
       "timeInfo": "목요일(20:00)",
       "organizer": "(주)프라이빗커브",
+      "cast": "",
       "registeredAt": "2026-05-27",
       "ticketLinks": [
         {
@@ -12157,6 +12597,7 @@
       "price": "전석 70,000원",
       "timeInfo": "HOL(12:00)",
       "organizer": "고투올 (G2A)",
+      "cast": "",
       "registeredAt": "2026-05-29",
       "ticketLinks": [
         {
@@ -12182,6 +12623,7 @@
       "price": "WHATEVER’S CLEVER! EXPERIENCE 536,000원, WHATEVER’S CLEVER! MERCH PACKAGE 353,000원, PROFESSOR PUTH VIP EXPERIENCE 785,000원, 스탠딩석 154,000원, 지정석 P석 250,000원, 지정석 R석 220,000원, 지정석 S석 187,000원, 지정석 A석 169,000원, 지정석 B석 158,000원, 지정석 C석 143,000원, 지정석 D석 110,000원, 지정석 E석 99,000원",
       "timeInfo": "일요일(19:00)",
       "organizer": "(주)라이브네이션코리아",
+      "cast": "찰스 오토 푸스 주니어",
       "registeredAt": "2026-04-28",
       "ticketLinks": [
         {
@@ -12207,6 +12649,7 @@
       "price": "VIP석 132,000원, 일반석 99,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "(주) 하이징크스",
+      "cast": "토미타 히로노신, 후지이 레오, 후쿠시마 토모아키",
       "registeredAt": "2026-05-14",
       "ticketLinks": [
         {
@@ -12232,6 +12675,7 @@
       "price": "전석 110,000원",
       "timeInfo": "일요일(18:00)",
       "organizer": "(주)엑세스엑스",
+      "cast": "폴 브랜던 길버트",
       "registeredAt": "2026-07-01",
       "ticketLinks": [
         {
@@ -12263,6 +12707,7 @@
       "price": "R석 99,000원, S석 77,000원, A석 55,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "(재)수성문화재단 수성아트피아",
+      "cast": "송영주, 신동룡",
       "registeredAt": "2026-05-15",
       "ticketLinks": [
         {
@@ -12294,6 +12739,7 @@
       "price": "VIP석 140,000원, R석 120,000원, S석 90,000원, A석 70,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "플러스히치",
+      "cast": "조슈아 레드먼, 폴 코니쉬, 러셀 홀, 나질 에보",
       "registeredAt": "2026-06-24",
       "ticketLinks": [
         {
@@ -12331,6 +12777,7 @@
       "price": "전석 154,000원",
       "timeInfo": "토요일(18:00), 일요일(16:00)",
       "organizer": "(주) 딜라잇컴퍼니",
+      "cast": "이승기",
       "registeredAt": "2026-06-08",
       "ticketLinks": [
         {
@@ -12356,6 +12803,7 @@
       "price": "VIP석 132,000원, R석 121,000원, S석 99,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)라이브컬쳐",
+      "cast": "한영애",
       "registeredAt": "2026-05-11",
       "ticketLinks": [
         {
@@ -12393,6 +12841,7 @@
       "price": "VIP석 90,000원, 현장판매 77,000원, 사전예약 66,000원, 얼리버드 55,000원",
       "timeInfo": "목요일(20:00)",
       "organizer": "호프 포 라이프(HOPE FOR LIFE)",
+      "cast": "토마스 도르니히, 미샤 브루엠머 등",
       "registeredAt": "2026-07-01",
       "ticketLinks": [
         {
@@ -12418,6 +12867,7 @@
       "price": "R석 77,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)에프엑스솔루션, (주)오름기획, (주)좋은콘서트",
+      "cast": "김장훈",
       "registeredAt": "2026-06-19",
       "ticketLinks": [
         {
@@ -12455,6 +12905,7 @@
       "price": "VIP석 220,000원, R석 165,000원, S석 110,000원",
       "timeInfo": "일요일(18:00)",
       "organizer": "(주)좋은콘서트, (주)좋은콘서트",
+      "cast": "변진섭",
       "registeredAt": "2026-06-29",
       "ticketLinks": [
         {
@@ -12480,6 +12931,7 @@
       "price": "전석 20,000원",
       "timeInfo": "수요일(15:00)",
       "organizer": "(재)성남문화재단",
+      "cast": "알베르토 몬디, 김효진, 조운, 유택언, 이동민, 김경태",
       "registeredAt": "2026-02-13",
       "ticketLinks": [
         {
@@ -12511,6 +12963,7 @@
       "price": "전석 25,000원",
       "timeInfo": "금요일(19:30)",
       "organizer": "인천광역시 경제자유구역청(아트센터 인천)",
+      "cast": "우수현, 김혜승, 김상범, 전한국, 김성화",
       "registeredAt": "2026-01-30",
       "ticketLinks": [
         {
@@ -12536,6 +12989,7 @@
       "price": "전석 88,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "HIGHJINKX(하이징크스)",
+      "cast": "",
       "registeredAt": "2026-07-01",
       "ticketLinks": [
         {
@@ -12561,6 +13015,7 @@
       "price": "지정석 P석 220,000원, 지정석 R석 195,000원, 스탠딩 석 175,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "(주)위얼라이브",
+      "cast": "",
       "registeredAt": "2025-12-22",
       "ticketLinks": [
         {
@@ -12586,6 +13041,7 @@
       "price": "전석 10,000원",
       "timeInfo": "화요일(11:00)",
       "organizer": "(재) 공주문화관광재단(공주문예회관)",
+      "cast": "한동운, 김경희, 송관섭, 정유하, 하지욱",
       "registeredAt": "2026-02-19",
       "ticketLinks": [
         {
@@ -12611,6 +13067,7 @@
       "price": "전석 20,000원",
       "timeInfo": "수요일(11:00)",
       "organizer": "안동문화예술의전당",
+      "cast": "민경인, 최진배, 신동진, 남예지",
       "registeredAt": "2026-06-16",
       "ticketLinks": [
         {
@@ -12636,6 +13093,7 @@
       "price": "스탠딩 R석 165,000원, 스탠딩 S석 154,000원",
       "timeInfo": "토요일(19:00)",
       "organizer": "(주)엑세스엑스",
+      "cast": "제이슨 므라즈",
       "registeredAt": "2026-05-15",
       "ticketLinks": [
         {
@@ -12661,6 +13119,7 @@
       "price": "VIP패키지석  160,000원, GA스탠딩석  130,000원",
       "timeInfo": "월요일(20:00)",
       "organizer": "스타힐스엔터테인먼트",
+      "cast": "제시 골드",
       "registeredAt": "2026-06-11",
       "ticketLinks": [
         {
@@ -12686,6 +13145,7 @@
       "price": "NO.1 VIP 패키지 320,000원, 스탠딩 R석 154,000원, 스탠딩 S석 143,000원",
       "timeInfo": "목요일(19:30)",
       "organizer": "(주)엑세스엑스",
+      "cast": "",
       "registeredAt": "2026-05-08",
       "ticketLinks": [
         {
@@ -12711,6 +13171,7 @@
       "price": "VIP석 88,000원, R석 77,000원, S석 66,000원",
       "timeInfo": "일요일(17:00)",
       "organizer": "지누락엔터테인먼트",
+      "cast": "타테이시 카즈미, 사토 시노부, 스즈키 마오",
       "registeredAt": "2026-07-03",
       "ticketLinks": [
         {
@@ -12736,6 +13197,7 @@
       "price": "전석 10,000원",
       "timeInfo": "목요일(19:30)",
       "organizer": "(재) 천안문화재단(천안예술의전당)",
+      "cast": "홍순달, 홍준표, 홍윤표, 구교진, 이도헌, 모리시타 시게루, 사토미 노리코 등",
       "registeredAt": "2026-06-24",
       "ticketLinks": [
         {
@@ -12761,6 +13223,7 @@
       "price": "전석 10,000원",
       "timeInfo": "수요일(19:30)",
       "organizer": "(재)수성문화재단 수성아트피아",
+      "cast": "이기욱, 최신영, 서예일, 김연귀",
       "registeredAt": "2026-06-09",
       "ticketLinks": [
         {
@@ -12786,6 +13249,7 @@
       "price": "전석 110,000원",
       "timeInfo": "목요일(20:00)",
       "organizer": "(주)라이브네이션코리아",
+      "cast": "시에나 앤 스파이로",
       "registeredAt": "2026-06-17",
       "ticketLinks": [
         {
@@ -12811,6 +13275,7 @@
       "price": "플로어 FR 210,000원, 플로어 SR 198,000원, 플로어 R 187,000원, 지정석 S 165,000원, 지정석 A 154,000원, 지정석 B 132,000원",
       "timeInfo": "토요일(18:00)",
       "organizer": "(주)엑세스엑스",
+      "cast": "후지이 카제",
       "registeredAt": "2026-06-18",
       "ticketLinks": [
         {
