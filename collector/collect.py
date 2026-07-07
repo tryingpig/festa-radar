@@ -257,6 +257,13 @@ def classify(name, genre, known, fallback):
     return None, None
 
 
+def list_sig(r):
+    """목록 API로 알 수 있는 필드들의 서명. 두 실행 사이 이 값이 같으면
+    '변경점 없음'으로 보고 상세 재조회를 생략한다(증분 갱신)."""
+    return (r.get("name", ""), r.get("startDate", ""), r.get("endDate", ""),
+            r.get("venue", ""), r.get("poster", ""), r.get("state", ""))
+
+
 def load_existing(path):
     """기존 festivals.json → {id: record}. 없으면 빈 dict."""
     try:
@@ -331,13 +338,15 @@ def main():
         % (len(majors) + len(etcs), len(majors), len(etcs),
            len(concerts), excluded, len(seen)))
 
-    # 4) 상세 조회 (공연완료로 이미 저장된 항목은 재조회 생략)
+    # 4) 상세 조회 — 증분 갱신
+    #    이미 상세를 받아둔 항목(ticketLinks 존재)이고 목록 서명이 그대로면
+    #    상세 재조회를 생략하고 기존 값을 재사용. → 매 실행은 신규/변경분만 조회.
     existing = load_existing(config.OUTPUT_PATH)
     fetched, skipped, failed = 0, 0, 0
     for mt, rec in records.items():
         prev = existing.get(mt)
-        if prev and prev.get("state") == "공연완료":
-            # 변할 게 없음 → 기존 상세 재사용
+        if prev and prev.get("ticketLinks") and list_sig(prev) == list_sig(rec):
+            # 변경점 없음 → 기존 상세 재사용
             for k in ("region", "price", "timeInfo", "organizer",
                       "registeredAt", "ticketLinks"):
                 if k in prev:
