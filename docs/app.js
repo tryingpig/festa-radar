@@ -399,14 +399,8 @@ function setTab(mode, view) {
 
 function scrollToCard(id) {
   const f = state.all.find((x) => x.id === id);
-  // 클릭한 항목이 속한 모드의 리스트로 전환
+  // 클릭한 항목이 속한 모드의 리스트로 전환 (티커는 임박·진행중만이라 지난 공연 없음)
   setTab(f && isConcert(f) ? "concert" : "festival", "list");
-  // hideDone로 숨겨졌으면 임시 해제
-  if (f && state.hideDone && dayInfo(f).type === "done") {
-    state.hideDone = false;
-    document.getElementById("hide-done").checked = false;
-    renderList();
-  }
   requestAnimationFrame(() => {
     const el = document.getElementById("card-" + id);
     if (!el) return;
@@ -422,9 +416,6 @@ function bindEvents() {
     document.getElementById(t.id).addEventListener("click", () => setTab(t.mode, t.view));
   }
 
-  document.getElementById("hide-done").addEventListener("change", (e) => {
-    state.hideDone = e.target.checked; renderList(); renderTicker();
-  });
   document.getElementById("concert-search").addEventListener("input", (e) => {
     state.search = e.target.value;
     renderList();
