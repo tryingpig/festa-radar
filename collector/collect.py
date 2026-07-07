@@ -59,6 +59,16 @@ def strip_brackets(name):
     return re.sub(r"\[[^\]]*\]", "", name).strip()
 
 
+def run_days(start, end):
+    """공연기간 일수(end-start). 파싱 실패 시 None. 상설/오픈런 판별용."""
+    try:
+        s = dt.date.fromisoformat(start)
+        e = dt.date.fromisoformat(end)
+        return (e - s).days
+    except (ValueError, TypeError):
+        return None
+
+
 def normalize(s):
     """매칭용 정규화: 연도(20xx)·공백·특수문자 제거 후 casefold(대소문자 무시)."""
     if not s:
@@ -304,11 +314,12 @@ def main():
     #    - 미매칭이라도 '공연목록'의 대중음악 공연이면 → concert(콘서트)
     #    - '축제목록'에 등록된 미매칭 행사는 콘서트가 아니라 제외(비-트래킹 축제)
     #    축제목록 우선 — 같은 mt20id 는 먼저 채택된 쪽(축제목록)을 유지.
+    today_str = today.isoformat()
     fest_ids = {text(db, "mt20id") for db in fest_dbs if text(db, "mt20id")}
     records = {}
     seen = set()
     majors, etcs, concerts = [], [], []
-    excluded = 0
+    ex_nontrack, ex_longrun, ex_past = 0, 0, 0
     candidates = ([(d, "festival_api") for d in fest_dbs]
                   + [(d, "performance_api") for d in perf_dbs])
     for db, source in candidates:
@@ -321,9 +332,20 @@ def main():
         tier, category = classify(name, genre, known, fallback)
         if tier is None:
             if mt in fest_ids:
-                excluded += 1          # 축제로 등록된 비-트래킹 행사 → 제외
+                ex_nontrack += 1       # 축제로 등록된 비-트래킹 행사 → 제외
+                continue
+            # 콘서트 후보 — 상설/오픈런(장기공연)은 이벤트가 아니므로 제외
+            end = norm_date(text(db, "prfpdto"))
+            rd = run_days(norm_date(text(db, "prfpdfrom")), end)
+            if text(db, "openrun") == "Y" or (rd is not None and rd > config.LONGRUN_DAYS):
+                ex_longrun += 1
                 continue
             tier, category = "concert", "콘서트"   # 비-페스티벌 대중음악 공연
+        # 지난 공연(종료/공연완료) 제외 — 목적은 '앞으로 예매', 과거는 안 보여줌
+        end = norm_date(text(db, "prfpdto"))
+        if text(db, "prfstate") == "공연완료" or (end and end < today_str):
+            ex_past += 1
+            continue
         rec = base_record(db, source)
         rec["tier"] = tier
         rec["category"] = category
@@ -334,9 +356,9 @@ def main():
             etcs.append(name)
         else:
             concerts.append(name)
-    log("분류: 페스티벌 %d (major %d·etc %d) · 콘서트 %d · 제외 %d (후보 %d건)"
-        % (len(majors) + len(etcs), len(majors), len(etcs),
-           len(concerts), excluded, len(seen)))
+    log("분류: 페스티벌 %d (major %d·etc %d) · 콘서트 %d · 제외[지난 %d·상설 %d·비트래킹축제 %d] (후보 %d건)"
+        % (len(majors) + len(etcs), len(majors), len(etcs), len(concerts),
+           ex_past, ex_longrun, ex_nontrack, len(seen)))
 
     # 4) 상세 조회 — 증분 갱신
     #    이미 상세를 받아둔 항목(ticketLinks 존재)이고 목록 서명이 그대로면
@@ -390,7 +412,8 @@ def main():
     for nm in sorted(set(etcs)):
         log("  · " + nm)
     log("── 콘서트: %d건 ──" % len(concerts))
-    log("── 제외: %d건 ──" % excluded)
+    log("── 제외: 지난 %d · 상설 %d · 비트래킹축제 %d ──"
+        % (ex_past, ex_longrun, ex_nontrack))
     return 0
 
 

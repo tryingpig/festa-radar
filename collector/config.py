@@ -9,8 +9,9 @@
 KOPIS_BASE = "http://www.kopis.or.kr/openApi/restful"
 GENRE_POP = "CCCD"          # 대중음악 장르 코드
 ROWS = 100                  # 페이지당 결과 수
-LOOKBACK_DAYS = 30          # 오늘 -30일
+LOOKBACK_DAYS = 7           # 오늘 -7일 (진행중 이벤트만 커버, 지난 공연은 제외)
 LOOKAHEAD_DAYS = 365        # 오늘 +365일
+LONGRUN_DAYS = 31           # 공연기간이 이보다 길면 상설/오픈런으로 보고 콘서트에서 제외
 REQUEST_TIMEOUT = 15        # 모든 호출 timeout(초)
 DETAIL_SLEEP = 0.5          # 상세 조회 사이 대기(초) — KOPIS 서버 예의
 

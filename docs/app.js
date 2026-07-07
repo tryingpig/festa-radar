@@ -229,9 +229,10 @@ function renderList() {
       if (!groups.has(key)) groups.set(key, []);
       groups.get(key).push(f);
     }
+    const noun = state.mode === "concert" ? "콘서트" : "페스티벌";
     for (const [key, items] of groups) {
       const [y, m] = key.split("-");
-      const title = key === "기타" ? "날짜 미정" : `${y}년 ${+m}월의 페스티벌`;
+      const title = key === "기타" ? "날짜 미정" : `${y}년 ${+m}월의 ${noun}`;
       html += `<section class="month-section">
         <div class="month-section__head">
           <h2 class="month-section__title">${title}</h2>
@@ -288,7 +289,7 @@ function renderCalendar() {
   const first = new Date(y, m - 1, 1);
   const last = new Date(y, m, 0);
   const gridStart = new Date(y, m - 1, 1 - first.getDay()); // 그 주 일요일
-  const items = applyFilters(baseList(), { ignoreHideDone: true }); // 캘린더는 완료도 표시
+  const items = applyFilters(baseList()); // 지난 공연은 캘린더에서도 숨김
 
   const weeksEl = document.getElementById("cal-weeks");
   let html = "";
