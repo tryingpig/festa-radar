@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T12:50:33+09:00",
+  "updatedAt": "2026-07-07T12:57:14+09:00",
   "count": 38,
   "festivals": [
     {
@@ -751,8 +751,8 @@
       "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF295367_260706_122723.jpg",
       "state": "공연예정",
       "source": "performance_api",
-      "tier": "major",
-      "category": "인디/종합",
+      "tier": "etc",
+      "category": "기타",
       "region": "서울특별시",
       "price": "스탠딩(사전예매) 44,000원, 스탠딩(현장판매) 55,000원",
       "timeInfo": "금요일(18:30)",
