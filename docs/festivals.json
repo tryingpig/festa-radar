@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-12T12:17:16+09:00",
-  "count": 451,
+  "updatedAt": "2026-08-13T12:21:30+09:00",
+  "count": 448,
   "festivals": [
     {
       "id": "PF287252",
@@ -133,162 +133,6 @@
       ]
     },
     {
-      "id": "PF292896",
-      "name": "Cardinals Live [서울]",
-      "startDate": "2026-08-12",
-      "endDate": "2026-08-12",
-      "venue": "CJ아지트 광흥창",
-      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF292896_260604_142522.jpg",
-      "state": "공연중",
-      "source": "performance_api",
-      "tier": "concert",
-      "category": "콘서트",
-      "region": "서울특별시",
-      "price": "스탠딩 66,000원",
-      "timeInfo": "수요일(20:00)",
-      "organizer": "HIGHJINKX(하이징크스)",
-      "cast": "",
-      "registeredAt": "2026-06-04",
-      "ticketLinks": [
-        {
-          "vendor": "YES24",
-          "color": "#003399",
-          "url": "https://ticket.yes24.com/Perf/58664",
-          "linkType": "direct"
-        }
-      ]
-    },
-    {
-      "id": "PF297317",
-      "name": "idol wave, THE Starlight Orbit: AUGUST ORBIT",
-      "startDate": "2026-08-12",
-      "endDate": "2026-08-12",
-      "venue": "프리즘홀 (프리즘플러스)",
-      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF297317_260730_143154.jpg",
-      "state": "공연중",
-      "source": "performance_api",
-      "tier": "concert",
-      "category": "콘서트",
-      "region": "서울특별시",
-      "price": "현장판매 25,000원, 사전예약 22,000원",
-      "timeInfo": "수요일(18:50)",
-      "organizer": "",
-      "cast": "",
-      "registeredAt": "2026-07-30",
-      "ticketLinks": [
-        {
-          "vendor": "네이버N예약",
-          "color": "#888888",
-          "url": "https://booking.naver.com/booking/5/bizes/1472775",
-          "linkType": "direct"
-        }
-      ]
-    },
-    {
-      "id": "PF296301",
-      "name": "더 워닝 내한 공연 (The Warning Live) [서울]",
-      "startDate": "2026-08-12",
-      "endDate": "2026-08-12",
-      "venue": "예스24 라이브홀 (구. 악스코리아)",
-      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF296301_260720_104508.jpg",
-      "state": "공연중",
-      "source": "performance_api",
-      "tier": "concert",
-      "category": "콘서트",
-      "region": "서울특별시",
-      "price": "전석 119,000원",
-      "timeInfo": "수요일(20:00)",
-      "organizer": "(주)위얼라이브",
-      "cast": "",
-      "registeredAt": "2026-07-20",
-      "ticketLinks": [
-        {
-          "vendor": "YES24",
-          "color": "#003399",
-          "url": "https://ticket.yes24.com/Perf/59308",
-          "linkType": "direct"
-        }
-      ]
-    },
-    {
-      "id": "PF296992",
-      "name": "먼데이프로젝트X숲세권 MONDAY: SOOP, 이글루베이 단독 콘서트: 초록환상",
-      "startDate": "2026-08-12",
-      "endDate": "2026-08-12",
-      "venue": "숲세권 라이브",
-      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF296992_260727_130014.jpg",
-      "state": "공연중",
-      "source": "performance_api",
-      "tier": "concert",
-      "category": "콘서트",
-      "region": "서울특별시",
-      "price": "전석 44,000원",
-      "timeInfo": "수요일(20:00)",
-      "organizer": "(주)엔터크라우드",
-      "cast": "",
-      "registeredAt": "2026-07-27",
-      "ticketLinks": [
-        {
-          "vendor": "멜론티켓",
-          "color": "#00C73C",
-          "url": "https://ticket.melon.com/performance/index.htm?prodId=213606",
-          "linkType": "direct"
-        }
-      ]
-    },
-    {
-      "id": "PF297834",
-      "name": "본스타 잠실송파 정기공연: Born to be BEST CONCERT",
-      "startDate": "2026-08-12",
-      "endDate": "2026-08-12",
-      "venue": "웨스트브릿지 라이브홀",
-      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF297834_260806_112124.gif",
-      "state": "공연중",
-      "source": "performance_api",
-      "tier": "concert",
-      "category": "콘서트",
-      "region": "서울특별시",
-      "price": "전석 7,000원",
-      "timeInfo": "수요일(19:00)",
-      "organizer": "(주)본스타컴퍼니",
-      "cast": "강승철, 구현양, 김기현, 김민정, 김윤후, 김태린, 김호종 등",
-      "registeredAt": "2026-08-06",
-      "ticketLinks": [
-        {
-          "vendor": "NOL티켓",
-          "color": "#7B2FF2",
-          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011448",
-          "linkType": "direct"
-        }
-      ]
-    },
-    {
-      "id": "PF297909",
-      "name": "정우의 기습공격 vol.2",
-      "startDate": "2026-08-12",
-      "endDate": "2026-08-12",
-      "venue": "KT&G 상상마당 라이브홀 [마포]",
-      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF297909_260807_104336.png",
-      "state": "공연중",
-      "source": "performance_api",
-      "tier": "concert",
-      "category": "콘서트",
-      "region": "서울특별시",
-      "price": "전석 35,000원",
-      "timeInfo": "수요일(20:00)",
-      "organizer": "KT&G 상상마당",
-      "cast": "박정우",
-      "registeredAt": "2026-08-07",
-      "ticketLinks": [
-        {
-          "vendor": "멜론티켓",
-          "color": "#00C73C",
-          "url": "https://ticket.melon.com/performance/index.htm?prodId=213714",
-          "linkType": "direct"
-        }
-      ]
-    },
-    {
       "id": "PF296745",
       "name": "제29회 광주소극장축제, 광주 소극장 재즈페스티벌",
       "startDate": "2026-08-12",
@@ -321,39 +165,13 @@
       ]
     },
     {
-      "id": "PF288334",
-      "name": "코다라인 내한공연 Kodaline Farewell Tour",
-      "startDate": "2026-08-12",
-      "endDate": "2026-08-12",
-      "venue": "올림픽공원",
-      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF288334_260331_102011.gif",
-      "state": "공연중",
-      "source": "performance_api",
-      "tier": "concert",
-      "category": "콘서트",
-      "region": "서울특별시",
-      "price": "SOUNDCHECK VIP PACKAGE 375,000원, 스탠딩석 110,000원, 지정석 P석 121,000원, 지정석 R석 110,000원",
-      "timeInfo": "수요일(20:00)",
-      "organizer": "(주)라이브네이션코리아",
-      "cast": "",
-      "registeredAt": "2026-03-31",
-      "ticketLinks": [
-        {
-          "vendor": "NOL티켓",
-          "color": "#7B2FF2",
-          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26004589",
-          "linkType": "direct"
-        }
-      ]
-    },
-    {
       "id": "PF297904",
       "name": "SOUNDCLASH THURSDAY‘S live ASH ISLAND",
       "startDate": "2026-08-13",
       "endDate": "2026-08-13",
       "venue": "라이언슈퍼클럽(LION SUPER CLUB)",
       "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF297904_260807_103647.gif",
-      "state": "공연예정",
+      "state": "공연중",
       "source": "performance_api",
       "tier": "concert",
       "category": "콘서트",
@@ -379,7 +197,7 @@
       "endDate": "2026-08-13",
       "venue": "롤링홀",
       "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF287165_260316_133941.gif",
-      "state": "공연예정",
+      "state": "공연중",
       "source": "performance_api",
       "tier": "concert",
       "category": "콘서트",
@@ -405,7 +223,7 @@
       "endDate": "2026-08-13",
       "venue": "스페이스한강",
       "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF297003_260727_132417.jpg",
-      "state": "공연예정",
+      "state": "공연중",
       "source": "performance_api",
       "tier": "concert",
       "category": "콘서트",
@@ -431,7 +249,7 @@
       "endDate": "2026-08-13",
       "venue": "강남구민회관",
       "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF297199_260729_130352.jpg",
-      "state": "공연예정",
+      "state": "공연중",
       "source": "performance_api",
       "tier": "concert",
       "category": "콘서트",
@@ -4202,6 +4020,32 @@
           "vendor": "NOL티켓",
           "color": "#7B2FF2",
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26007234",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF298345",
+      "name": "한혜리 싱글 발매 기념: Go!",
+      "startDate": "2026-08-22",
+      "endDate": "2026-08-22",
+      "venue": "온맘씨어터",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF298345_260812_135844.gif",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "전석 66,000원",
+      "timeInfo": "토요일(17:00)",
+      "organizer": "(주)크레오엔터테인먼트",
+      "cast": "한혜리",
+      "registeredAt": "2026-08-12",
+      "ticketLinks": [
+        {
+          "vendor": "NOL티켓",
+          "color": "#7B2FF2",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011798",
           "linkType": "direct"
         }
       ]
@@ -8945,6 +8789,32 @@
       ]
     },
     {
+      "id": "PF298282",
+      "name": "만나서 반갑습니다: 전자양X기쿠하시",
+      "startDate": "2026-09-13",
+      "endDate": "2026-09-13",
+      "venue": "플렉스라운지 (구. 스테이라운지, 구. 인디팍)",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF298282_260812_101112.jpg",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "스탠딩 60,000원",
+      "timeInfo": "일요일(17:00)",
+      "organizer": "유슬리스 프레셔스",
+      "cast": "",
+      "registeredAt": "2026-08-12",
+      "ticketLinks": [
+        {
+          "vendor": "멜론티켓",
+          "color": "#00C73C",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=213719",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
       "id": "PF293209",
       "name": "야마다 료스케 내한공연 (Ryosuke Yamada Asia Tour) : Red.Y [서울]",
       "startDate": "2026-09-13",
@@ -9270,6 +9140,32 @@
           "vendor": "NOL티켓",
           "color": "#7B2FF2",
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011226",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF298323",
+      "name": "LOUD BRIDGE MELODIC PUNK NIGHT",
+      "startDate": "2026-09-19",
+      "endDate": "2026-09-19",
+      "venue": "롤링홀",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF298323_260812_130546.gif",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "현장판매 88,000원, 사전예약 77,000원",
+      "timeInfo": "토요일(17:00)",
+      "organizer": "(주)러브칩스인터내셔널(LOVE CHIPS INTERNATIONAL INC.)",
+      "cast": "시오다 류헤이, 이용원, 미야자키 유토, 유타 야스노, 유키히로 하타노 등",
+      "registeredAt": "2026-08-12",
+      "ticketLinks": [
+        {
+          "vendor": "NOL티켓",
+          "color": "#7B2FF2",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011686",
           "linkType": "direct"
         }
       ]
@@ -12744,6 +12640,32 @@
           "vendor": "멜론티켓",
           "color": "#00C73C",
           "url": "https://ticket.melon.com/performance/index.htm?prodId=213396",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF298279",
+      "name": "마룬5 내한공연",
+      "startDate": "2027-01-27",
+      "endDate": "2027-01-27",
+      "venue": "킨텍스",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF298279_260812_100446.gif",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "경기도",
+      "price": "EARLY ENTRY PACKAGE 350,000원, LOVE IS LIKE VIP PACKAGE 425,000원, 스탠딩 P 167,000원, 스탠딩 R 143,000원, 지정석 P 242,000원, 지정석 R 220,000원, 지정석 S 187,000원, 지정석 A 154,000원, 지정석 B 132,000원",
+      "timeInfo": "수요일(20:00)",
+      "organizer": "(주)라이브네이션코리아",
+      "cast": "",
+      "registeredAt": "2026-08-12",
+      "ticketLinks": [
+        {
+          "vendor": "NOL티켓",
+          "color": "#7B2FF2",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26011315",
           "linkType": "direct"
         }
       ]
