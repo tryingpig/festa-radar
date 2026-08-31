@@ -2,7 +2,9 @@ name: Daily KOPIS collect
 
 on:
   schedule:
-    - cron: "0 1 * * *"   # 01:00 UTC = 10:00 KST
+    # 정각 슬롯은 GitHub 부하가 몰려 schedule 이 크게 밀린다(관측상 +1~11시간,
+    # 같은 계정의 '30 9' 슬롯은 아예 누락됐다). 임의의 분으로 옮겨 지연을 줄인다.
+    - cron: "34 1 * * *"   # 01:34 UTC = 10:34 KST
   workflow_dispatch:
 
 permissions:
