@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T15:36:58+09:00",
+  "updatedAt": "2026-09-25T15:33:19+09:00",
   "count": 492,
   "festivals": [
     {
@@ -50,32 +50,6 @@
           "vendor": "멜론티켓",
           "color": "#00C73C",
           "url": "https://ticket.melon.com/performance/index.htm?prodId=213789",
-          "linkType": "direct"
-        }
-      ]
-    },
-    {
-      "id": "PF301084",
-      "name": "LIVE in SETi vol.95",
-      "startDate": "2026-09-23",
-      "endDate": "2026-09-23",
-      "venue": "세티 라이브홀 (SETI LIVE HALL)",
-      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301084_260916_143327.png",
-      "state": "공연중",
-      "source": "performance_api",
-      "tier": "concert",
-      "category": "콘서트",
-      "region": "서울특별시",
-      "price": "전석 25,000원",
-      "timeInfo": "수요일(19:00)",
-      "organizer": "",
-      "cast": "",
-      "registeredAt": "2026-09-16",
-      "ticketLinks": [
-        {
-          "vendor": "네이버N예약",
-          "color": "#888888",
-          "url": "https://booking.naver.com/booking/12/bizes/1293964",
           "linkType": "direct"
         }
       ]
@@ -13702,6 +13676,38 @@
           "vendor": "YES24",
           "color": "#003399",
           "url": "https://ticket.yes24.com/Perf/59997",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF301701",
+      "name": "조용필 & 위대한탄생 콘서트 [대전]",
+      "startDate": "2026-12-26",
+      "endDate": "2026-12-26",
+      "venue": "대전컨벤션센터 (DCC)",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301701_260923_141025.jpg",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "대전광역시",
+      "price": "VIP석 176,000원, R석 165,000원, S석 143,000원, A석 110,000원",
+      "timeInfo": "토요일(18:00)",
+      "organizer": "(주) 와이피씨 (YPC), (주)장터미디어",
+      "cast": "조용필",
+      "registeredAt": "2026-09-23",
+      "ticketLinks": [
+        {
+          "vendor": "네이버N예약",
+          "color": "#888888",
+          "url": "https://booking.naver.com/booking/12/bizes/1741284",
+          "linkType": "direct"
+        },
+        {
+          "vendor": "YES24",
+          "color": "#003399",
+          "url": "https://ticket.yes24.com/Perf/60209",
           "linkType": "direct"
         }
       ]
