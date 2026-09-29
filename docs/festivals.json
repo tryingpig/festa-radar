@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-28T16:33:08+09:00",
-  "count": 498,
+  "updatedAt": "2026-09-29T16:28:35+09:00",
+  "count": 523,
   "festivals": [
     {
       "id": "PF287252",
@@ -29,117 +29,13 @@
       ]
     },
     {
-      "id": "PF297813",
-      "name": "RT 50: My New Band Believe in Seoul",
-      "startDate": "2026-09-28",
-      "endDate": "2026-09-28",
-      "venue": "서보아트스페이스(서보미술문화공간)[서울]",
-      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF297813_260806_102957.jpg",
-      "state": "공연중",
-      "source": "performance_api",
-      "tier": "concert",
-      "category": "콘서트",
-      "region": "서울특별시",
-      "price": "전석 77,000원",
-      "timeInfo": "월요일(20:00)",
-      "organizer": "매니아 서울",
-      "cast": "",
-      "registeredAt": "2026-08-06",
-      "ticketLinks": [
-        {
-          "vendor": "29CM",
-          "color": "#888888",
-          "url": "https://ticket.29cm.co.kr/catalog/4113858",
-          "linkType": "direct"
-        }
-      ]
-    },
-    {
-      "id": "PF300611",
-      "name": "먼데이프로젝트 시즌9 with 미러볼 뮤직, LUNEDI 앨범 발매 기념 단독 콘서트: ANEW",
-      "startDate": "2026-09-28",
-      "endDate": "2026-09-28",
-      "venue": "살롱 문보우",
-      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF300611_260910_134946.jpg",
-      "state": "공연중",
-      "source": "performance_api",
-      "tier": "concert",
-      "category": "콘서트",
-      "region": "서울특별시",
-      "price": "전석 55,000원",
-      "timeInfo": "월요일(20:00)",
-      "organizer": "(주)엔터크라우드",
-      "cast": "김지민",
-      "registeredAt": "2026-09-10",
-      "ticketLinks": [
-        {
-          "vendor": "멜론티켓",
-          "color": "#00C73C",
-          "url": "https://ticket.melon.com/performance/index.htm?prodId=213840",
-          "linkType": "direct"
-        }
-      ]
-    },
-    {
-      "id": "PF300713",
-      "name": "먼데이프로젝트 시즌9: Stardust, 적란운 X love is cycle",
-      "startDate": "2026-09-28",
-      "endDate": "2026-09-28",
-      "venue": "아지토 라이브 홀",
-      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF300713_260911_141401.jpg",
-      "state": "공연중",
-      "source": "performance_api",
-      "tier": "concert",
-      "category": "콘서트",
-      "region": "서울특별시",
-      "price": "전석 33,000원",
-      "timeInfo": "월요일(20:00)",
-      "organizer": "(주)엔터크라우드",
-      "cast": "",
-      "registeredAt": "2026-09-11",
-      "ticketLinks": [
-        {
-          "vendor": "멜론티켓",
-          "color": "#00C73C",
-          "url": "https://ticket.melon.com/performance/index.htm?prodId=213856",
-          "linkType": "direct"
-        }
-      ]
-    },
-    {
-      "id": "PF300874",
-      "name": "오늘도 아이돌 vol.37",
-      "startDate": "2026-09-28",
-      "endDate": "2026-09-28",
-      "venue": "옥타바리움 라이브홀",
-      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF300874_260914_154630.jpg",
-      "state": "공연중",
-      "source": "performance_api",
-      "tier": "concert",
-      "category": "콘서트",
-      "region": "서울특별시",
-      "price": "사전예약 20,000원, 현장판매 22,000원",
-      "timeInfo": "월요일(18:50)",
-      "organizer": "",
-      "cast": "",
-      "registeredAt": "2026-09-14",
-      "ticketLinks": [
-        {
-          "vendor": "네이버N예약",
-          "color": "#888888",
-          "url": "https://booking.naver.com/booking/5/bizes/1092609",
-          "linkType": "direct"
-        }
-      ]
-    },
-    {
       "id": "PF294102",
       "name": "RT 50: caroline live in seoul",
       "startDate": "2026-09-29",
       "endDate": "2026-09-29",
       "venue": "서보아트스페이스(서보미술문화공간)[서울]",
       "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF294102_260619_110650.jpg",
-      "state": "공연예정",
+      "state": "공연중",
       "source": "performance_api",
       "tier": "concert",
       "category": "콘서트",
@@ -632,6 +528,32 @@
           "vendor": "YES24",
           "color": "#003399",
           "url": "https://ticket.yes24.com/Perf/58933",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF301509",
+      "name": "블루아워",
+      "startDate": "2026-10-02",
+      "endDate": "2026-10-02",
+      "venue": "프리즘홀 (프리즘플러스)",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301509_260921_180906.png",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "현장판매 25,000원, 사전예약 20,000원",
+      "timeInfo": "금요일(17:30)",
+      "organizer": "",
+      "cast": "",
+      "registeredAt": "2026-09-21",
+      "ticketLinks": [
+        {
+          "vendor": "네이버N예약",
+          "color": "#888888",
+          "url": "https://booking.naver.com/booking/5/bizes/1720266",
           "linkType": "direct"
         }
       ]
@@ -2255,32 +2177,6 @@
       ]
     },
     {
-      "id": "PF301576",
-      "name": "라라라온 [서울 얼라이브홀]",
-      "startDate": "2026-10-08",
-      "endDate": "2026-10-08",
-      "venue": "얼라이브홀(구. 크랙홀)",
-      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301576_260922_135832.png",
-      "state": "공연예정",
-      "source": "performance_api",
-      "tier": "concert",
-      "category": "콘서트",
-      "region": "서울특별시",
-      "price": "전석 22,000원",
-      "timeInfo": "목요일(20:00)",
-      "organizer": "(사)한국음악레이블산업협회",
-      "cast": "전다혜, 박종범, 최한림",
-      "registeredAt": "2026-09-22",
-      "ticketLinks": [
-        {
-          "vendor": "2TM(우리은행)",
-          "color": "#888888",
-          "url": "https://www.2tm.co.kr/ticket/10766",
-          "linkType": "direct"
-        }
-      ]
-    },
-    {
       "id": "PF301637",
       "name": "벤치위레오 단독 콘서트: Black White La cuisine",
       "startDate": "2026-10-08",
@@ -3129,6 +3025,32 @@
       ]
     },
     {
+      "id": "PF301893",
+      "name": "MODYSSEY FAN CONCERT TOUR IN SEOUL",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-10",
+      "venue": "명화라이브홀",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301893_260928_172956.gif",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "VIP석 129,000원, S석 109,000원",
+      "timeInfo": "토요일(18:00)",
+      "organizer": "신천옹 에이전시",
+      "cast": "안차우윗, 진융셴, 싯막완, 자오양광쉬, 리쯔하오, 판저이, 쑨헝위",
+      "registeredAt": "2026-09-28",
+      "ticketLinks": [
+        {
+          "vendor": "NOL티켓",
+          "color": "#7B2FF2",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013484",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
       "id": "PF301605",
       "name": "Princess 통캉통의 대관식: KING [부산]",
       "startDate": "2026-10-10",
@@ -3202,6 +3124,32 @@
           "vendor": "멜론티켓",
           "color": "#00C73C",
           "url": "https://ticket.melon.com/performance/index.htm?prodId=213891",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF301842",
+      "name": "The Vibey Vol.2: THE PULSE",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-10",
+      "venue": "생기 스튜디오",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301842_260928_153349.png",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "스탠딩 25,000원",
+      "timeInfo": "토요일(19:00)",
+      "organizer": "마이 심포니아(my symphonia)",
+      "cast": "",
+      "registeredAt": "2026-09-28",
+      "ticketLinks": [
+        {
+          "vendor": "2TM(우리은행)",
+          "color": "#888888",
+          "url": "https://www.2tm.co.kr/ticket/10800",
           "linkType": "direct"
         }
       ]
@@ -4353,6 +4301,58 @@
       ]
     },
     {
+      "id": "PF301940",
+      "name": "먼데이프로젝트 IN 라이브클럽, 이디어츠 단독콘서트",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-12",
+      "venue": "공상온도",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301940_260929_112147.png",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "스탠딩 33,000원",
+      "timeInfo": "월요일(20:00)",
+      "organizer": "(주)엔터크라우드",
+      "cast": "",
+      "registeredAt": "2026-09-29",
+      "ticketLinks": [
+        {
+          "vendor": "멜론티켓",
+          "color": "#00C73C",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=213906",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF301832",
+      "name": "먼데이프로젝트 시즌9, 청요일 단독 콘서트: 청화수목금토일",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-12",
+      "venue": "살롱 문보우",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301832_260928_150724.png",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "전석 44,000원",
+      "timeInfo": "월요일(20:00)",
+      "organizer": "(주)엔터크라우드",
+      "cast": "양정오, 은교, 김한돌, 김가은",
+      "registeredAt": "2026-09-28",
+      "ticketLinks": [
+        {
+          "vendor": "멜론티켓",
+          "color": "#00C73C",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=213904",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
       "id": "PF301146",
       "name": "Playlist: Yeongdo 시리즈, 발라드의 전설 변진섭 [부산]",
       "startDate": "2026-10-13",
@@ -4530,6 +4530,32 @@
           "vendor": "2TM(우리은행)",
           "color": "#888888",
           "url": "https://www.2tm.co.kr/ticket/10746",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF301920",
+      "name": "Whiteusedsocks 단독공연: Live Your Life",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-16",
+      "venue": "KT&G 상상마당 라이브홀 [마포]",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301920_260929_103315.jpg",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "스탠딩 44,000원",
+      "timeInfo": "금요일(19:00)",
+      "organizer": "반다사운드",
+      "cast": "",
+      "registeredAt": "2026-09-29",
+      "ticketLinks": [
+        {
+          "vendor": "멜론티켓",
+          "color": "#00C73C",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=213958",
           "linkType": "direct"
         }
       ]
@@ -5223,6 +5249,32 @@
       ]
     },
     {
+      "id": "PF301927",
+      "name": "변하은 앨범 발매 기념 단독 공연: 초원의 집",
+      "startDate": "2026-10-17",
+      "endDate": "2026-10-17",
+      "venue": "살롱 문보우",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301927_260929_104824.jpg",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "전석 44,000원",
+      "timeInfo": "토요일(18:00)",
+      "organizer": "(주)엔터크라우드",
+      "cast": "변하은",
+      "registeredAt": "2026-09-29",
+      "ticketLinks": [
+        {
+          "vendor": "멜론티켓",
+          "color": "#00C73C",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=213938",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
       "id": "PF300137",
       "name": "브로콜리너마저의 전국 인디 교류 투어 [부산]",
       "startDate": "2026-10-17",
@@ -5711,6 +5763,32 @@
       ]
     },
     {
+      "id": "PF301955",
+      "name": "노아코스트 x 취향상점: Goodbye Summer",
+      "startDate": "2026-10-18",
+      "endDate": "2026-10-18",
+      "venue": "Vel.R 벨르 (구. 벨로주 [홍대])",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301955_260929_130300.jpg",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "전석 44,000원",
+      "timeInfo": "일요일(17:00)",
+      "organizer": "Vel.R 벨르",
+      "cast": "",
+      "registeredAt": "2026-09-29",
+      "ticketLinks": [
+        {
+          "vendor": "멜론티켓",
+          "color": "#00C73C",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=213939",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
       "id": "PF301721",
       "name": "리퀴드 사운드 x 아필레타 (A Filetta) : 고사리소리 (GOSARISORI)",
       "startDate": "2026-10-18",
@@ -5828,6 +5906,32 @@
           "vendor": "YES24",
           "color": "#003399",
           "url": "https://ticket.yes24.com/Perf/59566",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF301973",
+      "name": "숲세권 라이브, 블루화 단독 공연: BLU Forest",
+      "startDate": "2026-10-18",
+      "endDate": "2026-10-18",
+      "venue": "숲세권 라이브 2호점 [독립문]",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301973_260929_134200.jpg",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "전석 44,000원",
+      "timeInfo": "일요일(17:00)",
+      "organizer": "숲세권 라이브",
+      "cast": "곽은재, 조효찬, 이광호",
+      "registeredAt": "2026-09-29",
+      "ticketLinks": [
+        {
+          "vendor": "멜론티켓",
+          "color": "#00C73C",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=213957",
           "linkType": "direct"
         }
       ]
@@ -6196,6 +6300,32 @@
           "vendor": "멜론티켓",
           "color": "#00C73C",
           "url": "https://ticket.melon.com/performance/index.htm?prodId=213855",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF301839",
+      "name": "Super Rookie Challenge: Vocal Seaeon 1, Round 2",
+      "startDate": "2026-10-23",
+      "endDate": "2026-10-23",
+      "venue": "프리즘홀 (프리즘플러스)",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301839_260928_152216.png",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "사전예약 15,000원, 현장판매 20,000원",
+      "timeInfo": "금요일(20:00)",
+      "organizer": "(주) 셰르파뮤직 SHERPA MUSIC",
+      "cast": "",
+      "registeredAt": "2026-09-28",
+      "ticketLinks": [
+        {
+          "vendor": "2TM(우리은행)",
+          "color": "#888888",
+          "url": "https://www.2tm.co.kr/ticket/10782",
           "linkType": "direct"
         }
       ]
@@ -6757,6 +6887,32 @@
       ]
     },
     {
+      "id": "PF301947",
+      "name": "명가의 초대, 산울림 김창훈 & 까망밴드 Concert",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-24",
+      "venue": "엠팟홀 (구. 삼익아트홀)",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301947_260929_120434.gif",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "전석 88,000원",
+      "timeInfo": "토요일(17:00)",
+      "organizer": "드림플래닝, 스윗뮤직",
+      "cast": "김창훈, 김선, 조이민, 여지수 등",
+      "registeredAt": "2026-09-29",
+      "ticketLinks": [
+        {
+          "vendor": "NOL티켓",
+          "color": "#7B2FF2",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013880",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
       "id": "PF300221",
       "name": "브로콜리너마저의 전국 인디 교류 투어 [춘천]",
       "startDate": "2026-10-24",
@@ -6856,6 +7012,32 @@
           "vendor": "멜론티켓",
           "color": "#00C73C",
           "url": "https://ticket.melon.com/performance/index.htm?prodId=213787",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF301923",
+      "name": "유채훈 단독 콘서트: HOME",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "venue": "코엑스아티움(Coex Artium)",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301923_260929_103950.gif",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "VIP석 143,000원, R석 132,000원",
+      "timeInfo": "토요일 ~ 일요일(18:00)",
+      "organizer": "언코어(UNCORE)",
+      "cast": "유채훈",
+      "registeredAt": "2026-09-29",
+      "ticketLinks": [
+        {
+          "vendor": "NOL티켓",
+          "color": "#7B2FF2",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013882",
           "linkType": "direct"
         }
       ]
@@ -7210,6 +7392,32 @@
           "vendor": "NOL티켓",
           "color": "#7B2FF2",
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013084",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF301841",
+      "name": "곁에두는음악 Series 29. 이승은 트리오: PLACE OF BECOMING",
+      "startDate": "2026-10-25",
+      "endDate": "2026-10-25",
+      "venue": "음악의집",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301841_260928_153135.jpg",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "전석 25,000원",
+      "timeInfo": "일요일(16:00)",
+      "organizer": "음악의집",
+      "cast": "이승은, 홍승민, 김선기",
+      "registeredAt": "2026-09-28",
+      "ticketLinks": [
+        {
+          "vendor": "네이버N예약",
+          "color": "#888888",
+          "url": "https://booking.naver.com/booking/12/bizes/1620850",
           "linkType": "direct"
         }
       ]
@@ -8281,6 +8489,38 @@
       ]
     },
     {
+      "id": "PF301875",
+      "name": "미스터트롯3 TOP7 콘서트: 다시, 우리 [부산]",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "venue": "KBS홀 [부산]",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301875_260928_164314.jpg",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "부산광역시",
+      "price": "R석 154,000원, S석 143,000원",
+      "timeInfo": "토요일(13:00,18:00), 일요일(13:00)",
+      "organizer": "(주)밝은누리, (주)밝은누리",
+      "cast": "김용빈, 손용빈, 이정희, 김종범, 최재명, 남승민, 추혁진",
+      "registeredAt": "2026-09-28",
+      "ticketLinks": [
+        {
+          "vendor": "네이버N예약",
+          "color": "#888888",
+          "url": "https://booking.naver.com/booking/12/bizes/1741310",
+          "linkType": "direct"
+        },
+        {
+          "vendor": "YES24",
+          "color": "#003399",
+          "url": "https://ticket.yes24.com/Perf/60261",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
       "id": "PF298842",
       "name": "미스트롯4 전국투어 콘서트: 트롯으로 세상을 홀려라 [서울 (앵콜) ]",
       "startDate": "2026-10-31",
@@ -8537,6 +8777,58 @@
       ]
     },
     {
+      "id": "PF301849",
+      "name": "이한얼 솔로 피아노 콘서트: 리멤버 재즈 Vol.6",
+      "startDate": "2026-10-31",
+      "endDate": "2026-10-31",
+      "venue": "마이너스윙 스튜디오 (구. 글로리어겐 스튜디오)",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301849_260928_154925.png",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "경기도",
+      "price": "전석 35,000원",
+      "timeInfo": "토요일(18:00)",
+      "organizer": "",
+      "cast": "이한얼",
+      "registeredAt": "2026-09-28",
+      "ticketLinks": [
+        {
+          "vendor": "네이버N예약",
+          "color": "#888888",
+          "url": "https://booking.naver.com/booking/12/bizes/1509163",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF301916",
+      "name": "KANO MIYU Birthday Live: 1999 ep 2026 Concert",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-01",
+      "venue": "플렉스홀 3호점",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301916_260929_102209.png",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "스탠딩(VIP) 120,000원, 일반석(스탠딩) 90,000원",
+      "timeInfo": "일요일(17:30)",
+      "organizer": "(주)락킨코리아",
+      "cast": "",
+      "registeredAt": "2026-09-29",
+      "ticketLinks": [
+        {
+          "vendor": "멜론티켓",
+          "color": "#00C73C",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=213963",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
       "id": "PF299658",
       "name": "김장훈 전국투어 콘서트: 원맨쇼 [원주]",
       "startDate": "2026-11-01",
@@ -8763,6 +9055,38 @@
       ]
     },
     {
+      "id": "PF301896",
+      "name": "여전히 소란스럽게 Vol.02 노브레인 with 크라잉넛, 초록불꽃소년단",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-06",
+      "venue": "무신사 개러지 (구. 왓챠홀)",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301896_260928_173840.jpg",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "전석 77,000원",
+      "timeInfo": "금요일(20:00)",
+      "organizer": "(주)록스타뮤직앤라이브",
+      "cast": "김인수, 이상면, 이상혁, 박윤식, 한경록, 조기철, 강승찬 등",
+      "registeredAt": "2026-09-28",
+      "ticketLinks": [
+        {
+          "vendor": "29CM",
+          "color": "#888888",
+          "url": "https://ticket.29cm.co.kr/catalog/4251002",
+          "linkType": "direct"
+        },
+        {
+          "vendor": "멜론티켓",
+          "color": "#00C73C",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=213942",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
       "id": "PF284163",
       "name": "옥탑재즈 Ⅴ, LUCA MINOR",
       "startDate": "2026-11-06",
@@ -8784,6 +9108,32 @@
           "vendor": "NOL티켓",
           "color": "#7B2FF2",
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26001164",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF301989",
+      "name": "케빈 헤이스 솔로 피아노 콘서트",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-06",
+      "venue": "코스모스아트홀",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301989_260929_141028.gif",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "전석 50,000원",
+      "timeInfo": "금요일(19:30)",
+      "organizer": "재즈브릿지컴퍼니",
+      "cast": "케빈 헤이스",
+      "registeredAt": "2026-09-29",
+      "ticketLinks": [
+        {
+          "vendor": "NOL티켓",
+          "color": "#7B2FF2",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013897",
           "linkType": "direct"
         }
       ]
@@ -9100,6 +9450,32 @@
           "vendor": "NOL티켓",
           "color": "#7B2FF2",
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013702",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF301882",
+      "name": "까치산 클럽 투어: 여기, 까치산입니다. [대전]",
+      "startDate": "2026-11-07",
+      "endDate": "2026-11-07",
+      "venue": "인터플레이 [대전]",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301882_260928_165732.gif",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "대전광역시",
+      "price": "전석 66,000원",
+      "timeInfo": "토요일(19:00)",
+      "organizer": "(주)모티브스튜디오",
+      "cast": "",
+      "registeredAt": "2026-09-28",
+      "ticketLinks": [
+        {
+          "vendor": "NOL티켓",
+          "color": "#7B2FF2",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013195",
           "linkType": "direct"
         }
       ]
@@ -9463,6 +9839,32 @@
       ]
     },
     {
+      "id": "PF301908",
+      "name": "별 콘서트: STAY",
+      "startDate": "2026-11-08",
+      "endDate": "2026-11-08",
+      "venue": "구름아래소극장",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301908_260929_100218.jpg",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "전석 88,000원",
+      "timeInfo": "일요일(17:00)",
+      "organizer": "(주)레드슬리퍼스",
+      "cast": "김고은",
+      "registeredAt": "2026-09-29",
+      "ticketLinks": [
+        {
+          "vendor": "티켓링크",
+          "color": "#E31C79",
+          "url": "http://www.ticketlink.co.kr/product/65843",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
       "id": "PF300804",
       "name": "사토시 고고 내한 공연",
       "startDate": "2026-11-08",
@@ -9721,6 +10123,64 @@
       ]
     },
     {
+      "id": "PF301829",
+      "name": "여전히 소란스럽게 Vol.03 노브레인 with 안예은, 터치드",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-13",
+      "venue": "무신사 개러지 (구. 왓챠홀)",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301829_260928_145958.jpg",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "전석 77,000원",
+      "timeInfo": "금요일(20:00)",
+      "organizer": "(주)록스타뮤직앤라이브",
+      "cast": "이성우, 안예은 등",
+      "registeredAt": "2026-09-28",
+      "ticketLinks": [
+        {
+          "vendor": "29CM",
+          "color": "#888888",
+          "url": "https://ticket.29cm.co.kr/catalog/4251001",
+          "linkType": "direct"
+        },
+        {
+          "vendor": "멜론티켓",
+          "color": "#00C73C",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=213945",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF301877",
+      "name": "영혼을 울리는 기타리스트 김광석 響 (향)",
+      "startDate": "2026-11-13",
+      "endDate": "2026-11-13",
+      "venue": "CJ아지트 광흥창",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301877_260928_164838.jpg",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "전석 65,000원",
+      "timeInfo": "금요일(19:00)",
+      "organizer": "블랙스톤 스튜디오",
+      "cast": "장사익 등",
+      "registeredAt": "2026-09-28",
+      "ticketLinks": [
+        {
+          "vendor": "YES24",
+          "color": "#003399",
+          "url": "https://ticket.yes24.com/Perf/60299",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
       "id": "PF300706",
       "name": "Awesome Stage, N.Flying x Hi-Fi Un!corn",
       "startDate": "2026-11-14",
@@ -9742,6 +10202,32 @@
           "vendor": "티켓링크",
           "color": "#E31C79",
           "url": "http://www.ticketlink.co.kr/product/65535",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF302006",
+      "name": "VICTON CONCERT, 10: NOW",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-15",
+      "venue": "성신여자대학교 운정그린캠퍼스",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF302006_260929_144433.png",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "전석 132,000원",
+      "timeInfo": "토요일(18:00), 일요일(17:00)",
+      "organizer": "(주)레드슬리퍼스",
+      "cast": "한승우, 강승식, 임세준, 도한세, 최병찬, 정수빈",
+      "registeredAt": "2026-09-29",
+      "ticketLinks": [
+        {
+          "vendor": "티켓링크",
+          "color": "#E31C79",
+          "url": "http://www.ticketlink.co.kr/product/65870",
           "linkType": "direct"
         }
       ]
@@ -9869,6 +10355,38 @@
       ]
     },
     {
+      "id": "PF301824",
+      "name": "미스터트롯3 TOP7 콘서트: 다시, 우리 [서울]",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-15",
+      "venue": "세종대학교 대양홀",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301824_260928_145015.jpg",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "서울특별시",
+      "price": "R석 154,000원, S석 143,000원",
+      "timeInfo": "토요일 ~ 일요일(13:00,18:00)",
+      "organizer": "(주)밝은누리, (주)밝은누리",
+      "cast": "김용빈, 손용빈, 이정희, 김종범, 최재명, 남승민, 추혁진",
+      "registeredAt": "2026-09-28",
+      "ticketLinks": [
+        {
+          "vendor": "네이버N예약",
+          "color": "#888888",
+          "url": "https://booking.naver.com/booking/12/bizes/1743473",
+          "linkType": "direct"
+        },
+        {
+          "vendor": "YES24",
+          "color": "#003399",
+          "url": "https://ticket.yes24.com/Perf/60307",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
       "id": "PF300812",
       "name": "송창식 with friends: 가객 [서울]",
       "startDate": "2026-11-14",
@@ -9940,6 +10458,32 @@
           "vendor": "YES24",
           "color": "#003399",
           "url": "https://ticket.yes24.com/Perf/60091",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF301843",
+      "name": "이두헌 다섯손가락 콘서트: 토요일엔 빨간 장미를 [용인]",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-14",
+      "venue": "용인포은아트홀",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301843_260928_153755.gif",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "경기도",
+      "price": "전석 30,000원",
+      "timeInfo": "토요일(16:00)",
+      "organizer": "(재)용인문화재단",
+      "cast": "이두헌",
+      "registeredAt": "2026-09-28",
+      "ticketLinks": [
+        {
+          "vendor": "NOL티켓",
+          "color": "#7B2FF2",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013688",
           "linkType": "direct"
         }
       ]
@@ -10678,6 +11222,32 @@
           "vendor": "NOL티켓",
           "color": "#7B2FF2",
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013424",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF301902",
+      "name": "까치산 클럽 투어: 여기, 까치산입니다. [전주]",
+      "startDate": "2026-11-21",
+      "endDate": "2026-11-21",
+      "venue": "더뮤지션",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301902_260928_175832.gif",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "전북특별자치도",
+      "price": "전석 66,000원",
+      "timeInfo": "토요일(19:00)",
+      "organizer": "(주)모티브스튜디오",
+      "cast": "한태인, 김진호, 최선용",
+      "registeredAt": "2026-09-28",
+      "ticketLinks": [
+        {
+          "vendor": "NOL티켓",
+          "color": "#7B2FF2",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013171",
           "linkType": "direct"
         }
       ]
@@ -11775,6 +12345,32 @@
       ]
     },
     {
+      "id": "PF301914",
+      "name": "영탁 단독 콘서트: TAK SHOW5 [대구]",
+      "startDate": "2026-11-28",
+      "endDate": "2026-11-29",
+      "venue": "엑스코(exco)",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301914_260929_101711.jpg",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "대구광역시",
+      "price": "SR석 154,000원, R석 143,000원, S석 132,000원",
+      "timeInfo": "토요일 ~ 일요일(15:00)",
+      "organizer": "(주)에스이십칠",
+      "cast": "박영탁",
+      "registeredAt": "2026-09-29",
+      "ticketLinks": [
+        {
+          "vendor": "멜론티켓",
+          "color": "#00C73C",
+          "url": "https://ticket.melon.com/performance/index.htm?prodId=213944",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
       "id": "PF298491",
       "name": "이승철 40주년 콘서트: THE VOICE: LEE SEUNG CHUL [대구]",
       "startDate": "2026-11-28",
@@ -12475,6 +13071,32 @@
       ]
     },
     {
+      "id": "PF301942",
+      "name": "사랑과 평화 청주콘서트 with 나미애 [청주]",
+      "startDate": "2026-12-05",
+      "endDate": "2026-12-05",
+      "venue": "청주예술의전당",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301942_260929_112546.gif",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "충청북도",
+      "price": "VIP석 110,000원, R석 99,000원, S석 77,000원",
+      "timeInfo": "토요일(15:00,19:00)",
+      "organizer": "드림티켓",
+      "cast": "김규순, 이철호, 원성진, 박태진, 이해준, 전재욱",
+      "registeredAt": "2026-09-29",
+      "ticketLinks": [
+        {
+          "vendor": "티켓링크",
+          "color": "#E31C79",
+          "url": "http://www.ticketlink.co.kr/product/65911",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
       "id": "PF301040",
       "name": "소향 X 김기태 THE GREATEST: 전율 [전주]",
       "startDate": "2026-12-05",
@@ -12739,6 +13361,38 @@
       ]
     },
     {
+      "id": "PF301831",
+      "name": "더보컬 전국투어 콘서트 [수원]",
+      "startDate": "2026-12-06",
+      "endDate": "2026-12-06",
+      "venue": "수원SK아트리움",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301831_260928_150617.jpg",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "경기도",
+      "price": "VIP석 129,000원, R석 109,000원",
+      "timeInfo": "일요일(16:00)",
+      "organizer": "",
+      "cast": "정순원, 강창모, 고한규",
+      "registeredAt": "2026-09-28",
+      "ticketLinks": [
+        {
+          "vendor": "티켓링크",
+          "color": "#E31C79",
+          "url": "http://www.ticketlink.co.kr/product/65879",
+          "linkType": "direct"
+        },
+        {
+          "vendor": "네이버N예약",
+          "color": "#888888",
+          "url": "https://booking.naver.com/booking/12/bizes/1744133",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
       "id": "PF300553",
       "name": "안치환 데뷔 40주년 15집 발매 기념 콘서트: 더 깊이, 더 멀리, 함께 다시, 노래로 [부산]",
       "startDate": "2026-12-06",
@@ -12960,6 +13614,32 @@
           "vendor": "NOL티켓",
           "color": "#7B2FF2",
           "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26012221",
+          "linkType": "direct"
+        }
+      ]
+    },
+    {
+      "id": "PF301905",
+      "name": "다이나믹 듀오 단독 콘서트: 가끔씩 오래 보자 [부산]",
+      "startDate": "2026-12-12",
+      "endDate": "2026-12-12",
+      "venue": "KBS홀 [부산]",
+      "poster": "http://www.kopis.or.kr/upload/pfmPoster/PF_PF301905_260929_095740.gif",
+      "state": "공연예정",
+      "source": "performance_api",
+      "tier": "concert",
+      "category": "콘서트",
+      "region": "부산광역시",
+      "price": "전석 143,000원",
+      "timeInfo": "토요일(18:00)",
+      "organizer": "(주)CJ ENM, (주)아메바컬쳐, (주)월드쇼마켓",
+      "cast": "김윤성, 최재호",
+      "registeredAt": "2026-09-29",
+      "ticketLinks": [
+        {
+          "vendor": "NOL티켓",
+          "color": "#7B2FF2",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26013663",
           "linkType": "direct"
         }
       ]
