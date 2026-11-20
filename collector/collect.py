@@ -85,7 +85,9 @@ def api_get(path, params):
     params = dict(params)
     params["service"] = API_KEY
     url = config.KOPIS_BASE + path
-    resp = requests.get(url, params=params, timeout=config.REQUEST_TIMEOUT)
+    # 2026-11-19부터 KOPIS가 python-requests 기본 User-Agent를 400으로 차단 → 브라우저 UA 명시
+    resp = requests.get(url, params=params, headers={"User-Agent": "Mozilla/5.0"},
+                        timeout=config.REQUEST_TIMEOUT)
     resp.raise_for_status()
     return ET.fromstring(resp.content)
 
