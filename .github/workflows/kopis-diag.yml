@@ -5,35 +5,25 @@ jobs:
   diag:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -q requests
       - name: Probe KOPIS
         env:
           KOPIS_API_KEY: ${{ secrets.KOPIS_API_KEY }}
         run: |
-          python3 - <<'EOF'
-          import os, datetime as dt, urllib.request, urllib.error
-          key = os.environ.get("KOPIS_API_KEY", "").strip()
-          print("key length:", len(key))
-          print("runner ip:", urllib.request.urlopen("https://api.ipify.org", timeout=15).read().decode())
-          t = dt.date.today()
-          f = lambda d: d.strftime("%Y%m%d")
-          cases = [
-            ("prffest 1year", "prffest", f(t - dt.timedelta(days=7)), f(t + dt.timedelta(days=365))),
-            ("prffest 30d",   "prffest", f(t), f(t + dt.timedelta(days=30))),
-            ("pblprfr 30d",   "pblprfr", f(t), f(t + dt.timedelta(days=30))),
-          ]
-          for scheme in ("http", "https"):
-            for name, path, s, e in cases:
-              url = f"{scheme}://www.kopis.or.kr/openApi/restful/{path}?stdate={s}&eddate={e}&cpage=1&rows=5&service={key}"
-              if path == "prffest":
-                url += "&shcate=CCCD"
-              try:
-                r = urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=30)
-                code, body = r.status, r.read()
-              except urllib.error.HTTPError as ex:
-                code, body = ex.code, ex.read()
-              except Exception as ex:
-                code, body = "EXC", repr(ex).encode()
-              text = body.decode("utf-8", "replace").replace(key, "***") if key else body.decode("utf-8", "replace")
-              print(f"=== [{scheme}] {name} -> {code}")
-              print(" headers?" if False else "", text[:400].replace("\n", " "))
+          python - <<'EOF'
+          import os, datetime as dt, requests
+          key = os.environ["KOPIS_API_KEY"].strip()
+          t = dt.date.today(); f = lambda d: d.strftime("%Y%m%d")
+          s, e = f(t - dt.timedelta(days=7)), f(t + dt.timedelta(days=365))
+          base = "http://www.kopis.or.kr/openApi/restful/prffest"
+          for rows in (100, 50, 10):
+            for ua in ("default", "browser"):
+              h = {"User-Agent": "Mozilla/5.0"} if ua == "browser" else {}
+              p = {"stdate": s, "eddate": e, "shcate": "CCCD", "cpage": 1, "rows": rows, "service": key}
+              r = requests.get(base, params=p, headers=h, timeout=15)
+              n = r.text.count("<db>")
+              print(f"=== rows={rows} ua={ua} -> {r.status_code} items={n} | {r.text[:200].replace(key,'***')}")
           EOF
