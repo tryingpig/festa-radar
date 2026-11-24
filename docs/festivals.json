@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T18:41:41+09:00",
+  "updatedAt": "2026-11-24T20:34:13+09:00",
   "count": 688,
   "festivals": [
     {
@@ -195,13 +195,20 @@
       "source": "performance_api",
       "tier": "concert",
       "category": "콘서트",
-      "region": "",
-      "price": "",
-      "timeInfo": "",
-      "organizer": "",
-      "cast": "",
-      "registeredAt": "",
-      "ticketLinks": []
+      "region": "강원특별자치도",
+      "price": "전석무료",
+      "timeInfo": "화요일(19:00)",
+      "organizer": "(재) 홍천문화재단",
+      "cast": "백지영, 황윤석, 이창민, 양지은, 손용빈",
+      "registeredAt": "2026-11-04",
+      "ticketLinks": [
+        {
+          "vendor": "홍천문화예술회관(홍천문화재단)",
+          "color": "#888888",
+          "url": "https://www.hccf.or.kr/Home/H10000/H10200/concertDetail?conct_no=160",
+          "linkType": "direct"
+        }
+      ]
     },
     {
       "id": "PF305927",
