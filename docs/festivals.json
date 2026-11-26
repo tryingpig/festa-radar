@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T18:01:46+09:00",
+  "updatedAt": "2026-11-26T18:59:49+09:00",
   "count": 727,
   "festivals": [
     {
@@ -6475,13 +6475,20 @@
       "source": "performance_api",
       "tier": "concert",
       "category": "콘서트",
-      "region": "",
-      "price": "",
-      "timeInfo": "",
+      "region": "서울특별시",
+      "price": "사전예약 20,000원, 현장판매 25,000원",
+      "timeInfo": "월요일(18:40)",
       "organizer": "",
       "cast": "",
-      "registeredAt": "",
-      "ticketLinks": []
+      "registeredAt": "2026-11-25",
+      "ticketLinks": [
+        {
+          "vendor": "아지토",
+          "color": "#888888",
+          "url": "https://azito.kr/genba/4570",
+          "linkType": "direct"
+        }
+      ]
     },
     {
       "id": "PF307007",
@@ -9156,13 +9163,20 @@
       "source": "performance_api",
       "tier": "concert",
       "category": "콘서트",
-      "region": "",
-      "price": "",
-      "timeInfo": "",
+      "region": "대구광역시",
+      "price": "전석 30,000원",
+      "timeInfo": "토요일(19:00), 일요일(15:00)",
       "organizer": "",
       "cast": "",
-      "registeredAt": "",
-      "ticketLinks": []
+      "registeredAt": "2026-11-25",
+      "ticketLinks": [
+        {
+          "vendor": "네이버N예약",
+          "color": "#888888",
+          "url": "https://booking.naver.com/booking/5/bizes/1781606",
+          "linkType": "direct"
+        }
+      ]
     },
     {
       "id": "PF306696",
@@ -12879,13 +12893,20 @@
       "source": "performance_api",
       "tier": "concert",
       "category": "콘서트",
-      "region": "",
-      "price": "",
-      "timeInfo": "",
-      "organizer": "",
-      "cast": "",
-      "registeredAt": "",
-      "ticketLinks": []
+      "region": "서울특별시",
+      "price": "전석 88,000원",
+      "timeInfo": "월요일(20:00), 일요일(18:00)",
+      "organizer": "샴푸뮤직엔터테인먼트",
+      "cast": "장범준",
+      "registeredAt": "2026-11-25",
+      "ticketLinks": [
+        {
+          "vendor": "NOL티켓",
+          "color": "#7B2FF2",
+          "url": "http://ticket.interpark.com/Ticket/Goods/GoodsInfo.asp?GoodsCode=26016955",
+          "linkType": "direct"
+        }
+      ]
     },
     {
       "id": "PF307019",
